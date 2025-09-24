@@ -36,6 +36,28 @@ namespace FLOWSHOPINV
         {
 
         }
+
+        private void Login_Panel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void regbutton_Click(object sender, EventArgs e)
+        {
+            Registration_Page rp = new Registration_Page();
+            rp.Show();
+            this.Hide();
+        }
+
+        private void remcb_CheckedChanged(object sender, EventArgs e)
+        {
+            remcb.Checked = true;
+        }
+
+        private void loginsplt_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
         }

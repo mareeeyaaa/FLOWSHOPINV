@@ -24,14 +24,29 @@ namespace FLOWSHOPINV
 
         private void agreebutton_Click(object sender, EventArgs e)
         {
-            new Registration_Page().Show();
+            new Terms_and_Conditions();
             this.Hide();
         }
 
         private void disagbutton_Click(object sender, EventArgs e)
         {
-            new Registration_Page().Show();
+            new Terms_and_Conditions();
             this.Hide();
+        }
+
+        private void Terms_and_Conditions_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+        
+        }
+
+        private void con6TB_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

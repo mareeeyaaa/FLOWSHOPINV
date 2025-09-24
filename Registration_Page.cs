@@ -26,17 +26,21 @@ namespace FLOWSHOPINV
         {
             taclnklbl.LinkVisited = true;
             Terms_and_Conditions tac = new Terms_and_Conditions();
+            tac.Show();
+            
         }
 
         private void signinlnklbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             signinlnklbl.LinkVisited = true;
             Login_Panel lp = new Login_Panel();
+            lp.Show();
+            this.Hide();
         }
 
         private void tacCB_CheckedChanged(object sender, EventArgs e)
         {
-
+            tacCB.Checked = true;
         }
     }
 }
