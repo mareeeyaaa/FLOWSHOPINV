@@ -298,6 +298,7 @@
             this.fnameTB.Name = "fnameTB";
             this.fnameTB.Size = new System.Drawing.Size(448, 34);
             this.fnameTB.TabIndex = 0;
+            this.fnameTB.TextChanged += new System.EventHandler(this.fnameTB_TextChanged);
             // 
             // Registration_Page
             // 

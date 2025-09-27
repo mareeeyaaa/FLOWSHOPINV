@@ -42,5 +42,10 @@ namespace FLOWSHOPINV
         {
             tacCB.Checked = true;
         }
+
+        private void fnameTB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
