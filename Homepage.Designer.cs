@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.menupanel = new System.Windows.Forms.Panel();
-            this.profPB = new System.Windows.Forms.PictureBox();
             this.atcPB = new System.Windows.Forms.PictureBox();
             this.prodPB = new System.Windows.Forms.PictureBox();
             this.homePB = new System.Windows.Forms.PictureBox();
@@ -38,7 +37,6 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.menupanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.profPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.atcPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.homePB)).BeginInit();
@@ -48,7 +46,6 @@
             // menupanel
             // 
             this.menupanel.BackColor = System.Drawing.Color.LightPink;
-            this.menupanel.Controls.Add(this.profPB);
             this.menupanel.Controls.Add(this.atcPB);
             this.menupanel.Controls.Add(this.prodPB);
             this.menupanel.Controls.Add(this.homePB);
@@ -59,22 +56,10 @@
             this.menupanel.Size = new System.Drawing.Size(1657, 80);
             this.menupanel.TabIndex = 0;
             // 
-            // profPB
-            // 
-            this.profPB.Image = ((System.Drawing.Image)(resources.GetObject("profPB.Image")));
-            this.profPB.Location = new System.Drawing.Point(1496, 20);
-            this.profPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.profPB.Name = "profPB";
-            this.profPB.Size = new System.Drawing.Size(44, 41);
-            this.profPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.profPB.TabIndex = 4;
-            this.profPB.TabStop = false;
-            this.profPB.Click += new System.EventHandler(this.profPB_Click);
-            // 
             // atcPB
             // 
             this.atcPB.Image = ((System.Drawing.Image)(resources.GetObject("atcPB.Image")));
-            this.atcPB.Location = new System.Drawing.Point(1425, 20);
+            this.atcPB.Location = new System.Drawing.Point(1505, 20);
             this.atcPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.atcPB.Name = "atcPB";
             this.atcPB.Size = new System.Drawing.Size(44, 41);
@@ -86,7 +71,7 @@
             // prodPB
             // 
             this.prodPB.Image = ((System.Drawing.Image)(resources.GetObject("prodPB.Image")));
-            this.prodPB.Location = new System.Drawing.Point(1364, 20);
+            this.prodPB.Location = new System.Drawing.Point(1432, 20);
             this.prodPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.prodPB.Name = "prodPB";
             this.prodPB.Size = new System.Drawing.Size(44, 41);
@@ -98,7 +83,7 @@
             // homePB
             // 
             this.homePB.Image = ((System.Drawing.Image)(resources.GetObject("homePB.Image")));
-            this.homePB.Location = new System.Drawing.Point(1287, 20);
+            this.homePB.Location = new System.Drawing.Point(1354, 20);
             this.homePB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.homePB.Name = "homePB";
             this.homePB.Size = new System.Drawing.Size(44, 41);
@@ -143,7 +128,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Homepage_Load);
             this.menupanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.profPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.atcPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.homePB)).EndInit();
@@ -158,7 +142,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox homePB;
         private System.Windows.Forms.PictureBox optPB;
-        private System.Windows.Forms.PictureBox profPB;
         private System.Windows.Forms.PictureBox atcPB;
         private System.Windows.Forms.PictureBox prodPB;
         private System.Windows.Forms.Panel mainPanel;
