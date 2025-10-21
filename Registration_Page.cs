@@ -47,5 +47,10 @@ namespace FLOWSHOPINV
         {
 
         }
+
+        private void regsplt_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

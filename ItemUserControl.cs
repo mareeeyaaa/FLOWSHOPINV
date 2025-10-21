@@ -21,5 +21,20 @@ namespace FLOWSHOPINV
         {
 
         }
+
+        private void Price_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void itemPictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ItemUserControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

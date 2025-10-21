@@ -54,15 +54,17 @@
             // loginpanel
             // 
             this.loginpanel.Controls.Add(this.loginsplt);
-            this.loginpanel.Location = new System.Drawing.Point(449, 216);
+            this.loginpanel.Location = new System.Drawing.Point(337, 176);
+            this.loginpanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginpanel.Name = "loginpanel";
-            this.loginpanel.Size = new System.Drawing.Size(1037, 615);
+            this.loginpanel.Size = new System.Drawing.Size(1020, 579);
             this.loginpanel.TabIndex = 0;
             // 
             // loginsplt
             // 
             this.loginsplt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loginsplt.Location = new System.Drawing.Point(0, 0);
+            this.loginsplt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginsplt.Name = "loginsplt";
             // 
             // loginsplt.Panel1
@@ -78,8 +80,9 @@
             this.loginsplt.Panel2.Controls.Add(this.bthbutton);
             this.loginsplt.Panel2.Controls.Add(this.logpan);
             this.loginsplt.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.loginsplt_Panel2_Paint);
-            this.loginsplt.Size = new System.Drawing.Size(1037, 615);
-            this.loginsplt.SplitterDistance = 381;
+            this.loginsplt.Size = new System.Drawing.Size(1020, 579);
+            this.loginsplt.SplitterDistance = 374;
+            this.loginsplt.SplitterWidth = 3;
             this.loginsplt.TabIndex = 0;
             // 
             // btpb
@@ -87,9 +90,10 @@
             this.btpb.BackColor = System.Drawing.Color.Transparent;
             this.btpb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btpb.Image = ((System.Drawing.Image)(resources.GetObject("btpb.Image")));
-            this.btpb.Location = new System.Drawing.Point(-57, 35);
+            this.btpb.Location = new System.Drawing.Point(-35, 47);
+            this.btpb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btpb.Name = "btpb";
-            this.btpb.Size = new System.Drawing.Size(572, 538);
+            this.btpb.Size = new System.Drawing.Size(429, 437);
             this.btpb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btpb.TabIndex = 0;
             this.btpb.TabStop = false;
@@ -98,9 +102,10 @@
             // 
             this.bthbutton.BackColor = System.Drawing.Color.LightCoral;
             this.bthbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bthbutton.Location = new System.Drawing.Point(57, 496);
+            this.bthbutton.Location = new System.Drawing.Point(43, 442);
+            this.bthbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bthbutton.Name = "bthbutton";
-            this.bthbutton.Size = new System.Drawing.Size(425, 46);
+            this.bthbutton.Size = new System.Drawing.Size(519, 37);
             this.bthbutton.TabIndex = 1;
             this.bthbutton.Text = "Back to Home";
             this.bthbutton.UseVisualStyleBackColor = false;
@@ -116,9 +121,10 @@
             this.logpan.Controls.Add(this.emlbl);
             this.logpan.Controls.Add(this.passTB);
             this.logpan.Controls.Add(this.emailTB);
-            this.logpan.Location = new System.Drawing.Point(57, 71);
+            this.logpan.Location = new System.Drawing.Point(43, 58);
+            this.logpan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.logpan.Name = "logpan";
-            this.logpan.Size = new System.Drawing.Size(425, 388);
+            this.logpan.Size = new System.Drawing.Size(519, 349);
             this.logpan.TabIndex = 0;
             this.logpan.Paint += new System.Windows.Forms.PaintEventHandler(this.logpan_Paint);
             // 
@@ -127,9 +133,10 @@
             this.loginbutton.BackColor = System.Drawing.Color.Crimson;
             this.loginbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.loginbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginbutton.Location = new System.Drawing.Point(29, 308);
+            this.loginbutton.Location = new System.Drawing.Point(23, 268);
+            this.loginbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginbutton.Name = "loginbutton";
-            this.loginbutton.Size = new System.Drawing.Size(370, 45);
+            this.loginbutton.Size = new System.Drawing.Size(471, 37);
             this.loginbutton.TabIndex = 7;
             this.loginbutton.Text = "Login";
             this.loginbutton.UseVisualStyleBackColor = false;
@@ -139,9 +146,10 @@
             this.regbutton.BackColor = System.Drawing.Color.Salmon;
             this.regbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.regbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regbutton.Location = new System.Drawing.Point(29, 237);
+            this.regbutton.Location = new System.Drawing.Point(22, 215);
+            this.regbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.regbutton.Name = "regbutton";
-            this.regbutton.Size = new System.Drawing.Size(370, 45);
+            this.regbutton.Size = new System.Drawing.Size(472, 37);
             this.regbutton.TabIndex = 6;
             this.regbutton.Text = "Register";
             this.regbutton.UseVisualStyleBackColor = false;
@@ -152,9 +160,10 @@
             this.forgpasslnklbl.AutoSize = true;
             this.forgpasslnklbl.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forgpasslnklbl.LinkColor = System.Drawing.Color.Red;
-            this.forgpasslnklbl.Location = new System.Drawing.Point(269, 193);
+            this.forgpasslnklbl.Location = new System.Drawing.Point(350, 165);
+            this.forgpasslnklbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.forgpasslnklbl.Name = "forgpasslnklbl";
-            this.forgpasslnklbl.Size = new System.Drawing.Size(126, 20);
+            this.forgpasslnklbl.Size = new System.Drawing.Size(108, 17);
             this.forgpasslnklbl.TabIndex = 5;
             this.forgpasslnklbl.TabStop = true;
             this.forgpasslnklbl.Text = "Forgot Password?";
@@ -164,9 +173,10 @@
             this.remcb.AutoSize = true;
             this.remcb.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.remcb.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.remcb.Location = new System.Drawing.Point(29, 188);
+            this.remcb.Location = new System.Drawing.Point(23, 164);
+            this.remcb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.remcb.Name = "remcb";
-            this.remcb.Size = new System.Drawing.Size(179, 25);
+            this.remcb.Size = new System.Drawing.Size(143, 21);
             this.remcb.TabIndex = 4;
             this.remcb.Text = "Remember Password";
             this.remcb.UseVisualStyleBackColor = true;
@@ -176,9 +186,10 @@
             // 
             this.passlbl.AutoSize = true;
             this.passlbl.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passlbl.Location = new System.Drawing.Point(25, 117);
+            this.passlbl.Location = new System.Drawing.Point(19, 89);
+            this.passlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.passlbl.Name = "passlbl";
-            this.passlbl.Size = new System.Drawing.Size(89, 24);
+            this.passlbl.Size = new System.Drawing.Size(79, 21);
             this.passlbl.TabIndex = 3;
             this.passlbl.Text = "Password";
             this.passlbl.Click += new System.EventHandler(this.passlbl_Click);
@@ -187,9 +198,10 @@
             // 
             this.emlbl.AutoSize = true;
             this.emlbl.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emlbl.Location = new System.Drawing.Point(25, 15);
+            this.emlbl.Location = new System.Drawing.Point(19, 12);
+            this.emlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.emlbl.Name = "emlbl";
-            this.emlbl.Size = new System.Drawing.Size(58, 24);
+            this.emlbl.Size = new System.Drawing.Size(50, 21);
             this.emlbl.TabIndex = 2;
             this.emlbl.Text = "Email";
             // 
@@ -197,10 +209,11 @@
             // 
             this.passTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passTB.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.passTB.Location = new System.Drawing.Point(29, 146);
+            this.passTB.Location = new System.Drawing.Point(22, 119);
+            this.passTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.passTB.Multiline = true;
             this.passTB.Name = "passTB";
-            this.passTB.Size = new System.Drawing.Size(370, 36);
+            this.passTB.Size = new System.Drawing.Size(472, 30);
             this.passTB.TabIndex = 1;
             this.passTB.TextChanged += new System.EventHandler(this.passTB_TextChanged);
             // 
@@ -208,20 +221,22 @@
             // 
             this.emailTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailTB.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.emailTB.Location = new System.Drawing.Point(29, 60);
+            this.emailTB.Location = new System.Drawing.Point(22, 49);
+            this.emailTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.emailTB.Multiline = true;
             this.emailTB.Name = "emailTB";
-            this.emailTB.Size = new System.Drawing.Size(370, 36);
+            this.emailTB.Size = new System.Drawing.Size(472, 30);
             this.emailTB.TabIndex = 0;
             // 
             // Login_Panel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1922, 1033);
+            this.ClientSize = new System.Drawing.Size(1616, 859);
             this.Controls.Add(this.loginpanel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login_Panel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_Page";

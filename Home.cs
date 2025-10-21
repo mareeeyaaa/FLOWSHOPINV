@@ -21,5 +21,10 @@ namespace FLOWSHOPINV
         {
 
         }
+
+        private void wbtlbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

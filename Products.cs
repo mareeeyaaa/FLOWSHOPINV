@@ -33,8 +33,88 @@ namespace FLOWSHOPINV
             {
                 var Item = new ItemUserControl();
                 Item.Margin = new Padding(65); // Spacing between items
-                flowLayoutPanel1.Controls.Add(Item);
+                ProdFLP.Controls.Add(Item);
             }
         }
+
+        private void sitemsTB_TextChanged(object sender, EventArgs e)
+        { 
+
+        }
+            private void sitemsTB_Load(object sender, EventArgs e)
+        {
+            sitemsTB.Text = "Search Items";
+            sitemsTB.ForeColor = Color.Gray;
+
+            // Assign the events
+            sitemsTB.MouseEnter += sitemsTB_MouseEnter;
+            sitemsTB.MouseLeave += sitemsTB_MouseLeave;
+        }
+
+        private void sitemsTB_MouseEnter(object sender, EventArgs e)
+        {
+            if (sitemsTB.Text == "Search Items")
+            {
+                sitemsTB.Text = "";
+                sitemsTB.ForeColor = Color.Black;
+            }
+        }
+
+        private void sitemsTB_MouseLeave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(sitemsTB.Text))
+            {
+                sitemsTB.Text = "Search Items";
+                sitemsTB.ForeColor = Color.Gray;
+            }
+        }
+
+        private void filterCB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void filterTB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void filterTB_Load(object sender, EventArgs e)
+        {
+            sitemsTB.Text = "All Categories";
+            sitemsTB.ForeColor = Color.Gray;
+
+            // Assign the events
+            sitemsTB.MouseEnter += filterTB_MouseEnter;
+            sitemsTB.MouseLeave += filterTB_MouseLeave;
+        }
+
+        private void filterTB_MouseEnter(object sender, EventArgs e)
+        {
+            if (sitemsTB.Text == "All Categories")
+            {
+                sitemsTB.Text = "";
+                sitemsTB.ForeColor = Color.Black;
+            }
+        }
+
+        private void filterTB_MouseLeave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(sitemsTB.Text))
+            {
+                sitemsTB.Text = "All Categories";
+                sitemsTB.ForeColor = Color.Gray;
+            }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void itemsLB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
+    
 }
