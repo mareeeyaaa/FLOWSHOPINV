@@ -47,34 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.cs">
+    <Compile Include="User\Cart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cart.Designer.cs">
+    <Compile Include="User\Cart.Designer.cs">
       <DependentUpon>Cart.cs</DependentUpon>
     </Compile>
-    <Compile Include="Check Out.cs">
+    <Compile Include="User\Check Out.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Check Out.Designer.cs">
+    <Compile Include="User\Check Out.Designer.cs">
       <DependentUpon>Check Out.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
+    <Compile Include="User\Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.cs">
+    <Compile Include="User\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Homepage.cs">
+    <Compile Include="User\Homepage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Homepage.Designer.cs">
+    <Compile Include="User\Homepage.Designer.cs">
       <DependentUpon>Homepage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ItemUserControl.cs">
+    <Compile Include="User\ItemUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ItemUserControl.Designer.cs">
+    <Compile Include="User\ItemUserControl.Designer.cs">
       <DependentUpon>ItemUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Login_Page.cs">
@@ -83,16 +83,16 @@
     <Compile Include="Login_Page.Designer.cs">
       <DependentUpon>Login_Page.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products.cs">
+    <Compile Include="User\Products.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Products.Designer.cs">
+    <Compile Include="User\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
     </Compile>
-    <Compile Include="Profile.cs">
+    <Compile Include="User\Profile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profile.Designer.cs">
+    <Compile Include="User\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -109,28 +109,28 @@
     <Compile Include="Terms and Conditions.Designer.cs">
       <DependentUpon>Terms and Conditions.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Cart.resx">
+    <EmbeddedResource Include="User\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Check Out.resx">
+    <EmbeddedResource Include="User\Check Out.resx">
       <DependentUpon>Check Out.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
+    <EmbeddedResource Include="User\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Homepage.resx">
+    <EmbeddedResource Include="User\Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ItemUserControl.resx">
+    <EmbeddedResource Include="User\ItemUserControl.resx">
       <DependentUpon>ItemUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Page.resx">
       <DependentUpon>Login_Page.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products.resx">
+    <EmbeddedResource Include="User\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profile.resx">
+    <EmbeddedResource Include="User\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -160,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
