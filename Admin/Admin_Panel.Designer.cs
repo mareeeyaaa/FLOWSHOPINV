@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin_Panel));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.logoutbutton = new System.Windows.Forms.Button();
+            this.ALbutton = new System.Windows.Forms.Button();
+            this.staffadminpanel = new System.Windows.Forms.Button();
+            this.prodadminpanel = new System.Windows.Forms.Button();
+            this.adminordersbutton = new System.Windows.Forms.Button();
             this.dbbutton = new System.Windows.Forms.Button();
             this.AdminPanel = new System.Windows.Forms.Label();
-            this.adminordersbutton = new System.Windows.Forms.Button();
-            this.prodadminpanel = new System.Windows.Forms.Button();
-            this.staffadminpanel = new System.Windows.Forms.Button();
-            this.ALbutton = new System.Windows.Forms.Button();
-            this.logoutbutton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.AdminPanelFLP = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -73,15 +73,91 @@
             this.splitContainer1.SplitterDistance = 332;
             this.splitContainer1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(94, 569);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 25);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // logoutbutton
+            // 
+            this.logoutbutton.BackColor = System.Drawing.Color.Transparent;
+            this.logoutbutton.FlatAppearance.BorderSize = 0;
+            this.logoutbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutbutton.Location = new System.Drawing.Point(-8, 543);
+            this.logoutbutton.Name = "logoutbutton";
+            this.logoutbutton.Size = new System.Drawing.Size(353, 75);
+            this.logoutbutton.TabIndex = 6;
+            this.logoutbutton.Text = "Logout";
+            this.logoutbutton.UseVisualStyleBackColor = false;
+            // 
+            // ALbutton
+            // 
+            this.ALbutton.BackColor = System.Drawing.Color.Transparent;
+            this.ALbutton.FlatAppearance.BorderSize = 0;
+            this.ALbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ALbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ALbutton.Location = new System.Drawing.Point(1, 470);
+            this.ALbutton.Name = "ALbutton";
+            this.ALbutton.Size = new System.Drawing.Size(341, 75);
+            this.ALbutton.TabIndex = 5;
+            this.ALbutton.Text = " ⏱ Activity Log";
+            this.ALbutton.UseVisualStyleBackColor = false;
+            // 
+            // staffadminpanel
+            // 
+            this.staffadminpanel.BackColor = System.Drawing.Color.Transparent;
+            this.staffadminpanel.FlatAppearance.BorderSize = 0;
+            this.staffadminpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.staffadminpanel.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.staffadminpanel.Location = new System.Drawing.Point(-50, 392);
+            this.staffadminpanel.Name = "staffadminpanel";
+            this.staffadminpanel.Size = new System.Drawing.Size(383, 82);
+            this.staffadminpanel.TabIndex = 4;
+            this.staffadminpanel.Text = "🎭  Staff";
+            this.staffadminpanel.UseVisualStyleBackColor = false;
+            // 
+            // prodadminpanel
+            // 
+            this.prodadminpanel.BackColor = System.Drawing.Color.Transparent;
+            this.prodadminpanel.FlatAppearance.BorderSize = 0;
+            this.prodadminpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.prodadminpanel.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prodadminpanel.Location = new System.Drawing.Point(-22, 313);
+            this.prodadminpanel.Name = "prodadminpanel";
+            this.prodadminpanel.Size = new System.Drawing.Size(363, 75);
+            this.prodadminpanel.TabIndex = 3;
+            this.prodadminpanel.Text = "📦  Products";
+            this.prodadminpanel.UseVisualStyleBackColor = false;
+            // 
+            // adminordersbutton
+            // 
+            this.adminordersbutton.BackColor = System.Drawing.Color.Transparent;
+            this.adminordersbutton.FlatAppearance.BorderSize = 0;
+            this.adminordersbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.adminordersbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adminordersbutton.Location = new System.Drawing.Point(-51, 240);
+            this.adminordersbutton.Name = "adminordersbutton";
+            this.adminordersbutton.Size = new System.Drawing.Size(393, 75);
+            this.adminordersbutton.TabIndex = 2;
+            this.adminordersbutton.Text = "🛒  Orders";
+            this.adminordersbutton.UseVisualStyleBackColor = false;
+            this.adminordersbutton.Click += new System.EventHandler(this.adminordersbutton_Click);
+            // 
             // dbbutton
             // 
             this.dbbutton.BackColor = System.Drawing.Color.Transparent;
             this.dbbutton.FlatAppearance.BorderSize = 0;
             this.dbbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dbbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbbutton.Location = new System.Drawing.Point(59, 154);
+            this.dbbutton.Location = new System.Drawing.Point(-22, 159);
             this.dbbutton.Name = "dbbutton";
-            this.dbbutton.Size = new System.Drawing.Size(185, 38);
+            this.dbbutton.Size = new System.Drawing.Size(379, 75);
             this.dbbutton.TabIndex = 1;
             this.dbbutton.Text = "🗂️  Dashboard";
             this.dbbutton.UseVisualStyleBackColor = false;
@@ -97,82 +173,6 @@
             this.AdminPanel.TabIndex = 0;
             this.AdminPanel.Text = "Admin Panel ";
             this.AdminPanel.Click += new System.EventHandler(this.AdminPanel_Click);
-            // 
-            // adminordersbutton
-            // 
-            this.adminordersbutton.BackColor = System.Drawing.Color.Transparent;
-            this.adminordersbutton.FlatAppearance.BorderSize = 0;
-            this.adminordersbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adminordersbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.adminordersbutton.Location = new System.Drawing.Point(19, 221);
-            this.adminordersbutton.Name = "adminordersbutton";
-            this.adminordersbutton.Size = new System.Drawing.Size(223, 55);
-            this.adminordersbutton.TabIndex = 2;
-            this.adminordersbutton.Text = "🛒  Orders";
-            this.adminordersbutton.UseVisualStyleBackColor = false;
-            this.adminordersbutton.Click += new System.EventHandler(this.adminordersbutton_Click);
-            // 
-            // prodadminpanel
-            // 
-            this.prodadminpanel.BackColor = System.Drawing.Color.Transparent;
-            this.prodadminpanel.FlatAppearance.BorderSize = 0;
-            this.prodadminpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prodadminpanel.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prodadminpanel.Location = new System.Drawing.Point(30, 314);
-            this.prodadminpanel.Name = "prodadminpanel";
-            this.prodadminpanel.Size = new System.Drawing.Size(223, 55);
-            this.prodadminpanel.TabIndex = 3;
-            this.prodadminpanel.Text = "📦  Products";
-            this.prodadminpanel.UseVisualStyleBackColor = false;
-            // 
-            // staffadminpanel
-            // 
-            this.staffadminpanel.BackColor = System.Drawing.Color.Transparent;
-            this.staffadminpanel.FlatAppearance.BorderSize = 0;
-            this.staffadminpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.staffadminpanel.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffadminpanel.Location = new System.Drawing.Point(6, 404);
-            this.staffadminpanel.Name = "staffadminpanel";
-            this.staffadminpanel.Size = new System.Drawing.Size(223, 55);
-            this.staffadminpanel.TabIndex = 4;
-            this.staffadminpanel.Text = "🎭  Staff";
-            this.staffadminpanel.UseVisualStyleBackColor = false;
-            // 
-            // ALbutton
-            // 
-            this.ALbutton.BackColor = System.Drawing.Color.Transparent;
-            this.ALbutton.FlatAppearance.BorderSize = 0;
-            this.ALbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ALbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ALbutton.Location = new System.Drawing.Point(40, 491);
-            this.ALbutton.Name = "ALbutton";
-            this.ALbutton.Size = new System.Drawing.Size(223, 55);
-            this.ALbutton.TabIndex = 5;
-            this.ALbutton.Text = " ⏱ Activity Log";
-            this.ALbutton.UseVisualStyleBackColor = false;
-            // 
-            // logoutbutton
-            // 
-            this.logoutbutton.BackColor = System.Drawing.Color.Transparent;
-            this.logoutbutton.FlatAppearance.BorderSize = 0;
-            this.logoutbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutbutton.Location = new System.Drawing.Point(26, 568);
-            this.logoutbutton.Name = "logoutbutton";
-            this.logoutbutton.Size = new System.Drawing.Size(240, 72);
-            this.logoutbutton.TabIndex = 6;
-            this.logoutbutton.Text = "Logout";
-            this.logoutbutton.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(75, 593);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 25);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
             // 
             // AdminPanelFLP
             // 
