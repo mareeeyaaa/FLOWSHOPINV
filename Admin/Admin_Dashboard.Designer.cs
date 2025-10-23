@@ -72,6 +72,11 @@
             this.Donelbl = new System.Windows.Forms.Label();
             this.canceledlbl = new System.Windows.Forms.Label();
             this.returnlbl = new System.Windows.Forms.Label();
+            this.numberlbl = new System.Windows.Forms.Label();
+            this.ponumlbl = new System.Windows.Forms.Label();
+            this.totusernumlbl = new System.Windows.Forms.Label();
+            this.lowstocknumlbl = new System.Windows.Forms.Label();
+            this.totaluserTB = new System.Windows.Forms.TextBox();
             this.dbpanel.SuspendLayout();
             this.totalorderpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.totalorderPB)).BeginInit();
@@ -154,6 +159,7 @@
             // totalorderpanel
             // 
             this.totalorderpanel.BackColor = System.Drawing.Color.Transparent;
+            this.totalorderpanel.Controls.Add(this.numberlbl);
             this.totalorderpanel.Controls.Add(this.totalorderprogbar);
             this.totalorderpanel.Controls.Add(this.totalorderPB);
             this.totalorderpanel.Controls.Add(this.totalorderlbl);
@@ -174,9 +180,9 @@
             // 
             // totalorderPB
             // 
-            this.totalorderPB.BackColor = System.Drawing.Color.Transparent;
+            this.totalorderPB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totalorderPB.Image = ((System.Drawing.Image)(resources.GetObject("totalorderPB.Image")));
-            this.totalorderPB.Location = new System.Drawing.Point(43, 59);
+            this.totalorderPB.Location = new System.Drawing.Point(43, 48);
             this.totalorderPB.Name = "totalorderPB";
             this.totalorderPB.Size = new System.Drawing.Size(43, 36);
             this.totalorderPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -186,8 +192,9 @@
             // totalorderlbl
             // 
             this.totalorderlbl.AutoSize = true;
+            this.totalorderlbl.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totalorderlbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalorderlbl.Location = new System.Drawing.Point(92, 62);
+            this.totalorderlbl.Location = new System.Drawing.Point(92, 59);
             this.totalorderlbl.Name = "totalorderlbl";
             this.totalorderlbl.Size = new System.Drawing.Size(105, 22);
             this.totalorderlbl.TabIndex = 1;
@@ -195,6 +202,7 @@
             // 
             // totalorderTB
             // 
+            this.totalorderTB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totalorderTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalorderTB.Location = new System.Drawing.Point(23, 19);
             this.totalorderTB.Multiline = true;
@@ -205,6 +213,7 @@
             // pendingorderspanel
             // 
             this.pendingorderspanel.BackColor = System.Drawing.Color.Transparent;
+            this.pendingorderspanel.Controls.Add(this.ponumlbl);
             this.pendingorderspanel.Controls.Add(this.pendingorderprogbar);
             this.pendingorderspanel.Controls.Add(this.pendingordersPB);
             this.pendingorderspanel.Controls.Add(this.pendingorderlbl);
@@ -225,9 +234,9 @@
             // 
             // pendingordersPB
             // 
-            this.pendingordersPB.BackColor = System.Drawing.Color.Transparent;
+            this.pendingordersPB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pendingordersPB.Image = ((System.Drawing.Image)(resources.GetObject("pendingordersPB.Image")));
-            this.pendingordersPB.Location = new System.Drawing.Point(39, 59);
+            this.pendingordersPB.Location = new System.Drawing.Point(39, 48);
             this.pendingordersPB.Name = "pendingordersPB";
             this.pendingordersPB.Size = new System.Drawing.Size(43, 36);
             this.pendingordersPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -237,8 +246,9 @@
             // pendingorderlbl
             // 
             this.pendingorderlbl.AutoSize = true;
+            this.pendingorderlbl.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pendingorderlbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pendingorderlbl.Location = new System.Drawing.Point(94, 62);
+            this.pendingorderlbl.Location = new System.Drawing.Point(88, 54);
             this.pendingorderlbl.Name = "pendingorderlbl";
             this.pendingorderlbl.Size = new System.Drawing.Size(127, 22);
             this.pendingorderlbl.TabIndex = 2;
@@ -246,6 +256,7 @@
             // 
             // pendingorderTB
             // 
+            this.pendingorderTB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pendingorderTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pendingorderTB.Location = new System.Drawing.Point(23, 19);
             this.pendingorderTB.Multiline = true;
@@ -256,10 +267,12 @@
             // totaluserspanel
             // 
             this.totaluserspanel.BackColor = System.Drawing.Color.Transparent;
+            this.totaluserspanel.Controls.Add(this.totusernumlbl);
             this.totaluserspanel.Controls.Add(this.totaluserssprogbar);
             this.totaluserspanel.Controls.Add(this.totalusersPB);
             this.totaluserspanel.Controls.Add(this.totaluserslbl);
             this.totaluserspanel.Controls.Add(this.totalusersTB);
+            this.totaluserspanel.Controls.Add(this.totaluserTB);
             this.totaluserspanel.Location = new System.Drawing.Point(647, 222);
             this.totaluserspanel.Name = "totaluserspanel";
             this.totaluserspanel.Size = new System.Drawing.Size(298, 184);
@@ -276,9 +289,9 @@
             // 
             // totalusersPB
             // 
-            this.totalusersPB.BackColor = System.Drawing.Color.Transparent;
+            this.totalusersPB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totalusersPB.Image = ((System.Drawing.Image)(resources.GetObject("totalusersPB.Image")));
-            this.totalusersPB.Location = new System.Drawing.Point(58, 59);
+            this.totalusersPB.Location = new System.Drawing.Point(47, 51);
             this.totalusersPB.Name = "totalusersPB";
             this.totalusersPB.Size = new System.Drawing.Size(43, 36);
             this.totalusersPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -288,8 +301,9 @@
             // totaluserslbl
             // 
             this.totaluserslbl.AutoSize = true;
+            this.totaluserslbl.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totaluserslbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totaluserslbl.Location = new System.Drawing.Point(113, 65);
+            this.totaluserslbl.Location = new System.Drawing.Point(96, 59);
             this.totaluserslbl.Name = "totaluserslbl";
             this.totaluserslbl.Size = new System.Drawing.Size(94, 22);
             this.totaluserslbl.TabIndex = 3;
@@ -307,6 +321,7 @@
             // lowstockpanel
             // 
             this.lowstockpanel.BackColor = System.Drawing.Color.Transparent;
+            this.lowstockpanel.Controls.Add(this.lowstocknumlbl);
             this.lowstockpanel.Controls.Add(this.lowstockprogbar);
             this.lowstockpanel.Controls.Add(this.lowstockPB);
             this.lowstockpanel.Controls.Add(this.lowstocklbl);
@@ -327,9 +342,9 @@
             // 
             // lowstockPB
             // 
-            this.lowstockPB.BackColor = System.Drawing.Color.Transparent;
+            this.lowstockPB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lowstockPB.Image = ((System.Drawing.Image)(resources.GetObject("lowstockPB.Image")));
-            this.lowstockPB.Location = new System.Drawing.Point(56, 60);
+            this.lowstockPB.Location = new System.Drawing.Point(45, 49);
             this.lowstockPB.Name = "lowstockPB";
             this.lowstockPB.Size = new System.Drawing.Size(43, 36);
             this.lowstockPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -339,8 +354,9 @@
             // lowstocklbl
             // 
             this.lowstocklbl.AutoSize = true;
+            this.lowstocklbl.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lowstocklbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lowstocklbl.Location = new System.Drawing.Point(111, 66);
+            this.lowstocklbl.Location = new System.Drawing.Point(98, 60);
             this.lowstocklbl.Name = "lowstocklbl";
             this.lowstocklbl.Size = new System.Drawing.Size(85, 22);
             this.lowstocklbl.TabIndex = 4;
@@ -348,6 +364,7 @@
             // 
             // lowstockTB
             // 
+            this.lowstockTB.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lowstockTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowstockTB.Location = new System.Drawing.Point(24, 19);
             this.lowstockTB.Multiline = true;
@@ -357,7 +374,6 @@
             // 
             // sochart
             // 
-            this.sochart.BackColor = System.Drawing.Color.Transparent;
             chartArea1.Name = "ChartArea1";
             this.sochart.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
@@ -510,6 +526,60 @@
             this.returnlbl.TabIndex = 15;
             this.returnlbl.Text = "Return";
             // 
+            // numberlbl
+            // 
+            this.numberlbl.AutoSize = true;
+            this.numberlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.numberlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberlbl.Location = new System.Drawing.Point(212, 74);
+            this.numberlbl.Name = "numberlbl";
+            this.numberlbl.Size = new System.Drawing.Size(28, 34);
+            this.numberlbl.TabIndex = 4;
+            this.numberlbl.Text = "6";
+            // 
+            // ponumlbl
+            // 
+            this.ponumlbl.AutoSize = true;
+            this.ponumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ponumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ponumlbl.Location = new System.Drawing.Point(205, 72);
+            this.ponumlbl.Name = "ponumlbl";
+            this.ponumlbl.Size = new System.Drawing.Size(28, 34);
+            this.ponumlbl.TabIndex = 5;
+            this.ponumlbl.Text = "1";
+            // 
+            // totusernumlbl
+            // 
+            this.totusernumlbl.AutoSize = true;
+            this.totusernumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.totusernumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totusernumlbl.Location = new System.Drawing.Point(213, 75);
+            this.totusernumlbl.Name = "totusernumlbl";
+            this.totusernumlbl.Size = new System.Drawing.Size(28, 34);
+            this.totusernumlbl.TabIndex = 6;
+            this.totusernumlbl.Text = "3";
+            // 
+            // lowstocknumlbl
+            // 
+            this.lowstocknumlbl.AutoSize = true;
+            this.lowstocknumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lowstocknumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lowstocknumlbl.Location = new System.Drawing.Point(212, 76);
+            this.lowstocknumlbl.Name = "lowstocknumlbl";
+            this.lowstocknumlbl.Size = new System.Drawing.Size(28, 34);
+            this.lowstocknumlbl.TabIndex = 7;
+            this.lowstocknumlbl.Text = "0";
+            // 
+            // totaluserTB
+            // 
+            this.totaluserTB.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.totaluserTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totaluserTB.Location = new System.Drawing.Point(25, 19);
+            this.totaluserTB.Multiline = true;
+            this.totaluserTB.Name = "totaluserTB";
+            this.totaluserTB.Size = new System.Drawing.Size(252, 147);
+            this.totaluserTB.TabIndex = 8;
+            // 
             // Admin_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -596,5 +666,10 @@
         private System.Windows.Forms.Label canceledlbl;
         private System.Windows.Forms.Label Donelbl;
         private System.Windows.Forms.Label returnlbl;
+        private System.Windows.Forms.Label numberlbl;
+        private System.Windows.Forms.Label ponumlbl;
+        private System.Windows.Forms.Label totusernumlbl;
+        private System.Windows.Forms.Label lowstocknumlbl;
+        private System.Windows.Forms.TextBox totaluserTB;
     }
 }
