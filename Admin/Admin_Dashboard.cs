@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace FLOWSHOPINV.Admin
 {
-    public partial class Admin_Dashboard : Form
+    public partial class Admin_Dashboard : UserControl
     {
         public Admin_Dashboard()
         {
             InitializeComponent();
         }
 
-        private void chart1_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void sochart_Click(object sender, EventArgs e)
         {
 
         }
