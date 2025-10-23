@@ -357,6 +357,7 @@
             // 
             // sochart
             // 
+            this.sochart.BackColor = System.Drawing.Color.Transparent;
             chartArea1.Name = "ChartArea1";
             this.sochart.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
@@ -374,6 +375,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Location = new System.Drawing.Point(52, 505);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(610, 331);
@@ -381,6 +383,7 @@
             // 
             // OrderStatusPanel
             // 
+            this.OrderStatusPanel.BackColor = System.Drawing.Color.Transparent;
             this.OrderStatusPanel.Controls.Add(this.returnlbl);
             this.OrderStatusPanel.Controls.Add(this.canceledlbl);
             this.OrderStatusPanel.Controls.Add(this.Donelbl);
@@ -512,6 +515,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.OrderStatusPanel);
             this.Controls.Add(this.sochart);
             this.Controls.Add(this.lowstockpanel);
