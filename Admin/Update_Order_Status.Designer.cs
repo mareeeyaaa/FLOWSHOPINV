@@ -369,7 +369,7 @@
             // 
             // updatestatbutton
             // 
-            this.updatestatbutton.BackColor = System.Drawing.Color.LightPink;
+            this.updatestatbutton.BackColor = System.Drawing.Color.LightSlateGray;
             this.updatestatbutton.Location = new System.Drawing.Point(628, 300);
             this.updatestatbutton.Name = "updatestatbutton";
             this.updatestatbutton.Size = new System.Drawing.Size(133, 30);

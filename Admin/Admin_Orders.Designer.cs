@@ -362,20 +362,20 @@
             // ordid
             // 
             this.ordid.AutoSize = true;
-            this.ordid.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ordid.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ordid.Location = new System.Drawing.Point(51, 119);
             this.ordid.Name = "ordid";
-            this.ordid.Size = new System.Drawing.Size(89, 16);
+            this.ordid.Size = new System.Drawing.Size(99, 16);
             this.ordid.TabIndex = 4;
             this.ordid.Text = "SPR4K9T82L";
             // 
             // custname
             // 
             this.custname.AutoSize = true;
-            this.custname.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.custname.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.custname.Location = new System.Drawing.Point(182, 117);
             this.custname.Name = "custname";
-            this.custname.Size = new System.Drawing.Size(62, 16);
+            this.custname.Size = new System.Drawing.Size(70, 16);
             this.custname.TabIndex = 15;
             this.custname.Text = "John Doe";
             // 
