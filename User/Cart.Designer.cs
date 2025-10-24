@@ -30,24 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cart));
             this.atcpanel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.contshopbutton = new System.Windows.Forms.Button();
+            this.z = new System.Windows.Forms.PictureBox();
+            this.addpb = new System.Windows.Forms.PictureBox();
+            this.atcitemtb = new System.Windows.Forms.TextBox();
             this.cobutton = new System.Windows.Forms.Button();
-            this.sclbl = new System.Windows.Forms.Label();
+            this.contshopbutton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.actionlbl = new System.Windows.Forms.Label();
             this.totallbl = new System.Windows.Forms.Label();
             this.qtylbl = new System.Windows.Forms.Label();
             this.pricelbl = new System.Windows.Forms.Label();
             this.itemnamelbl = new System.Windows.Forms.Label();
-            this.atcitemtb = new System.Windows.Forms.TextBox();
-            this.addpb = new System.Windows.Forms.PictureBox();
-            this.z = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.sclbl = new System.Windows.Forms.Label();
             this.atcpanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.addpb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addpb)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // atcpanel
@@ -66,13 +66,52 @@
             this.atcpanel.Size = new System.Drawing.Size(1462, 705);
             this.atcpanel.TabIndex = 0;
             // 
-            // pictureBox1
+            // z
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(125, 139);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 81);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.z.Image = ((System.Drawing.Image)(resources.GetObject("z.Image")));
+            this.z.Location = new System.Drawing.Point(758, 147);
+            this.z.Name = "z";
+            this.z.Size = new System.Drawing.Size(27, 29);
+            this.z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.z.TabIndex = 6;
+            this.z.TabStop = false;
+            // 
+            // addpb
+            // 
+            this.addpb.Image = ((System.Drawing.Image)(resources.GetObject("addpb.Image")));
+            this.addpb.Location = new System.Drawing.Point(610, 150);
+            this.addpb.Name = "addpb";
+            this.addpb.Size = new System.Drawing.Size(27, 25);
+            this.addpb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.addpb.TabIndex = 5;
+            this.addpb.TabStop = false;
+            // 
+            // atcitemtb
+            // 
+            this.atcitemtb.Location = new System.Drawing.Point(609, 147);
+            this.atcitemtb.Name = "atcitemtb";
+            this.atcitemtb.Size = new System.Drawing.Size(176, 29);
+            this.atcitemtb.TabIndex = 4;
+            // 
+            // cobutton
+            // 
+            this.cobutton.BackColor = System.Drawing.Color.Crimson;
+            this.cobutton.Location = new System.Drawing.Point(832, 588);
+            this.cobutton.Name = "cobutton";
+            this.cobutton.Size = new System.Drawing.Size(454, 36);
+            this.cobutton.TabIndex = 3;
+            this.cobutton.Text = "Proceed to Check out →";
+            this.cobutton.UseVisualStyleBackColor = false;
+            // 
+            // contshopbutton
+            // 
+            this.contshopbutton.BackColor = System.Drawing.Color.LightPink;
+            this.contshopbutton.Location = new System.Drawing.Point(128, 597);
+            this.contshopbutton.Name = "contshopbutton";
+            this.contshopbutton.Size = new System.Drawing.Size(508, 36);
+            this.contshopbutton.TabIndex = 2;
+            this.contshopbutton.Text = "← Continue Shopping";
+            this.contshopbutton.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -87,38 +126,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1462, 60);
             this.panel1.TabIndex = 1;
-            // 
-            // contshopbutton
-            // 
-            this.contshopbutton.BackColor = System.Drawing.Color.LightPink;
-            this.contshopbutton.Location = new System.Drawing.Point(128, 597);
-            this.contshopbutton.Name = "contshopbutton";
-            this.contshopbutton.Size = new System.Drawing.Size(508, 36);
-            this.contshopbutton.TabIndex = 2;
-            this.contshopbutton.Text = "← Continue Shopping";
-            this.contshopbutton.UseVisualStyleBackColor = false;
-            // 
-            // cobutton
-            // 
-            this.cobutton.BackColor = System.Drawing.Color.Crimson;
-            this.cobutton.Location = new System.Drawing.Point(832, 588);
-            this.cobutton.Name = "cobutton";
-            this.cobutton.Size = new System.Drawing.Size(454, 36);
-            this.cobutton.TabIndex = 3;
-            this.cobutton.Text = "Proceed to Check out →";
-            this.cobutton.UseVisualStyleBackColor = false;
-            // 
-            // sclbl
-            // 
-            this.sclbl.AutoSize = true;
-            this.sclbl.BackColor = System.Drawing.Color.Transparent;
-            this.sclbl.Font = new System.Drawing.Font("Palatino Linotype", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sclbl.ForeColor = System.Drawing.Color.Crimson;
-            this.sclbl.Location = new System.Drawing.Point(565, 4);
-            this.sclbl.Name = "sclbl";
-            this.sclbl.Size = new System.Drawing.Size(239, 45);
-            this.sclbl.TabIndex = 1;
-            this.sclbl.Text = "Shopping Cart";
             // 
             // actionlbl
             // 
@@ -166,32 +173,27 @@
             this.itemnamelbl.TabIndex = 2;
             this.itemnamelbl.Text = "Item";
             // 
-            // atcitemtb
+            // pictureBox1
             // 
-            this.atcitemtb.Location = new System.Drawing.Point(609, 147);
-            this.atcitemtb.Name = "atcitemtb";
-            this.atcitemtb.Size = new System.Drawing.Size(176, 29);
-            this.atcitemtb.TabIndex = 4;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(125, 139);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(107, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // addpb
+            // sclbl
             // 
-            this.addpb.Image = ((System.Drawing.Image)(resources.GetObject("addpb.Image")));
-            this.addpb.Location = new System.Drawing.Point(610, 150);
-            this.addpb.Name = "addpb";
-            this.addpb.Size = new System.Drawing.Size(27, 25);
-            this.addpb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.addpb.TabIndex = 5;
-            this.addpb.TabStop = false;
-            // 
-            // z
-            // 
-            this.z.Image = ((System.Drawing.Image)(resources.GetObject("z.Image")));
-            this.z.Location = new System.Drawing.Point(758, 147);
-            this.z.Name = "z";
-            this.z.Size = new System.Drawing.Size(27, 29);
-            this.z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.z.TabIndex = 6;
-            this.z.TabStop = false;
+            this.sclbl.AutoSize = true;
+            this.sclbl.BackColor = System.Drawing.Color.Transparent;
+            this.sclbl.Font = new System.Drawing.Font("Palatino Linotype", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sclbl.ForeColor = System.Drawing.Color.Crimson;
+            this.sclbl.Location = new System.Drawing.Point(565, 4);
+            this.sclbl.Name = "sclbl";
+            this.sclbl.Size = new System.Drawing.Size(239, 45);
+            this.sclbl.TabIndex = 1;
+            this.sclbl.Text = "Shopping Cart";
             // 
             // Cart
             // 
@@ -202,16 +204,16 @@
             this.ClientSize = new System.Drawing.Size(1460, 699);
             this.Controls.Add(this.sclbl);
             this.Controls.Add(this.atcpanel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Cart";
             this.Text = "Cart";
             this.atcpanel.ResumeLayout(false);
             this.atcpanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addpb)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.addpb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

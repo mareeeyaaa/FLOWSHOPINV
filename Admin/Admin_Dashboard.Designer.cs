@@ -39,21 +39,26 @@
             this.userlbl = new System.Windows.Forms.Label();
             this.wclbl = new System.Windows.Forms.Label();
             this.totalorderpanel = new System.Windows.Forms.Panel();
+            this.numberlbl = new System.Windows.Forms.Label();
             this.totalorderprogbar = new System.Windows.Forms.ProgressBar();
             this.totalorderPB = new System.Windows.Forms.PictureBox();
             this.totalorderlbl = new System.Windows.Forms.Label();
             this.totalorderTB = new System.Windows.Forms.TextBox();
             this.pendingorderspanel = new System.Windows.Forms.Panel();
+            this.ponumlbl = new System.Windows.Forms.Label();
             this.pendingorderprogbar = new System.Windows.Forms.ProgressBar();
             this.pendingordersPB = new System.Windows.Forms.PictureBox();
             this.pendingorderlbl = new System.Windows.Forms.Label();
             this.pendingorderTB = new System.Windows.Forms.TextBox();
             this.totaluserspanel = new System.Windows.Forms.Panel();
+            this.totusernumlbl = new System.Windows.Forms.Label();
             this.totaluserssprogbar = new System.Windows.Forms.ProgressBar();
             this.totalusersPB = new System.Windows.Forms.PictureBox();
             this.totaluserslbl = new System.Windows.Forms.Label();
             this.totalusersTB = new System.Windows.Forms.TextBox();
+            this.totaluserTB = new System.Windows.Forms.TextBox();
             this.lowstockpanel = new System.Windows.Forms.Panel();
+            this.lowstocknumlbl = new System.Windows.Forms.Label();
             this.lowstockprogbar = new System.Windows.Forms.ProgressBar();
             this.lowstockPB = new System.Windows.Forms.PictureBox();
             this.lowstocklbl = new System.Windows.Forms.Label();
@@ -61,22 +66,17 @@
             this.sochart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1 = new System.Windows.Forms.Panel();
             this.OrderStatusPanel = new System.Windows.Forms.Panel();
-            this.circlestatPB = new System.Windows.Forms.PictureBox();
-            this.processingPB = new System.Windows.Forms.PictureBox();
-            this.pendingPB = new System.Windows.Forms.PictureBox();
-            this.donePB = new System.Windows.Forms.PictureBox();
-            this.ReturnPB = new System.Windows.Forms.PictureBox();
-            this.cancelledPB = new System.Windows.Forms.PictureBox();
-            this.pemdimglbl = new System.Windows.Forms.Label();
-            this.processinglbl = new System.Windows.Forms.Label();
-            this.Donelbl = new System.Windows.Forms.Label();
-            this.canceledlbl = new System.Windows.Forms.Label();
             this.returnlbl = new System.Windows.Forms.Label();
-            this.numberlbl = new System.Windows.Forms.Label();
-            this.ponumlbl = new System.Windows.Forms.Label();
-            this.totusernumlbl = new System.Windows.Forms.Label();
-            this.lowstocknumlbl = new System.Windows.Forms.Label();
-            this.totaluserTB = new System.Windows.Forms.TextBox();
+            this.canceledlbl = new System.Windows.Forms.Label();
+            this.Donelbl = new System.Windows.Forms.Label();
+            this.processinglbl = new System.Windows.Forms.Label();
+            this.pemdimglbl = new System.Windows.Forms.Label();
+            this.cancelledPB = new System.Windows.Forms.PictureBox();
+            this.ReturnPB = new System.Windows.Forms.PictureBox();
+            this.donePB = new System.Windows.Forms.PictureBox();
+            this.pendingPB = new System.Windows.Forms.PictureBox();
+            this.processingPB = new System.Windows.Forms.PictureBox();
+            this.circlestatPB = new System.Windows.Forms.PictureBox();
             this.dbpanel.SuspendLayout();
             this.totalorderpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.totalorderPB)).BeginInit();
@@ -88,12 +88,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.lowstockPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sochart)).BeginInit();
             this.OrderStatusPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.circlestatPB)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.processingPB)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pendingPB)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.donePB)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ReturnPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cancelledPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ReturnPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pendingPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.processingPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circlestatPB)).BeginInit();
             this.SuspendLayout();
             // 
             // dbpanel
@@ -169,6 +169,17 @@
             this.totalorderpanel.Size = new System.Drawing.Size(295, 184);
             this.totalorderpanel.TabIndex = 1;
             // 
+            // numberlbl
+            // 
+            this.numberlbl.AutoSize = true;
+            this.numberlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.numberlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberlbl.Location = new System.Drawing.Point(212, 74);
+            this.numberlbl.Name = "numberlbl";
+            this.numberlbl.Size = new System.Drawing.Size(28, 34);
+            this.numberlbl.TabIndex = 4;
+            this.numberlbl.Text = "6";
+            // 
             // totalorderprogbar
             // 
             this.totalorderprogbar.BackColor = System.Drawing.Color.White;
@@ -222,6 +233,17 @@
             this.pendingorderspanel.Name = "pendingorderspanel";
             this.pendingorderspanel.Size = new System.Drawing.Size(298, 184);
             this.pendingorderspanel.TabIndex = 2;
+            // 
+            // ponumlbl
+            // 
+            this.ponumlbl.AutoSize = true;
+            this.ponumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ponumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ponumlbl.Location = new System.Drawing.Point(205, 72);
+            this.ponumlbl.Name = "ponumlbl";
+            this.ponumlbl.Size = new System.Drawing.Size(28, 34);
+            this.ponumlbl.TabIndex = 5;
+            this.ponumlbl.Text = "1";
             // 
             // pendingorderprogbar
             // 
@@ -278,6 +300,17 @@
             this.totaluserspanel.Size = new System.Drawing.Size(298, 184);
             this.totaluserspanel.TabIndex = 3;
             // 
+            // totusernumlbl
+            // 
+            this.totusernumlbl.AutoSize = true;
+            this.totusernumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.totusernumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totusernumlbl.Location = new System.Drawing.Point(213, 75);
+            this.totusernumlbl.Name = "totusernumlbl";
+            this.totusernumlbl.Size = new System.Drawing.Size(28, 34);
+            this.totusernumlbl.TabIndex = 6;
+            this.totusernumlbl.Text = "3";
+            // 
             // totaluserssprogbar
             // 
             this.totaluserssprogbar.BackColor = System.Drawing.Color.White;
@@ -318,6 +351,16 @@
             this.totalusersTB.Size = new System.Drawing.Size(0, 0);
             this.totalusersTB.TabIndex = 2;
             // 
+            // totaluserTB
+            // 
+            this.totaluserTB.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.totaluserTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totaluserTB.Location = new System.Drawing.Point(25, 19);
+            this.totaluserTB.Multiline = true;
+            this.totaluserTB.Name = "totaluserTB";
+            this.totaluserTB.Size = new System.Drawing.Size(252, 147);
+            this.totaluserTB.TabIndex = 8;
+            // 
             // lowstockpanel
             // 
             this.lowstockpanel.BackColor = System.Drawing.Color.Transparent;
@@ -330,6 +373,17 @@
             this.lowstockpanel.Name = "lowstockpanel";
             this.lowstockpanel.Size = new System.Drawing.Size(298, 184);
             this.lowstockpanel.TabIndex = 4;
+            // 
+            // lowstocknumlbl
+            // 
+            this.lowstocknumlbl.AutoSize = true;
+            this.lowstocknumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lowstocknumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lowstocknumlbl.Location = new System.Drawing.Point(212, 76);
+            this.lowstocknumlbl.Name = "lowstocknumlbl";
+            this.lowstocknumlbl.Size = new System.Drawing.Size(28, 34);
+            this.lowstocknumlbl.TabIndex = 7;
+            this.lowstocknumlbl.Text = "0";
             // 
             // lowstockprogbar
             // 
@@ -416,95 +470,15 @@
             this.OrderStatusPanel.Size = new System.Drawing.Size(574, 331);
             this.OrderStatusPanel.TabIndex = 7;
             // 
-            // circlestatPB
+            // returnlbl
             // 
-            this.circlestatPB.Image = ((System.Drawing.Image)(resources.GetObject("circlestatPB.Image")));
-            this.circlestatPB.Location = new System.Drawing.Point(44, 27);
-            this.circlestatPB.Name = "circlestatPB";
-            this.circlestatPB.Size = new System.Drawing.Size(331, 275);
-            this.circlestatPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.circlestatPB.TabIndex = 0;
-            this.circlestatPB.TabStop = false;
-            // 
-            // processingPB
-            // 
-            this.processingPB.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.processingPB.Location = new System.Drawing.Point(418, 46);
-            this.processingPB.Name = "processingPB";
-            this.processingPB.Size = new System.Drawing.Size(28, 25);
-            this.processingPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.processingPB.TabIndex = 7;
-            this.processingPB.TabStop = false;
-            // 
-            // pendingPB
-            // 
-            this.pendingPB.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pendingPB.Location = new System.Drawing.Point(418, 96);
-            this.pendingPB.Name = "pendingPB";
-            this.pendingPB.Size = new System.Drawing.Size(28, 25);
-            this.pendingPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pendingPB.TabIndex = 8;
-            this.pendingPB.TabStop = false;
-            // 
-            // donePB
-            // 
-            this.donePB.BackColor = System.Drawing.Color.Gold;
-            this.donePB.Location = new System.Drawing.Point(418, 141);
-            this.donePB.Name = "donePB";
-            this.donePB.Size = new System.Drawing.Size(28, 25);
-            this.donePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.donePB.TabIndex = 9;
-            this.donePB.TabStop = false;
-            // 
-            // ReturnPB
-            // 
-            this.ReturnPB.BackColor = System.Drawing.Color.Orange;
-            this.ReturnPB.Location = new System.Drawing.Point(418, 195);
-            this.ReturnPB.Name = "ReturnPB";
-            this.ReturnPB.Size = new System.Drawing.Size(28, 25);
-            this.ReturnPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ReturnPB.TabIndex = 10;
-            this.ReturnPB.TabStop = false;
-            // 
-            // cancelledPB
-            // 
-            this.cancelledPB.BackColor = System.Drawing.Color.DarkOrange;
-            this.cancelledPB.Location = new System.Drawing.Point(418, 250);
-            this.cancelledPB.Name = "cancelledPB";
-            this.cancelledPB.Size = new System.Drawing.Size(28, 25);
-            this.cancelledPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.cancelledPB.TabIndex = 11;
-            this.cancelledPB.TabStop = false;
-            // 
-            // pemdimglbl
-            // 
-            this.pemdimglbl.AutoSize = true;
-            this.pemdimglbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pemdimglbl.Location = new System.Drawing.Point(454, 99);
-            this.pemdimglbl.Name = "pemdimglbl";
-            this.pemdimglbl.Size = new System.Drawing.Size(75, 22);
-            this.pemdimglbl.TabIndex = 5;
-            this.pemdimglbl.Text = "Pending ";
-            // 
-            // processinglbl
-            // 
-            this.processinglbl.AutoSize = true;
-            this.processinglbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.processinglbl.Location = new System.Drawing.Point(454, 49);
-            this.processinglbl.Name = "processinglbl";
-            this.processinglbl.Size = new System.Drawing.Size(89, 22);
-            this.processinglbl.TabIndex = 12;
-            this.processinglbl.Text = "Processing";
-            // 
-            // Donelbl
-            // 
-            this.Donelbl.AutoSize = true;
-            this.Donelbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Donelbl.Location = new System.Drawing.Point(454, 144);
-            this.Donelbl.Name = "Donelbl";
-            this.Donelbl.Size = new System.Drawing.Size(50, 22);
-            this.Donelbl.TabIndex = 13;
-            this.Donelbl.Text = "Done";
+            this.returnlbl.AutoSize = true;
+            this.returnlbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.returnlbl.Location = new System.Drawing.Point(454, 195);
+            this.returnlbl.Name = "returnlbl";
+            this.returnlbl.Size = new System.Drawing.Size(62, 22);
+            this.returnlbl.TabIndex = 15;
+            this.returnlbl.Text = "Return";
             // 
             // canceledlbl
             // 
@@ -516,69 +490,95 @@
             this.canceledlbl.TabIndex = 14;
             this.canceledlbl.Text = "Cancelled";
             // 
-            // returnlbl
+            // Donelbl
             // 
-            this.returnlbl.AutoSize = true;
-            this.returnlbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.returnlbl.Location = new System.Drawing.Point(454, 195);
-            this.returnlbl.Name = "returnlbl";
-            this.returnlbl.Size = new System.Drawing.Size(62, 22);
-            this.returnlbl.TabIndex = 15;
-            this.returnlbl.Text = "Return";
+            this.Donelbl.AutoSize = true;
+            this.Donelbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Donelbl.Location = new System.Drawing.Point(454, 144);
+            this.Donelbl.Name = "Donelbl";
+            this.Donelbl.Size = new System.Drawing.Size(50, 22);
+            this.Donelbl.TabIndex = 13;
+            this.Donelbl.Text = "Done";
             // 
-            // numberlbl
+            // processinglbl
             // 
-            this.numberlbl.AutoSize = true;
-            this.numberlbl.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.numberlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberlbl.Location = new System.Drawing.Point(212, 74);
-            this.numberlbl.Name = "numberlbl";
-            this.numberlbl.Size = new System.Drawing.Size(28, 34);
-            this.numberlbl.TabIndex = 4;
-            this.numberlbl.Text = "6";
+            this.processinglbl.AutoSize = true;
+            this.processinglbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.processinglbl.Location = new System.Drawing.Point(454, 49);
+            this.processinglbl.Name = "processinglbl";
+            this.processinglbl.Size = new System.Drawing.Size(89, 22);
+            this.processinglbl.TabIndex = 12;
+            this.processinglbl.Text = "Processing";
             // 
-            // ponumlbl
+            // pemdimglbl
             // 
-            this.ponumlbl.AutoSize = true;
-            this.ponumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ponumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ponumlbl.Location = new System.Drawing.Point(205, 72);
-            this.ponumlbl.Name = "ponumlbl";
-            this.ponumlbl.Size = new System.Drawing.Size(28, 34);
-            this.ponumlbl.TabIndex = 5;
-            this.ponumlbl.Text = "1";
+            this.pemdimglbl.AutoSize = true;
+            this.pemdimglbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pemdimglbl.Location = new System.Drawing.Point(454, 99);
+            this.pemdimglbl.Name = "pemdimglbl";
+            this.pemdimglbl.Size = new System.Drawing.Size(75, 22);
+            this.pemdimglbl.TabIndex = 5;
+            this.pemdimglbl.Text = "Pending ";
             // 
-            // totusernumlbl
+            // cancelledPB
             // 
-            this.totusernumlbl.AutoSize = true;
-            this.totusernumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.totusernumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totusernumlbl.Location = new System.Drawing.Point(213, 75);
-            this.totusernumlbl.Name = "totusernumlbl";
-            this.totusernumlbl.Size = new System.Drawing.Size(28, 34);
-            this.totusernumlbl.TabIndex = 6;
-            this.totusernumlbl.Text = "3";
+            this.cancelledPB.BackColor = System.Drawing.Color.DarkOrange;
+            this.cancelledPB.Location = new System.Drawing.Point(418, 250);
+            this.cancelledPB.Name = "cancelledPB";
+            this.cancelledPB.Size = new System.Drawing.Size(28, 25);
+            this.cancelledPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cancelledPB.TabIndex = 11;
+            this.cancelledPB.TabStop = false;
             // 
-            // lowstocknumlbl
+            // ReturnPB
             // 
-            this.lowstocknumlbl.AutoSize = true;
-            this.lowstocknumlbl.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lowstocknumlbl.Font = new System.Drawing.Font("Palatino Linotype", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lowstocknumlbl.Location = new System.Drawing.Point(212, 76);
-            this.lowstocknumlbl.Name = "lowstocknumlbl";
-            this.lowstocknumlbl.Size = new System.Drawing.Size(28, 34);
-            this.lowstocknumlbl.TabIndex = 7;
-            this.lowstocknumlbl.Text = "0";
+            this.ReturnPB.BackColor = System.Drawing.Color.Orange;
+            this.ReturnPB.Location = new System.Drawing.Point(418, 195);
+            this.ReturnPB.Name = "ReturnPB";
+            this.ReturnPB.Size = new System.Drawing.Size(28, 25);
+            this.ReturnPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ReturnPB.TabIndex = 10;
+            this.ReturnPB.TabStop = false;
             // 
-            // totaluserTB
+            // donePB
             // 
-            this.totaluserTB.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.totaluserTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totaluserTB.Location = new System.Drawing.Point(25, 19);
-            this.totaluserTB.Multiline = true;
-            this.totaluserTB.Name = "totaluserTB";
-            this.totaluserTB.Size = new System.Drawing.Size(252, 147);
-            this.totaluserTB.TabIndex = 8;
+            this.donePB.BackColor = System.Drawing.Color.Gold;
+            this.donePB.Location = new System.Drawing.Point(418, 141);
+            this.donePB.Name = "donePB";
+            this.donePB.Size = new System.Drawing.Size(28, 25);
+            this.donePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.donePB.TabIndex = 9;
+            this.donePB.TabStop = false;
+            // 
+            // pendingPB
+            // 
+            this.pendingPB.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pendingPB.Location = new System.Drawing.Point(418, 96);
+            this.pendingPB.Name = "pendingPB";
+            this.pendingPB.Size = new System.Drawing.Size(28, 25);
+            this.pendingPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pendingPB.TabIndex = 8;
+            this.pendingPB.TabStop = false;
+            // 
+            // processingPB
+            // 
+            this.processingPB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.processingPB.Location = new System.Drawing.Point(418, 46);
+            this.processingPB.Name = "processingPB";
+            this.processingPB.Size = new System.Drawing.Size(28, 25);
+            this.processingPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.processingPB.TabIndex = 7;
+            this.processingPB.TabStop = false;
+            // 
+            // circlestatPB
+            // 
+            this.circlestatPB.Image = ((System.Drawing.Image)(resources.GetObject("circlestatPB.Image")));
+            this.circlestatPB.Location = new System.Drawing.Point(44, 27);
+            this.circlestatPB.Name = "circlestatPB";
+            this.circlestatPB.Size = new System.Drawing.Size(331, 275);
+            this.circlestatPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.circlestatPB.TabIndex = 0;
+            this.circlestatPB.TabStop = false;
             // 
             // Admin_Dashboard
             // 
@@ -614,12 +614,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.sochart)).EndInit();
             this.OrderStatusPanel.ResumeLayout(false);
             this.OrderStatusPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.circlestatPB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.processingPB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pendingPB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.donePB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ReturnPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cancelledPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ReturnPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pendingPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.processingPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circlestatPB)).EndInit();
             this.ResumeLayout(false);
 
         }

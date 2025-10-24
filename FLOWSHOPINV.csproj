@@ -59,6 +59,12 @@
     <Compile Include="Admin\Admin_Dashboard.Designer.cs">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Admin_OrdersDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_OrdersDetails.Designer.cs">
+      <DependentUpon>Admin_OrdersDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Admin_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </Compile>
     <EmbeddedResource Include="Admin\Admin_Dashboard.resx">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_OrdersDetails.resx">
+      <DependentUpon>Admin_OrdersDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Panel.resx">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
