@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Check_Out));
             this.atcpanel = new System.Windows.Forms.Panel();
+            this.contactlbl = new System.Windows.Forms.Label();
+            this.contactTB = new System.Windows.Forms.TextBox();
             this.summaryco = new System.Windows.Forms.Panel();
             this.cohourlbl = new System.Windows.Forms.Label();
             this.esthrlbl = new System.Windows.Forms.Label();
@@ -50,8 +52,6 @@
             this.pricecotb = new System.Windows.Forms.TextBox();
             this.desccolbl = new System.Windows.Forms.Label();
             this.coitemlbl = new System.Windows.Forms.Label();
-            this.contactTB = new System.Windows.Forms.TextBox();
-            this.contactlbl = new System.Windows.Forms.Label();
             this.atcpanel.SuspendLayout();
             this.summaryco.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.puoddpb)).BeginInit();
@@ -63,6 +63,7 @@
             // 
             // atcpanel
             // 
+            this.atcpanel.AutoScroll = true;
             this.atcpanel.BackColor = System.Drawing.Color.Transparent;
             this.atcpanel.Controls.Add(this.contactlbl);
             this.atcpanel.Controls.Add(this.contactTB);
@@ -79,6 +80,24 @@
             this.atcpanel.Name = "atcpanel";
             this.atcpanel.Size = new System.Drawing.Size(1462, 705);
             this.atcpanel.TabIndex = 1;
+            // 
+            // contactlbl
+            // 
+            this.contactlbl.AutoSize = true;
+            this.contactlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactlbl.Location = new System.Drawing.Point(523, 263);
+            this.contactlbl.Name = "contactlbl";
+            this.contactlbl.Size = new System.Drawing.Size(333, 18);
+            this.contactlbl.TabIndex = 3;
+            this.contactlbl.Text = "Kindly provide your email address for further contact.";
+            // 
+            // contactTB
+            // 
+            this.contactTB.Location = new System.Drawing.Point(524, 296);
+            this.contactTB.Multiline = true;
+            this.contactTB.Name = "contactTB";
+            this.contactTB.Size = new System.Drawing.Size(330, 20);
+            this.contactTB.TabIndex = 10;
             // 
             // summaryco
             // 
@@ -285,24 +304,6 @@
             this.coitemlbl.Size = new System.Drawing.Size(125, 26);
             this.coitemlbl.TabIndex = 0;
             this.coitemlbl.Text = "Eternal Rose";
-            // 
-            // contactTB
-            // 
-            this.contactTB.Location = new System.Drawing.Point(524, 296);
-            this.contactTB.Multiline = true;
-            this.contactTB.Name = "contactTB";
-            this.contactTB.Size = new System.Drawing.Size(330, 20);
-            this.contactTB.TabIndex = 10;
-            // 
-            // contactlbl
-            // 
-            this.contactlbl.AutoSize = true;
-            this.contactlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contactlbl.Location = new System.Drawing.Point(523, 263);
-            this.contactlbl.Name = "contactlbl";
-            this.contactlbl.Size = new System.Drawing.Size(333, 18);
-            this.contactlbl.TabIndex = 3;
-            this.contactlbl.Text = "Kindly provide your email address for further contact.";
             // 
             // Check_Out
             // 

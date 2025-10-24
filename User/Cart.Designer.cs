@@ -52,6 +52,7 @@
             // 
             // atcpanel
             // 
+            this.atcpanel.AutoScroll = true;
             this.atcpanel.BackColor = System.Drawing.Color.Transparent;
             this.atcpanel.Controls.Add(this.z);
             this.atcpanel.Controls.Add(this.addpb);

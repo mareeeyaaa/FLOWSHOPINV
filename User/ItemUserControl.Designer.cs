@@ -34,9 +34,9 @@
             this.Price = new System.Windows.Forms.Label();
             this.itemID = new System.Windows.Forms.Label();
             this.prodpanel = new System.Windows.Forms.Panel();
-            this.stckbutton = new System.Windows.Forms.Button();
-            this.deetsbutton = new System.Windows.Forms.Button();
             this.atcbutton = new System.Windows.Forms.Button();
+            this.deetsbutton = new System.Windows.Forms.Button();
+            this.stckbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.itemPictureBox)).BeginInit();
             this.prodpanel.SuspendLayout();
             this.SuspendLayout();
@@ -55,8 +55,8 @@
             // itemPictureBox
             // 
             this.itemPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("itemPictureBox.Image")));
-            this.itemPictureBox.Location = new System.Drawing.Point(0, 0);
-            this.itemPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.itemPictureBox.Location = new System.Drawing.Point(0, 2);
+            this.itemPictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.itemPictureBox.Name = "itemPictureBox";
             this.itemPictureBox.Size = new System.Drawing.Size(308, 182);
             this.itemPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -101,16 +101,16 @@
             this.prodpanel.Size = new System.Drawing.Size(320, 176);
             this.prodpanel.TabIndex = 5;
             // 
-            // stckbutton
+            // atcbutton
             // 
-            this.stckbutton.BackColor = System.Drawing.Color.PaleGreen;
-            this.stckbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stckbutton.Location = new System.Drawing.Point(16, 12);
-            this.stckbutton.Name = "stckbutton";
-            this.stckbutton.Size = new System.Drawing.Size(75, 23);
-            this.stckbutton.TabIndex = 5;
-            this.stckbutton.Text = "In Stock";
-            this.stckbutton.UseVisualStyleBackColor = false;
+            this.atcbutton.BackColor = System.Drawing.Color.Crimson;
+            this.atcbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.atcbutton.Location = new System.Drawing.Point(24, 111);
+            this.atcbutton.Name = "atcbutton";
+            this.atcbutton.Size = new System.Drawing.Size(260, 27);
+            this.atcbutton.TabIndex = 7;
+            this.atcbutton.Text = "🛒 Add to Cart";
+            this.atcbutton.UseVisualStyleBackColor = false;
             // 
             // deetsbutton
             // 
@@ -123,16 +123,16 @@
             this.deetsbutton.Text = "View Details";
             this.deetsbutton.UseVisualStyleBackColor = false;
             // 
-            // atcbutton
+            // stckbutton
             // 
-            this.atcbutton.BackColor = System.Drawing.Color.Crimson;
-            this.atcbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.atcbutton.Location = new System.Drawing.Point(24, 111);
-            this.atcbutton.Name = "atcbutton";
-            this.atcbutton.Size = new System.Drawing.Size(260, 27);
-            this.atcbutton.TabIndex = 7;
-            this.atcbutton.Text = "🛒 Add to Cart";
-            this.atcbutton.UseVisualStyleBackColor = false;
+            this.stckbutton.BackColor = System.Drawing.Color.PaleGreen;
+            this.stckbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stckbutton.Location = new System.Drawing.Point(16, 12);
+            this.stckbutton.Name = "stckbutton";
+            this.stckbutton.Size = new System.Drawing.Size(75, 23);
+            this.stckbutton.TabIndex = 5;
+            this.stckbutton.Text = "In Stock";
+            this.stckbutton.UseVisualStyleBackColor = false;
             // 
             // ItemUserControl
             // 
@@ -143,7 +143,7 @@
             this.Controls.Add(this.stckbutton);
             this.Controls.Add(this.prodpanel);
             this.Controls.Add(this.itemPictureBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ItemUserControl";
             this.Size = new System.Drawing.Size(305, 346);
             this.Load += new System.EventHandler(this.ItemUserControl_Load);

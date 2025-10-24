@@ -77,6 +77,12 @@
     <Compile Include="Admin\Admin_Panel.Designer.cs">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Update_Order_Status.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Update_Order_Status.Designer.cs">
+      <DependentUpon>Update_Order_Status.cs</DependentUpon>
+    </Compile>
     <Compile Include="User\Cart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Panel.resx">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Update_Order_Status.resx">
+      <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>

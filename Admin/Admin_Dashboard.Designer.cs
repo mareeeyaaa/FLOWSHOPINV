@@ -129,7 +129,7 @@
             // 
             this.dashboardlbl.AutoSize = true;
             this.dashboardlbl.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardlbl.ForeColor = System.Drawing.Color.Black;
+            this.dashboardlbl.ForeColor = System.Drawing.Color.Crimson;
             this.dashboardlbl.Location = new System.Drawing.Point(53, 27);
             this.dashboardlbl.Name = "dashboardlbl";
             this.dashboardlbl.Size = new System.Drawing.Size(156, 37);
