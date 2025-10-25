@@ -53,11 +53,23 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdminAddProducts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminAddProducts.Designer.cs">
+      <DependentUpon>AdminAddProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Admin_Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Admin\Admin_Dashboard.Designer.cs">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Edit_Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Edit_Product.Designer.cs">
+      <DependentUpon>Admin_Edit_Product.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\Admin_Orders.cs">
       <SubType>UserControl</SubType>
@@ -76,6 +88,12 @@
     </Compile>
     <Compile Include="Admin\Admin_Panel.Designer.cs">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Products.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Products.Designer.cs">
+      <DependentUpon>Admin_Products.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\Update_Order_Status.cs">
       <SubType>UserControl</SubType>
@@ -145,8 +163,14 @@
     <Compile Include="Terms and Conditions.Designer.cs">
       <DependentUpon>Terms and Conditions.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin\AdminAddProducts.resx">
+      <DependentUpon>AdminAddProducts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Dashboard.resx">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_Edit_Product.resx">
+      <DependentUpon>Admin_Edit_Product.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Orders.resx">
       <DependentUpon>Admin_Orders.cs</DependentUpon>
@@ -156,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Panel.resx">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_Products.resx">
+      <DependentUpon>Admin_Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Update_Order_Status.resx">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>

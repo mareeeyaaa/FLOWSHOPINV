@@ -36,5 +36,10 @@ namespace FLOWSHOPINV
         {
 
         }
+
+        private void prodpanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

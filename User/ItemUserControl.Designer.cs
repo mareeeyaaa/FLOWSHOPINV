@@ -100,6 +100,7 @@
             this.prodpanel.Name = "prodpanel";
             this.prodpanel.Size = new System.Drawing.Size(320, 176);
             this.prodpanel.TabIndex = 5;
+            this.prodpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.prodpanel_Paint);
             // 
             // atcbutton
             // 
