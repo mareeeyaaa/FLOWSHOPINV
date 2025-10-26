@@ -74,11 +74,11 @@
     <Compile Include="Admin\Admin_AddNewStaff.Designer.cs">
       <DependentUpon>Admin_AddNewStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Admin_Dashboard.cs">
+    <Compile Include="Admin\Admin_Dash.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Admin\Admin_Dashboard.Designer.cs">
-      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    <Compile Include="Admin\Admin_Dash.Designer.cs">
+      <DependentUpon>Admin_Dash.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\Admin_EditStaff.cs">
       <SubType>Form</SubType>
@@ -133,6 +133,12 @@
     </Compile>
     <Compile Include="Admin\Update_Order_Status.Designer.cs">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sales_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_Panel.Designer.cs">
+      <DependentUpon>Sales_Panel.cs</DependentUpon>
     </Compile>
     <Compile Include="User\Cart.cs">
       <SubType>Form</SubType>
@@ -205,8 +211,8 @@
     <EmbeddedResource Include="Admin\Admin_AddNewStaff.resx">
       <DependentUpon>Admin_AddNewStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Admin_Dashboard.resx">
-      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Admin_Dash.resx">
+      <DependentUpon>Admin_Dash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_EditStaff.resx">
       <DependentUpon>Admin_EditStaff.cs</DependentUpon>
@@ -234,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Update_Order_Status.resx">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_Panel.resx">
+      <DependentUpon>Sales_Panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>

@@ -1,6 +1,6 @@
-﻿namespace FLOWSHOPINV.Admin
+﻿namespace FLOWSHOPINV.Sales
 {
-    partial class Admin_Panel
+    partial class Sales_Panel
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin_Panel));
-            this.AdminSC = new System.Windows.Forms.SplitContainer();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales_Panel));
+            this.SalesSC = new System.Windows.Forms.SplitContainer();
             this.logoutPB = new System.Windows.Forms.PictureBox();
             this.logoutbutton = new System.Windows.Forms.Button();
             this.ALbutton = new System.Windows.Forms.Button();
@@ -38,40 +38,39 @@
             this.adminordersbutton = new System.Windows.Forms.Button();
             this.dbbutton = new System.Windows.Forms.Button();
             this.AdminPanel = new System.Windows.Forms.Label();
-            this.AdminPanelFLP = new System.Windows.Forms.FlowLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)(this.AdminSC)).BeginInit();
-            this.AdminSC.Panel1.SuspendLayout();
-            this.AdminSC.Panel2.SuspendLayout();
-            this.AdminSC.SuspendLayout();
+            this.SalesPanelFLP = new System.Windows.Forms.FlowLayoutPanel();
+            ((System.ComponentModel.ISupportInitialize)(this.SalesSC)).BeginInit();
+            this.SalesSC.Panel1.SuspendLayout();
+            this.SalesSC.Panel2.SuspendLayout();
+            this.SalesSC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).BeginInit();
             this.SuspendLayout();
             // 
-            // AdminSC
+            // SalesSC
             // 
-            this.AdminSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminSC.Location = new System.Drawing.Point(0, 0);
-            this.AdminSC.Name = "AdminSC";
+            this.SalesSC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SalesSC.Location = new System.Drawing.Point(0, 0);
+            this.SalesSC.Name = "SalesSC";
             // 
-            // AdminSC.Panel1
+            // SalesSC.Panel1
             // 
-            this.AdminSC.Panel1.BackColor = System.Drawing.Color.LightPink;
-            this.AdminSC.Panel1.Controls.Add(this.logoutPB);
-            this.AdminSC.Panel1.Controls.Add(this.logoutbutton);
-            this.AdminSC.Panel1.Controls.Add(this.ALbutton);
-            this.AdminSC.Panel1.Controls.Add(this.staffadminpanel);
-            this.AdminSC.Panel1.Controls.Add(this.prodadminpanel);
-            this.AdminSC.Panel1.Controls.Add(this.adminordersbutton);
-            this.AdminSC.Panel1.Controls.Add(this.dbbutton);
-            this.AdminSC.Panel1.Controls.Add(this.AdminPanel);
+            this.SalesSC.Panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.SalesSC.Panel1.Controls.Add(this.logoutPB);
+            this.SalesSC.Panel1.Controls.Add(this.logoutbutton);
+            this.SalesSC.Panel1.Controls.Add(this.ALbutton);
+            this.SalesSC.Panel1.Controls.Add(this.staffadminpanel);
+            this.SalesSC.Panel1.Controls.Add(this.prodadminpanel);
+            this.SalesSC.Panel1.Controls.Add(this.adminordersbutton);
+            this.SalesSC.Panel1.Controls.Add(this.dbbutton);
+            this.SalesSC.Panel1.Controls.Add(this.AdminPanel);
             // 
-            // AdminSC.Panel2
+            // SalesSC.Panel2
             // 
-            this.AdminSC.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AdminSC.Panel2.BackgroundImage")));
-            this.AdminSC.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.AdminSC.Panel2.Controls.Add(this.AdminPanelFLP);
-            this.AdminSC.Size = new System.Drawing.Size(1616, 859);
-            this.AdminSC.SplitterDistance = 332;
-            this.AdminSC.TabIndex = 0;
+            this.SalesSC.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SalesSC.Panel2.Controls.Add(this.SalesPanelFLP);
+            this.SalesSC.Size = new System.Drawing.Size(1616, 859);
+            this.SalesSC.SplitterDistance = 332;
+            this.SalesSC.TabIndex = 1;
             // 
             // logoutPB
             // 
@@ -148,7 +147,6 @@
             this.adminordersbutton.TabIndex = 2;
             this.adminordersbutton.Text = "🛒  Orders";
             this.adminordersbutton.UseVisualStyleBackColor = false;
-            this.adminordersbutton.Click += new System.EventHandler(this.adminordersbutton_Click);
             // 
             // dbbutton
             // 
@@ -173,31 +171,31 @@
             this.AdminPanel.Size = new System.Drawing.Size(199, 39);
             this.AdminPanel.TabIndex = 0;
             this.AdminPanel.Text = "Admin Panel ";
-            this.AdminPanel.Click += new System.EventHandler(this.AdminPanel_Click);
             // 
-            // AdminPanelFLP
+            // SalesPanelFLP
             // 
-            this.AdminPanelFLP.AutoScroll = true;
-            this.AdminPanelFLP.BackColor = System.Drawing.Color.Transparent;
-            this.AdminPanelFLP.Location = new System.Drawing.Point(2, 2);
-            this.AdminPanelFLP.Margin = new System.Windows.Forms.Padding(2);
-            this.AdminPanelFLP.Name = "AdminPanelFLP";
-            this.AdminPanelFLP.Size = new System.Drawing.Size(1276, 855);
-            this.AdminPanelFLP.TabIndex = 2;
+            this.SalesPanelFLP.AutoScroll = true;
+            this.SalesPanelFLP.BackColor = System.Drawing.Color.Transparent;
+            this.SalesPanelFLP.Location = new System.Drawing.Point(2, 2);
+            this.SalesPanelFLP.Margin = new System.Windows.Forms.Padding(2);
+            this.SalesPanelFLP.Name = "SalesPanelFLP";
+            this.SalesPanelFLP.Size = new System.Drawing.Size(1276, 855);
+            this.SalesPanelFLP.TabIndex = 2;
             // 
-            // Admin_Panel
+            // Sales_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightPink;
             this.ClientSize = new System.Drawing.Size(1616, 859);
-            this.Controls.Add(this.AdminSC);
-            this.Name = "Admin_Panel";
-            this.Text = "Admin_Panel";
-            this.AdminSC.Panel1.ResumeLayout(false);
-            this.AdminSC.Panel1.PerformLayout();
-            this.AdminSC.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.AdminSC)).EndInit();
-            this.AdminSC.ResumeLayout(false);
+            this.Controls.Add(this.SalesSC);
+            this.Name = "Sales_Panel";
+            this.Text = "Sales_Panel";
+            this.SalesSC.Panel1.ResumeLayout(false);
+            this.SalesSC.Panel1.PerformLayout();
+            this.SalesSC.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SalesSC)).EndInit();
+            this.SalesSC.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).EndInit();
             this.ResumeLayout(false);
 
@@ -205,15 +203,15 @@
 
         #endregion
 
-        private System.Windows.Forms.SplitContainer AdminSC;
-        private System.Windows.Forms.Label AdminPanel;
-        private System.Windows.Forms.Button dbbutton;
-        private System.Windows.Forms.Button adminordersbutton;
-        private System.Windows.Forms.Button prodadminpanel;
-        private System.Windows.Forms.Button staffadminpanel;
-        private System.Windows.Forms.Button ALbutton;
+        private System.Windows.Forms.SplitContainer SalesSC;
         private System.Windows.Forms.PictureBox logoutPB;
         private System.Windows.Forms.Button logoutbutton;
-        private System.Windows.Forms.FlowLayoutPanel AdminPanelFLP;
+        private System.Windows.Forms.Button ALbutton;
+        private System.Windows.Forms.Button staffadminpanel;
+        private System.Windows.Forms.Button prodadminpanel;
+        private System.Windows.Forms.Button adminordersbutton;
+        private System.Windows.Forms.Button dbbutton;
+        private System.Windows.Forms.Label AdminPanel;
+        private System.Windows.Forms.FlowLayoutPanel SalesPanelFLP;
     }
 }

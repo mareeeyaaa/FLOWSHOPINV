@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FLOWSHOPINV.Admin
 {
-    public partial class Admin_Dashboard : UserControl
+    public partial class Admin_Dash : UserControl
     {
-        public Admin_Dashboard()
+        public Admin_Dash()
         {
             InitializeComponent();
         }
