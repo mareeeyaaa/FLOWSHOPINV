@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PlaceholderTextBox, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\PlaceholderTextBox.1.3.1\lib\PlaceholderTextBox.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -59,11 +62,29 @@
     <Compile Include="Admin\AdminAddProducts.Designer.cs">
       <DependentUpon>AdminAddProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Admin_Activity_Log.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Activity_Log.Designer.cs">
+      <DependentUpon>Admin_Activity_Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_AddNewStaff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_AddNewStaff.Designer.cs">
+      <DependentUpon>Admin_AddNewStaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Admin_Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Admin\Admin_Dashboard.Designer.cs">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_EditStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_EditStaff.Designer.cs">
+      <DependentUpon>Admin_EditStaff.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\Admin_Edit_Product.cs">
       <SubType>Form</SubType>
@@ -89,11 +110,23 @@
     <Compile Include="Admin\Admin_Panel.Designer.cs">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Admin_ProductRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_ProductRequest.Designer.cs">
+      <DependentUpon>Admin_ProductRequest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Admin_Products.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Admin\Admin_Products.Designer.cs">
       <DependentUpon>Admin_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Staffs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Staffs.Designer.cs">
+      <DependentUpon>Admin_Staffs.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\Update_Order_Status.cs">
       <SubType>UserControl</SubType>
@@ -166,8 +199,17 @@
     <EmbeddedResource Include="Admin\AdminAddProducts.resx">
       <DependentUpon>AdminAddProducts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_Activity_Log.resx">
+      <DependentUpon>Admin_Activity_Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_AddNewStaff.resx">
+      <DependentUpon>Admin_AddNewStaff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Dashboard.resx">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_EditStaff.resx">
+      <DependentUpon>Admin_EditStaff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Edit_Product.resx">
       <DependentUpon>Admin_Edit_Product.cs</DependentUpon>
@@ -181,8 +223,14 @@
     <EmbeddedResource Include="Admin\Admin_Panel.resx">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_ProductRequest.resx">
+      <DependentUpon>Admin_ProductRequest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin_Products.resx">
       <DependentUpon>Admin_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Admin_Staffs.resx">
+      <DependentUpon>Admin_Staffs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Update_Order_Status.resx">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
@@ -226,6 +274,7 @@
     <EmbeddedResource Include="Terms and Conditions.resx">
       <DependentUpon>Terms and Conditions.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

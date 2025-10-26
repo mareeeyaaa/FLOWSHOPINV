@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace FLOWSHOPINV.Admin
+{
+    public partial class Admin_AddNewStaff : UserControl
+    {
+        public Admin_AddNewStaff()
+        {
+            InitializeComponent();
+        }
+    }
+}
