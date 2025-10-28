@@ -26,5 +26,10 @@ namespace FLOWSHOPINV.Admin
         {
 
         }
+
+        private void Admin_Dash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

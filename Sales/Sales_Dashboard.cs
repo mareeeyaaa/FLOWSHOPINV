@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace FLOWSHOPINV.Sales
 {
-    public partial class Sales_Panel : Form
+    public partial class Sales_Dashboard : UserControl
     {
-        public Sales_Panel()
+        public Sales_Dashboard()
         {
             InitializeComponent();
         }
 
-        private void ssprodbtn_Click(object sender, EventArgs e)
+        private void totalproductslbl_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void HiSalesPanel_Click(object sender, EventArgs e)
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sspendingorderTB_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace FLOWSHOPINV.Sales
 {
-    public partial class Sales_Panel : Form
+    public partial class Sales_Order : UserControl
     {
-        public Sales_Panel()
+        public Sales_Order()
         {
             InitializeComponent();
-        }
-
-        private void ssprodbtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void HiSalesPanel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

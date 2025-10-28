@@ -134,11 +134,41 @@
     <Compile Include="Admin\Update_Order_Status.Designer.cs">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sales\Sales_Cashier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_Cashier.Designer.cs">
+      <DependentUpon>Sales_Cashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sales_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_Dashboard.Designer.cs">
+      <DependentUpon>Sales_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sales_Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_Order.Designer.cs">
+      <DependentUpon>Sales_Order.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sales\Sales_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sales\Sales_Panel.Designer.cs">
       <DependentUpon>Sales_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sales_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_Profile.Designer.cs">
+      <DependentUpon>Sales_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sles_Products.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\Sles_Products.Designer.cs">
+      <DependentUpon>Sles_Products.cs</DependentUpon>
     </Compile>
     <Compile Include="User\Cart.cs">
       <SubType>Form</SubType>
@@ -241,8 +271,23 @@
     <EmbeddedResource Include="Admin\Update_Order_Status.resx">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_Cashier.resx">
+      <DependentUpon>Sales_Cashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_Dashboard.resx">
+      <DependentUpon>Sales_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_Order.resx">
+      <DependentUpon>Sales_Order.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sales_Panel.resx">
       <DependentUpon>Sales_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_Profile.resx">
+      <DependentUpon>Sales_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sles_Products.resx">
+      <DependentUpon>Sles_Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>

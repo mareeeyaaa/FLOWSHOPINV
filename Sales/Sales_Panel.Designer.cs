@@ -30,20 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales_Panel));
             this.SalesSC = new System.Windows.Forms.SplitContainer();
-            this.logoutPB = new System.Windows.Forms.PictureBox();
-            this.logoutbutton = new System.Windows.Forms.Button();
-            this.ALbutton = new System.Windows.Forms.Button();
-            this.staffadminpanel = new System.Windows.Forms.Button();
-            this.prodadminpanel = new System.Windows.Forms.Button();
-            this.adminordersbutton = new System.Windows.Forms.Button();
-            this.dbbutton = new System.Windows.Forms.Button();
-            this.AdminPanel = new System.Windows.Forms.Label();
+            this.ssprofbtn = new System.Windows.Forms.Button();
+            this.sscsbtn = new System.Windows.Forms.Button();
+            this.ssprodbtn = new System.Windows.Forms.Button();
+            this.ssordersbutton = new System.Windows.Forms.Button();
+            this.ssdbbtn = new System.Windows.Forms.Button();
+            this.HiSalesPanel = new System.Windows.Forms.Label();
             this.SalesPanelFLP = new System.Windows.Forms.FlowLayoutPanel();
+            this.StaffPanel = new System.Windows.Forms.Label();
+            this.ssprofPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SalesSC)).BeginInit();
             this.SalesSC.Panel1.SuspendLayout();
             this.SalesSC.Panel2.SuspendLayout();
             this.SalesSC.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ssprofPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SalesSC
@@ -55,14 +55,14 @@
             // SalesSC.Panel1
             // 
             this.SalesSC.Panel1.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.SalesSC.Panel1.Controls.Add(this.logoutPB);
-            this.SalesSC.Panel1.Controls.Add(this.logoutbutton);
-            this.SalesSC.Panel1.Controls.Add(this.ALbutton);
-            this.SalesSC.Panel1.Controls.Add(this.staffadminpanel);
-            this.SalesSC.Panel1.Controls.Add(this.prodadminpanel);
-            this.SalesSC.Panel1.Controls.Add(this.adminordersbutton);
-            this.SalesSC.Panel1.Controls.Add(this.dbbutton);
-            this.SalesSC.Panel1.Controls.Add(this.AdminPanel);
+            this.SalesSC.Panel1.Controls.Add(this.ssprofPB);
+            this.SalesSC.Panel1.Controls.Add(this.StaffPanel);
+            this.SalesSC.Panel1.Controls.Add(this.ssprofbtn);
+            this.SalesSC.Panel1.Controls.Add(this.sscsbtn);
+            this.SalesSC.Panel1.Controls.Add(this.ssprodbtn);
+            this.SalesSC.Panel1.Controls.Add(this.ssordersbutton);
+            this.SalesSC.Panel1.Controls.Add(this.ssdbbtn);
+            this.SalesSC.Panel1.Controls.Add(this.HiSalesPanel);
             // 
             // SalesSC.Panel2
             // 
@@ -72,115 +72,115 @@
             this.SalesSC.SplitterDistance = 332;
             this.SalesSC.TabIndex = 1;
             // 
-            // logoutPB
+            // ssprofbtn
             // 
-            this.logoutPB.BackColor = System.Drawing.Color.Transparent;
-            this.logoutPB.Image = ((System.Drawing.Image)(resources.GetObject("logoutPB.Image")));
-            this.logoutPB.Location = new System.Drawing.Point(94, 569);
-            this.logoutPB.Name = "logoutPB";
-            this.logoutPB.Size = new System.Drawing.Size(26, 25);
-            this.logoutPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logoutPB.TabIndex = 7;
-            this.logoutPB.TabStop = false;
+            this.ssprofbtn.BackColor = System.Drawing.Color.Transparent;
+            this.ssprofbtn.FlatAppearance.BorderSize = 0;
+            this.ssprofbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ssprofbtn.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ssprofbtn.Location = new System.Drawing.Point(-49, 582);
+            this.ssprofbtn.Name = "ssprofbtn";
+            this.ssprofbtn.Size = new System.Drawing.Size(382, 75);
+            this.ssprofbtn.TabIndex = 5;
+            this.ssprofbtn.Text = "👤 Profile";
+            this.ssprofbtn.UseVisualStyleBackColor = false;
             // 
-            // logoutbutton
+            // sscsbtn
             // 
-            this.logoutbutton.BackColor = System.Drawing.Color.Transparent;
-            this.logoutbutton.FlatAppearance.BorderSize = 0;
-            this.logoutbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutbutton.Location = new System.Drawing.Point(-8, 543);
-            this.logoutbutton.Name = "logoutbutton";
-            this.logoutbutton.Size = new System.Drawing.Size(353, 75);
-            this.logoutbutton.TabIndex = 6;
-            this.logoutbutton.Text = "Logout";
-            this.logoutbutton.UseVisualStyleBackColor = false;
+            this.sscsbtn.BackColor = System.Drawing.Color.Transparent;
+            this.sscsbtn.FlatAppearance.BorderSize = 0;
+            this.sscsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sscsbtn.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sscsbtn.Location = new System.Drawing.Point(-48, 494);
+            this.sscsbtn.Name = "sscsbtn";
+            this.sscsbtn.Size = new System.Drawing.Size(384, 82);
+            this.sscsbtn.TabIndex = 4;
+            this.sscsbtn.Text = "📠  Cashier";
+            this.sscsbtn.UseVisualStyleBackColor = false;
             // 
-            // ALbutton
+            // ssprodbtn
             // 
-            this.ALbutton.BackColor = System.Drawing.Color.Transparent;
-            this.ALbutton.FlatAppearance.BorderSize = 0;
-            this.ALbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ALbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ALbutton.Location = new System.Drawing.Point(1, 470);
-            this.ALbutton.Name = "ALbutton";
-            this.ALbutton.Size = new System.Drawing.Size(341, 75);
-            this.ALbutton.TabIndex = 5;
-            this.ALbutton.Text = " ⏱ Activity Log";
-            this.ALbutton.UseVisualStyleBackColor = false;
+            this.ssprodbtn.BackColor = System.Drawing.Color.Transparent;
+            this.ssprodbtn.FlatAppearance.BorderSize = 0;
+            this.ssprodbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ssprodbtn.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ssprodbtn.Location = new System.Drawing.Point(-30, 413);
+            this.ssprodbtn.Name = "ssprodbtn";
+            this.ssprodbtn.Size = new System.Drawing.Size(363, 75);
+            this.ssprodbtn.TabIndex = 3;
+            this.ssprodbtn.Text = "📦  Products";
+            this.ssprodbtn.UseVisualStyleBackColor = false;
+            this.ssprodbtn.Click += new System.EventHandler(this.ssprodbtn_Click);
             // 
-            // staffadminpanel
+            // ssordersbutton
             // 
-            this.staffadminpanel.BackColor = System.Drawing.Color.Transparent;
-            this.staffadminpanel.FlatAppearance.BorderSize = 0;
-            this.staffadminpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.staffadminpanel.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffadminpanel.Location = new System.Drawing.Point(-50, 392);
-            this.staffadminpanel.Name = "staffadminpanel";
-            this.staffadminpanel.Size = new System.Drawing.Size(383, 82);
-            this.staffadminpanel.TabIndex = 4;
-            this.staffadminpanel.Text = "🎭  Staff";
-            this.staffadminpanel.UseVisualStyleBackColor = false;
+            this.ssordersbutton.BackColor = System.Drawing.Color.Transparent;
+            this.ssordersbutton.FlatAppearance.BorderSize = 0;
+            this.ssordersbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ssordersbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ssordersbutton.Location = new System.Drawing.Point(-49, 329);
+            this.ssordersbutton.Name = "ssordersbutton";
+            this.ssordersbutton.Size = new System.Drawing.Size(393, 75);
+            this.ssordersbutton.TabIndex = 2;
+            this.ssordersbutton.Text = "🛒  Orders";
+            this.ssordersbutton.UseVisualStyleBackColor = false;
             // 
-            // prodadminpanel
+            // ssdbbtn
             // 
-            this.prodadminpanel.BackColor = System.Drawing.Color.Transparent;
-            this.prodadminpanel.FlatAppearance.BorderSize = 0;
-            this.prodadminpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prodadminpanel.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prodadminpanel.Location = new System.Drawing.Point(-22, 313);
-            this.prodadminpanel.Name = "prodadminpanel";
-            this.prodadminpanel.Size = new System.Drawing.Size(363, 75);
-            this.prodadminpanel.TabIndex = 3;
-            this.prodadminpanel.Text = "📦  Products";
-            this.prodadminpanel.UseVisualStyleBackColor = false;
+            this.ssdbbtn.BackColor = System.Drawing.Color.Transparent;
+            this.ssdbbtn.FlatAppearance.BorderSize = 0;
+            this.ssdbbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ssdbbtn.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ssdbbtn.Location = new System.Drawing.Point(-30, 248);
+            this.ssdbbtn.Name = "ssdbbtn";
+            this.ssdbbtn.Size = new System.Drawing.Size(379, 75);
+            this.ssdbbtn.TabIndex = 1;
+            this.ssdbbtn.Text = "🗂️  Dashboard";
+            this.ssdbbtn.UseVisualStyleBackColor = false;
             // 
-            // adminordersbutton
+            // HiSalesPanel
             // 
-            this.adminordersbutton.BackColor = System.Drawing.Color.Transparent;
-            this.adminordersbutton.FlatAppearance.BorderSize = 0;
-            this.adminordersbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adminordersbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.adminordersbutton.Location = new System.Drawing.Point(-51, 240);
-            this.adminordersbutton.Name = "adminordersbutton";
-            this.adminordersbutton.Size = new System.Drawing.Size(393, 75);
-            this.adminordersbutton.TabIndex = 2;
-            this.adminordersbutton.Text = "🛒  Orders";
-            this.adminordersbutton.UseVisualStyleBackColor = false;
-            // 
-            // dbbutton
-            // 
-            this.dbbutton.BackColor = System.Drawing.Color.Transparent;
-            this.dbbutton.FlatAppearance.BorderSize = 0;
-            this.dbbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dbbutton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbbutton.Location = new System.Drawing.Point(-22, 159);
-            this.dbbutton.Name = "dbbutton";
-            this.dbbutton.Size = new System.Drawing.Size(379, 75);
-            this.dbbutton.TabIndex = 1;
-            this.dbbutton.Text = "🗂️  Dashboard";
-            this.dbbutton.UseVisualStyleBackColor = false;
-            // 
-            // AdminPanel
-            // 
-            this.AdminPanel.AutoSize = true;
-            this.AdminPanel.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminPanel.ForeColor = System.Drawing.Color.Black;
-            this.AdminPanel.Location = new System.Drawing.Point(73, 51);
-            this.AdminPanel.Name = "AdminPanel";
-            this.AdminPanel.Size = new System.Drawing.Size(199, 39);
-            this.AdminPanel.TabIndex = 0;
-            this.AdminPanel.Text = "Admin Panel ";
+            this.HiSalesPanel.AutoSize = true;
+            this.HiSalesPanel.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HiSalesPanel.ForeColor = System.Drawing.Color.Black;
+            this.HiSalesPanel.Location = new System.Drawing.Point(100, 165);
+            this.HiSalesPanel.Name = "HiSalesPanel";
+            this.HiSalesPanel.Size = new System.Drawing.Size(64, 39);
+            this.HiSalesPanel.TabIndex = 0;
+            this.HiSalesPanel.Text = "Hi, ";
+            this.HiSalesPanel.Click += new System.EventHandler(this.HiSalesPanel_Click);
             // 
             // SalesPanelFLP
             // 
             this.SalesPanelFLP.AutoScroll = true;
             this.SalesPanelFLP.BackColor = System.Drawing.Color.Transparent;
+            this.SalesPanelFLP.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SalesPanelFLP.BackgroundImage")));
+            this.SalesPanelFLP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.SalesPanelFLP.Location = new System.Drawing.Point(2, 2);
             this.SalesPanelFLP.Margin = new System.Windows.Forms.Padding(2);
             this.SalesPanelFLP.Name = "SalesPanelFLP";
             this.SalesPanelFLP.Size = new System.Drawing.Size(1276, 855);
             this.SalesPanelFLP.TabIndex = 2;
+            // 
+            // StaffPanel
+            // 
+            this.StaffPanel.AutoSize = true;
+            this.StaffPanel.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StaffPanel.ForeColor = System.Drawing.Color.Black;
+            this.StaffPanel.Location = new System.Drawing.Point(149, 165);
+            this.StaffPanel.Name = "StaffPanel";
+            this.StaffPanel.Size = new System.Drawing.Size(80, 39);
+            this.StaffPanel.TabIndex = 8;
+            this.StaffPanel.Text = "Staff";
+            // 
+            // ssprofPB
+            // 
+            this.ssprofPB.Location = new System.Drawing.Point(107, 61);
+            this.ssprofPB.Name = "ssprofPB";
+            this.ssprofPB.Size = new System.Drawing.Size(112, 95);
+            this.ssprofPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ssprofPB.TabIndex = 9;
+            this.ssprofPB.TabStop = false;
             // 
             // Sales_Panel
             // 
@@ -196,7 +196,7 @@
             this.SalesSC.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SalesSC)).EndInit();
             this.SalesSC.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ssprofPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -204,14 +204,14 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer SalesSC;
-        private System.Windows.Forms.PictureBox logoutPB;
-        private System.Windows.Forms.Button logoutbutton;
-        private System.Windows.Forms.Button ALbutton;
-        private System.Windows.Forms.Button staffadminpanel;
-        private System.Windows.Forms.Button prodadminpanel;
-        private System.Windows.Forms.Button adminordersbutton;
-        private System.Windows.Forms.Button dbbutton;
-        private System.Windows.Forms.Label AdminPanel;
+        private System.Windows.Forms.Button ssprofbtn;
+        private System.Windows.Forms.Button sscsbtn;
+        private System.Windows.Forms.Button ssprodbtn;
+        private System.Windows.Forms.Button ssordersbutton;
+        private System.Windows.Forms.Button ssdbbtn;
+        private System.Windows.Forms.Label HiSalesPanel;
         private System.Windows.Forms.FlowLayoutPanel SalesPanelFLP;
+        private System.Windows.Forms.Label StaffPanel;
+        private System.Windows.Forms.PictureBox ssprofPB;
     }
 }

@@ -580,7 +580,7 @@
             this.circlestatPB.TabIndex = 0;
             this.circlestatPB.TabStop = false;
             // 
-            // Admin_Dashboard
+            // Admin_Dash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -595,8 +595,9 @@
             this.Controls.Add(this.totalorderpanel);
             this.Controls.Add(this.dbpanel);
             this.Controls.Add(this.panel1);
-            this.Name = "Admin_Dashboard";
+            this.Name = "Admin_Dash";
             this.Size = new System.Drawing.Size(1276, 855);
+            this.Load += new System.EventHandler(this.Admin_Dash_Load);
             this.dbpanel.ResumeLayout(false);
             this.dbpanel.PerformLayout();
             this.totalorderpanel.ResumeLayout(false);

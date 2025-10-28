@@ -204,6 +204,7 @@
             this.statCB.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statCB.FormattingEnabled = true;
             this.statCB.Items.AddRange(new object[] {
+            "All Status",
             "Processing",
             "Pending",
             "Done",
@@ -608,7 +609,7 @@
             // noteslbl
             // 
             this.noteslbl.AutoSize = true;
-            this.noteslbl.BackColor = System.Drawing.SystemColors.Control;
+            this.noteslbl.BackColor = System.Drawing.SystemColors.Window;
             this.noteslbl.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noteslbl.Location = new System.Drawing.Point(720, 57);
             this.noteslbl.Name = "noteslbl";

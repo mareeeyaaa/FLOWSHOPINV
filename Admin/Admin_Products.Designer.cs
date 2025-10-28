@@ -83,7 +83,7 @@
             this.entrydud = new System.Windows.Forms.DomainUpDown();
             this.entrieslbl = new System.Windows.Forms.Label();
             this.showlbl = new System.Windows.Forms.Label();
-            this.prodreqpaenl = new System.Windows.Forms.Panel();
+            this.prodreqpanel = new System.Windows.Forms.Panel();
             this.viewreqbtn = new System.Windows.Forms.Button();
             this.prodreqlbl = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
@@ -98,7 +98,7 @@
             this.admprodlabelpanel.SuspendLayout();
             this.adminordpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.searchPB)).BeginInit();
-            this.prodreqpaenl.SuspendLayout();
+            this.prodreqpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // productspanel
@@ -710,16 +710,16 @@
             this.showlbl.TabIndex = 12;
             this.showlbl.Text = "Show";
             // 
-            // prodreqpaenl
+            // prodreqpanel
             // 
-            this.prodreqpaenl.BackColor = System.Drawing.SystemColors.Control;
-            this.prodreqpaenl.Controls.Add(this.viewreqbtn);
-            this.prodreqpaenl.Controls.Add(this.prodreqlbl);
-            this.prodreqpaenl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prodreqpaenl.Location = new System.Drawing.Point(40, 109);
-            this.prodreqpaenl.Name = "prodreqpaenl";
-            this.prodreqpaenl.Size = new System.Drawing.Size(1186, 57);
-            this.prodreqpaenl.TabIndex = 3;
+            this.prodreqpanel.BackColor = System.Drawing.SystemColors.Control;
+            this.prodreqpanel.Controls.Add(this.viewreqbtn);
+            this.prodreqpanel.Controls.Add(this.prodreqlbl);
+            this.prodreqpanel.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prodreqpanel.Location = new System.Drawing.Point(40, 109);
+            this.prodreqpanel.Name = "prodreqpanel";
+            this.prodreqpanel.Size = new System.Drawing.Size(1186, 57);
+            this.prodreqpanel.TabIndex = 3;
             // 
             // viewreqbtn
             // 
@@ -753,7 +753,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Controls.Add(this.prodreqpaenl);
+            this.Controls.Add(this.prodreqpanel);
             this.Controls.Add(this.adminordpanel);
             this.Controls.Add(this.productspanel);
             this.Name = "Admin_Products";
@@ -775,8 +775,8 @@
             this.adminordpanel.ResumeLayout(false);
             this.adminordpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.searchPB)).EndInit();
-            this.prodreqpaenl.ResumeLayout(false);
-            this.prodreqpaenl.PerformLayout();
+            this.prodreqpanel.ResumeLayout(false);
+            this.prodreqpanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -836,7 +836,7 @@
         private System.Windows.Forms.Label showlbl;
         private System.Windows.Forms.PictureBox searchPB;
         private System.Windows.Forms.TextBox sfiltTB;
-        private System.Windows.Forms.Panel prodreqpaenl;
+        private System.Windows.Forms.Panel prodreqpanel;
         private System.Windows.Forms.Button viewreqbtn;
         private System.Windows.Forms.Label prodreqlbl;
         private System.Windows.Forms.NotifyIcon notifyIcon1;

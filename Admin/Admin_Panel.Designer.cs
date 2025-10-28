@@ -54,7 +54,7 @@
             // 
             // AdminSC.Panel1
             // 
-            this.AdminSC.Panel1.BackColor = System.Drawing.Color.LightPink;
+            this.AdminSC.Panel1.BackColor = System.Drawing.Color.Pink;
             this.AdminSC.Panel1.Controls.Add(this.logoutPB);
             this.AdminSC.Panel1.Controls.Add(this.logoutbutton);
             this.AdminSC.Panel1.Controls.Add(this.ALbutton);
