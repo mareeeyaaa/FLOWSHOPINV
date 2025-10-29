@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ItemUserControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Items));
             this.itemName = new System.Windows.Forms.Label();
             this.itemPictureBox = new System.Windows.Forms.PictureBox();
             this.Price = new System.Windows.Forms.Label();

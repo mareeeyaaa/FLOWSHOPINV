@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FLOWSHOPINV
+namespace FLOWSHOPINV.Sales
 {
-    public partial class Profile : Form
+    public partial class Sales_CashierRegister : UserControl
     {
-        public Profile()
+        public Sales_CashierRegister()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

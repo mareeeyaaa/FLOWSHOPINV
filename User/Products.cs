@@ -31,7 +31,7 @@ namespace FLOWSHOPINV
         {
             for (int i = 0; i < 10; i++) // TO POPULATE THE FLOWLAYOUTPANEL WITH ITEMS (TEMPORARY)
             {
-                var Item = new ItemUserControl();
+                var Item = new Items();
                 Item.Margin = new Padding(65); // Spacing between items
                 ProdFLP.Controls.Add(Item);
             }
