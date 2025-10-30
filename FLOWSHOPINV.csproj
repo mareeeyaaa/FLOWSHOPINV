@@ -140,6 +140,12 @@
     <Compile Include="Sales\Sales_Cashier.Designer.cs">
       <DependentUpon>Sales_Cashier.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sales\Sales_CashierReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_CashierReceipt.Designer.cs">
+      <DependentUpon>Sales_CashierReceipt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sales\Sales_CashierRegister.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -274,6 +280,9 @@
     <EmbeddedResource Include="Sales\Sales_Cashier.resx">
       <DependentUpon>Sales_Cashier.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_CashierReceipt.resx">
+      <DependentUpon>Sales_CashierReceipt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sales_CashierRegister.resx">
       <DependentUpon>Sales_CashierRegister.cs</DependentUpon>
     </EmbeddedResource>
@@ -342,6 +351,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Inventory\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
