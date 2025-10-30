@@ -134,6 +134,18 @@
     <Compile Include="Admin\Update_Order_Status.Designer.cs">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory\Inventory_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Dashboard.Designer.cs">
+      <DependentUpon>Inventory_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Panel.Designer.cs">
+      <DependentUpon>Inventory_Panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sales\Sales_Cashier.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -277,6 +289,12 @@
     <EmbeddedResource Include="Admin\Update_Order_Status.resx">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_Dashboard.resx">
+      <DependentUpon>Inventory_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_Panel.resx">
+      <DependentUpon>Inventory_Panel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sales_Cashier.resx">
       <DependentUpon>Sales_Cashier.cs</DependentUpon>
     </EmbeddedResource>
@@ -351,8 +369,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Inventory\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales_Dashboard));
             this.ssdashpanel = new System.Windows.Forms.Panel();
+            this.logoutPB = new System.Windows.Forms.PictureBox();
+            this.staffuserlbl = new System.Windows.Forms.Label();
             this.lobtn = new System.Windows.Forms.Button();
             this.dashovpanellbl = new System.Windows.Forms.Label();
-            this.staffuserlbl = new System.Windows.Forms.Label();
-            this.logoutPB = new System.Windows.Forms.PictureBox();
             this.ssponumlbl = new System.Windows.Forms.Label();
             this.pendingordersPB = new System.Windows.Forms.PictureBox();
             this.sspendingorderTB = new System.Windows.Forms.TextBox();
@@ -41,28 +41,33 @@
             this.totalusersPB = new System.Windows.Forms.PictureBox();
             this.totalproductslbl = new System.Windows.Forms.Label();
             this.sstotalprodpanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.totalusersTB = new System.Windows.Forms.TextBox();
+            this.sstotalprodTB = new System.Windows.Forms.TextBox();
             this.sspendingorderspanel = new System.Windows.Forms.Panel();
+            this.lbl2 = new System.Windows.Forms.Label();
             this.pendingorderlbl = new System.Windows.Forms.Label();
             this.ssnumberlbl = new System.Windows.Forms.Label();
             this.totalorderPB = new System.Windows.Forms.PictureBox();
-            this.totalorderlbl = new System.Windows.Forms.Label();
+            this.totallprodinvlbl = new System.Windows.Forms.Label();
             this.sstotalorderpanel = new System.Windows.Forms.Panel();
-            this.lbl1 = new System.Windows.Forms.Label();
             this.sstotalorderTB = new System.Windows.Forms.TextBox();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.sstotalprodTB = new System.Windows.Forms.TextBox();
             this.recentordpanel = new System.Windows.Forms.Panel();
-            this.recordlbl = new System.Windows.Forms.Label();
             this.dispbtn = new System.Windows.Forms.Button();
+            this.recordlbl = new System.Windows.Forms.Label();
             this.ssrecoddeetspanel = new System.Windows.Forms.Panel();
             this.ord2deetspanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.tot2lbl = new System.Windows.Forms.Label();
+            this.c2lbl = new System.Windows.Forms.Label();
             this.ssstat2btn = new System.Windows.Forms.Button();
+            this.ord2lbl = new System.Windows.Forms.Label();
             this.ord1deetspanel = new System.Windows.Forms.Panel();
             this.d1lbl = new System.Windows.Forms.Label();
+            this.tot1lbl = new System.Windows.Forms.Label();
+            this.c1lbl = new System.Windows.Forms.Label();
             this.ssstat1btn = new System.Windows.Forms.Button();
+            this.ord1lbl = new System.Windows.Forms.Label();
             this.ssrecordinfopanel = new System.Windows.Forms.Panel();
             this.ssdatelbl = new System.Windows.Forms.Label();
             this.recodstatuslbl = new System.Windows.Forms.Label();
@@ -70,12 +75,6 @@
             this.totallbl = new System.Windows.Forms.Label();
             this.customerlbl = new System.Windows.Forms.Label();
             this.orderidlbl = new System.Windows.Forms.Label();
-            this.ord1lbl = new System.Windows.Forms.Label();
-            this.tot2lbl = new System.Windows.Forms.Label();
-            this.ord2lbl = new System.Windows.Forms.Label();
-            this.c2lbl = new System.Windows.Forms.Label();
-            this.c1lbl = new System.Windows.Forms.Label();
-            this.tot1lbl = new System.Windows.Forms.Label();
             this.lowstockpanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.lsplbl = new System.Windows.Forms.Label();
@@ -86,6 +85,7 @@
             this.ssqtylbl = new System.Windows.Forms.Label();
             this.sscateglbl = new System.Windows.Forms.Label();
             this.ssproductlbl = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.ssdashpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pendingordersPB)).BeginInit();
@@ -117,6 +117,26 @@
             this.ssdashpanel.Size = new System.Drawing.Size(1195, 66);
             this.ssdashpanel.TabIndex = 10;
             // 
+            // logoutPB
+            // 
+            this.logoutPB.BackColor = System.Drawing.Color.LightPink;
+            this.logoutPB.Image = ((System.Drawing.Image)(resources.GetObject("logoutPB.Image")));
+            this.logoutPB.Location = new System.Drawing.Point(1032, 22);
+            this.logoutPB.Name = "logoutPB";
+            this.logoutPB.Size = new System.Drawing.Size(20, 20);
+            this.logoutPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logoutPB.TabIndex = 8;
+            this.logoutPB.TabStop = false;
+            // 
+            // staffuserlbl
+            // 
+            this.staffuserlbl.AutoSize = true;
+            this.staffuserlbl.Location = new System.Drawing.Point(920, 22);
+            this.staffuserlbl.Name = "staffuserlbl";
+            this.staffuserlbl.Size = new System.Drawing.Size(83, 22);
+            this.staffuserlbl.TabIndex = 3;
+            this.staffuserlbl.Text = "Staff User";
+            // 
             // lobtn
             // 
             this.lobtn.BackColor = System.Drawing.Color.LightPink;
@@ -137,26 +157,6 @@
             this.dashovpanellbl.Size = new System.Drawing.Size(222, 28);
             this.dashovpanellbl.TabIndex = 0;
             this.dashovpanellbl.Text = "Dashboard Overview";
-            // 
-            // staffuserlbl
-            // 
-            this.staffuserlbl.AutoSize = true;
-            this.staffuserlbl.Location = new System.Drawing.Point(920, 22);
-            this.staffuserlbl.Name = "staffuserlbl";
-            this.staffuserlbl.Size = new System.Drawing.Size(83, 22);
-            this.staffuserlbl.TabIndex = 3;
-            this.staffuserlbl.Text = "Staff User";
-            // 
-            // logoutPB
-            // 
-            this.logoutPB.BackColor = System.Drawing.Color.LightPink;
-            this.logoutPB.Image = ((System.Drawing.Image)(resources.GetObject("logoutPB.Image")));
-            this.logoutPB.Location = new System.Drawing.Point(1032, 22);
-            this.logoutPB.Name = "logoutPB";
-            this.logoutPB.Size = new System.Drawing.Size(20, 20);
-            this.logoutPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logoutPB.TabIndex = 8;
-            this.logoutPB.TabStop = false;
             // 
             // ssponumlbl
             // 
@@ -239,6 +239,17 @@
             this.sstotalprodpanel.Size = new System.Drawing.Size(342, 184);
             this.sstotalprodpanel.TabIndex = 13;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(146, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 36);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Active Product\r\n      in stock";
+            // 
             // totalusersTB
             // 
             this.totalusersTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -247,6 +258,16 @@
             this.totalusersTB.Name = "totalusersTB";
             this.totalusersTB.Size = new System.Drawing.Size(0, 0);
             this.totalusersTB.TabIndex = 2;
+            // 
+            // sstotalprodTB
+            // 
+            this.sstotalprodTB.BackColor = System.Drawing.SystemColors.Window;
+            this.sstotalprodTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sstotalprodTB.Location = new System.Drawing.Point(31, 17);
+            this.sstotalprodTB.Multiline = true;
+            this.sstotalprodTB.Name = "sstotalprodTB";
+            this.sstotalprodTB.Size = new System.Drawing.Size(296, 147);
+            this.sstotalprodTB.TabIndex = 8;
             // 
             // sspendingorderspanel
             // 
@@ -260,6 +281,17 @@
             this.sspendingorderspanel.Name = "sspendingorderspanel";
             this.sspendingorderspanel.Size = new System.Drawing.Size(342, 184);
             this.sspendingorderspanel.TabIndex = 12;
+            // 
+            // lbl2
+            // 
+            this.lbl2.AutoSize = true;
+            this.lbl2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.Location = new System.Drawing.Point(140, 90);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(107, 36);
+            this.lbl2.TabIndex = 6;
+            this.lbl2.Text = "Orders awaiting\r\n    Processing";
             // 
             // pendingorderlbl
             // 
@@ -294,16 +326,16 @@
             this.totalorderPB.TabIndex = 2;
             this.totalorderPB.TabStop = false;
             // 
-            // totalorderlbl
+            // totallprodinvlbl
             // 
-            this.totalorderlbl.AutoSize = true;
-            this.totalorderlbl.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.totalorderlbl.Font = new System.Drawing.Font("Palatino Linotype", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalorderlbl.Location = new System.Drawing.Point(124, 66);
-            this.totalorderlbl.Name = "totalorderlbl";
-            this.totalorderlbl.Size = new System.Drawing.Size(108, 23);
-            this.totalorderlbl.TabIndex = 1;
-            this.totalorderlbl.Text = "Total Orders";
+            this.totallprodinvlbl.AutoSize = true;
+            this.totallprodinvlbl.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.totallprodinvlbl.Font = new System.Drawing.Font("Palatino Linotype", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totallprodinvlbl.Location = new System.Drawing.Point(124, 66);
+            this.totallprodinvlbl.Name = "totallprodinvlbl";
+            this.totallprodinvlbl.Size = new System.Drawing.Size(108, 23);
+            this.totallprodinvlbl.TabIndex = 1;
+            this.totallprodinvlbl.Text = "Total Orders";
             // 
             // sstotalorderpanel
             // 
@@ -311,24 +343,12 @@
             this.sstotalorderpanel.Controls.Add(this.lbl1);
             this.sstotalorderpanel.Controls.Add(this.ssnumberlbl);
             this.sstotalorderpanel.Controls.Add(this.totalorderPB);
-            this.sstotalorderpanel.Controls.Add(this.totalorderlbl);
+            this.sstotalorderpanel.Controls.Add(this.totallprodinvlbl);
             this.sstotalorderpanel.Controls.Add(this.sstotalorderTB);
             this.sstotalorderpanel.Location = new System.Drawing.Point(103, 131);
             this.sstotalorderpanel.Name = "sstotalorderpanel";
             this.sstotalorderpanel.Size = new System.Drawing.Size(342, 184);
             this.sstotalorderpanel.TabIndex = 11;
-            // 
-            // lbl1
-            // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(129, 94);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(98, 18);
-            this.lbl1.TabIndex = 5;
-            this.lbl1.Text = "All time orders";
-            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // sstotalorderTB
             // 
@@ -339,38 +359,6 @@
             this.sstotalorderTB.Name = "sstotalorderTB";
             this.sstotalorderTB.Size = new System.Drawing.Size(296, 147);
             this.sstotalorderTB.TabIndex = 0;
-            // 
-            // lbl2
-            // 
-            this.lbl2.AutoSize = true;
-            this.lbl2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(140, 90);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(107, 36);
-            this.lbl2.TabIndex = 6;
-            this.lbl2.Text = "Orders awaiting\r\n    Processing";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(146, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 36);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Active Product\r\n      in stock";
-            // 
-            // sstotalprodTB
-            // 
-            this.sstotalprodTB.BackColor = System.Drawing.SystemColors.Window;
-            this.sstotalprodTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sstotalprodTB.Location = new System.Drawing.Point(31, 17);
-            this.sstotalprodTB.Multiline = true;
-            this.sstotalprodTB.Name = "sstotalprodTB";
-            this.sstotalprodTB.Size = new System.Drawing.Size(296, 147);
-            this.sstotalprodTB.TabIndex = 8;
             // 
             // recentordpanel
             // 
@@ -383,17 +371,6 @@
             this.recentordpanel.Size = new System.Drawing.Size(1195, 49);
             this.recentordpanel.TabIndex = 14;
             // 
-            // recordlbl
-            // 
-            this.recordlbl.AutoSize = true;
-            this.recordlbl.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recordlbl.ForeColor = System.Drawing.Color.Black;
-            this.recordlbl.Location = new System.Drawing.Point(43, 10);
-            this.recordlbl.Name = "recordlbl";
-            this.recordlbl.Size = new System.Drawing.Size(152, 28);
-            this.recordlbl.TabIndex = 0;
-            this.recordlbl.Text = "Recent Orders";
-            // 
             // dispbtn
             // 
             this.dispbtn.BackColor = System.Drawing.Color.PaleVioletRed;
@@ -404,6 +381,17 @@
             this.dispbtn.Size = new System.Drawing.Size(8, 31);
             this.dispbtn.TabIndex = 1;
             this.dispbtn.UseVisualStyleBackColor = false;
+            // 
+            // recordlbl
+            // 
+            this.recordlbl.AutoSize = true;
+            this.recordlbl.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recordlbl.ForeColor = System.Drawing.Color.Black;
+            this.recordlbl.Location = new System.Drawing.Point(43, 10);
+            this.recordlbl.Name = "recordlbl";
+            this.recordlbl.Size = new System.Drawing.Size(152, 28);
+            this.recordlbl.TabIndex = 0;
+            this.recordlbl.Text = "Recent Orders";
             // 
             // ssrecoddeetspanel
             // 
@@ -442,6 +430,26 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Oct  13 2025   ";
             // 
+            // tot2lbl
+            // 
+            this.tot2lbl.AutoSize = true;
+            this.tot2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tot2lbl.Location = new System.Drawing.Point(595, 20);
+            this.tot2lbl.Name = "tot2lbl";
+            this.tot2lbl.Size = new System.Drawing.Size(51, 18);
+            this.tot2lbl.TabIndex = 28;
+            this.tot2lbl.Text = "₱ 2,200";
+            // 
+            // c2lbl
+            // 
+            this.c2lbl.AutoSize = true;
+            this.c2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c2lbl.Location = new System.Drawing.Point(358, 19);
+            this.c2lbl.Name = "c2lbl";
+            this.c2lbl.Size = new System.Drawing.Size(60, 18);
+            this.c2lbl.TabIndex = 27;
+            this.c2lbl.Text = "John Doe";
+            // 
             // ssstat2btn
             // 
             this.ssstat2btn.BackColor = System.Drawing.Color.DarkOrange;
@@ -452,6 +460,16 @@
             this.ssstat2btn.TabIndex = 9;
             this.ssstat2btn.Text = "Cancel";
             this.ssstat2btn.UseVisualStyleBackColor = false;
+            // 
+            // ord2lbl
+            // 
+            this.ord2lbl.AutoSize = true;
+            this.ord2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ord2lbl.Location = new System.Drawing.Point(25, 19);
+            this.ord2lbl.Name = "ord2lbl";
+            this.ord2lbl.Size = new System.Drawing.Size(98, 18);
+            this.ord2lbl.TabIndex = 1;
+            this.ord2lbl.Text = "SPR8M2F1Q6Z";
             // 
             // ord1deetspanel
             // 
@@ -477,6 +495,26 @@
             this.d1lbl.TabIndex = 29;
             this.d1lbl.Text = "Oct  25, 2025";
             // 
+            // tot1lbl
+            // 
+            this.tot1lbl.AutoSize = true;
+            this.tot1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tot1lbl.Location = new System.Drawing.Point(595, 20);
+            this.tot1lbl.Name = "tot1lbl";
+            this.tot1lbl.Size = new System.Drawing.Size(51, 18);
+            this.tot1lbl.TabIndex = 28;
+            this.tot1lbl.Text = "₱ 2,500";
+            // 
+            // c1lbl
+            // 
+            this.c1lbl.AutoSize = true;
+            this.c1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c1lbl.Location = new System.Drawing.Point(358, 19);
+            this.c1lbl.Name = "c1lbl";
+            this.c1lbl.Size = new System.Drawing.Size(60, 18);
+            this.c1lbl.TabIndex = 27;
+            this.c1lbl.Text = "John Doe";
+            // 
             // ssstat1btn
             // 
             this.ssstat1btn.BackColor = System.Drawing.Color.Gold;
@@ -487,6 +525,16 @@
             this.ssstat1btn.TabIndex = 9;
             this.ssstat1btn.Text = "Done";
             this.ssstat1btn.UseVisualStyleBackColor = false;
+            // 
+            // ord1lbl
+            // 
+            this.ord1lbl.AutoSize = true;
+            this.ord1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ord1lbl.Location = new System.Drawing.Point(25, 19);
+            this.ord1lbl.Name = "ord1lbl";
+            this.ord1lbl.Size = new System.Drawing.Size(85, 18);
+            this.ord1lbl.TabIndex = 1;
+            this.ord1lbl.Text = "SPR4K9T82L";
             // 
             // ssrecordinfopanel
             // 
@@ -561,66 +609,6 @@
             this.orderidlbl.Size = new System.Drawing.Size(78, 22);
             this.orderidlbl.TabIndex = 2;
             this.orderidlbl.Text = "Order ID";
-            // 
-            // ord1lbl
-            // 
-            this.ord1lbl.AutoSize = true;
-            this.ord1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ord1lbl.Location = new System.Drawing.Point(25, 19);
-            this.ord1lbl.Name = "ord1lbl";
-            this.ord1lbl.Size = new System.Drawing.Size(85, 18);
-            this.ord1lbl.TabIndex = 1;
-            this.ord1lbl.Text = "SPR4K9T82L";
-            // 
-            // tot2lbl
-            // 
-            this.tot2lbl.AutoSize = true;
-            this.tot2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tot2lbl.Location = new System.Drawing.Point(595, 20);
-            this.tot2lbl.Name = "tot2lbl";
-            this.tot2lbl.Size = new System.Drawing.Size(51, 18);
-            this.tot2lbl.TabIndex = 28;
-            this.tot2lbl.Text = "₱ 2,200";
-            // 
-            // ord2lbl
-            // 
-            this.ord2lbl.AutoSize = true;
-            this.ord2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ord2lbl.Location = new System.Drawing.Point(25, 19);
-            this.ord2lbl.Name = "ord2lbl";
-            this.ord2lbl.Size = new System.Drawing.Size(98, 18);
-            this.ord2lbl.TabIndex = 1;
-            this.ord2lbl.Text = "SPR8M2F1Q6Z";
-            // 
-            // c2lbl
-            // 
-            this.c2lbl.AutoSize = true;
-            this.c2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c2lbl.Location = new System.Drawing.Point(358, 19);
-            this.c2lbl.Name = "c2lbl";
-            this.c2lbl.Size = new System.Drawing.Size(60, 18);
-            this.c2lbl.TabIndex = 27;
-            this.c2lbl.Text = "John Doe";
-            // 
-            // c1lbl
-            // 
-            this.c1lbl.AutoSize = true;
-            this.c1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c1lbl.Location = new System.Drawing.Point(358, 19);
-            this.c1lbl.Name = "c1lbl";
-            this.c1lbl.Size = new System.Drawing.Size(60, 18);
-            this.c1lbl.TabIndex = 27;
-            this.c1lbl.Text = "John Doe";
-            // 
-            // tot1lbl
-            // 
-            this.tot1lbl.AutoSize = true;
-            this.tot1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tot1lbl.Location = new System.Drawing.Point(595, 20);
-            this.tot1lbl.Name = "tot1lbl";
-            this.tot1lbl.Size = new System.Drawing.Size(51, 18);
-            this.tot1lbl.TabIndex = 28;
-            this.tot1lbl.Text = "₱ 2,500";
             // 
             // lowstockpanel
             // 
@@ -729,6 +717,18 @@
             this.ssproductlbl.TabIndex = 2;
             this.ssproductlbl.Text = "Product";
             // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.Location = new System.Drawing.Point(129, 94);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(98, 18);
+            this.lbl1.TabIndex = 5;
+            this.lbl1.Text = "All time orders";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
+            // 
             // Sales_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -795,11 +795,10 @@
         private System.Windows.Forms.Label pendingorderlbl;
         private System.Windows.Forms.Label ssnumberlbl;
         private System.Windows.Forms.PictureBox totalorderPB;
-        private System.Windows.Forms.Label totalorderlbl;
+        private System.Windows.Forms.Label totallprodinvlbl;
         private System.Windows.Forms.Panel sstotalorderpanel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.TextBox sstotalorderTB;
         private System.Windows.Forms.TextBox sstotalprodTB;
         private System.Windows.Forms.Panel recentordpanel;
@@ -835,5 +834,6 @@
         private System.Windows.Forms.Label ssqtylbl;
         private System.Windows.Forms.Label sscateglbl;
         private System.Windows.Forms.Label ssproductlbl;
+        private System.Windows.Forms.Label lbl1;
     }
 }
