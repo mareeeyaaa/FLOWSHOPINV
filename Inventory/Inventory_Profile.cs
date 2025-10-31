@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FLOWSHOPINV.Sales
+namespace FLOWSHOPINV.Inventory
 {
-    public partial class Sales_View_Products : Form
+    public partial class Inventory_Profile : UserControl
     {
-        public Sales_View_Products()
+        public Inventory_Profile()
         {
             InitializeComponent();
-        }
-
-        private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
-        {
-
         }
     }
 }

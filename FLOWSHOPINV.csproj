@@ -134,6 +134,12 @@
     <Compile Include="Admin\Update_Order_Status.Designer.cs">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory\Inventory_Archive.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Archive.Designer.cs">
+      <DependentUpon>Inventory_Archive.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventory\Inventory_Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -151,6 +157,24 @@
     </Compile>
     <Compile Include="Inventory\Inventory_Panel.Designer.cs">
       <DependentUpon>Inventory_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Profile.Designer.cs">
+      <DependentUpon>Inventory_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory_ResReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_ResReq.Designer.cs">
+      <DependentUpon>Inventory_ResReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Restock_Products.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Restock_Products.Designer.cs">
+      <DependentUpon>Inventory_Restock_Products.cs</DependentUpon>
     </Compile>
     <Compile Include="Inventory\Inventory_View_Products.cs">
       <SubType>Form</SubType>
@@ -307,6 +331,9 @@
     <EmbeddedResource Include="Admin\Update_Order_Status.resx">
       <DependentUpon>Update_Order_Status.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_Archive.resx">
+      <DependentUpon>Inventory_Archive.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inventory\Inventory_Dashboard.resx">
       <DependentUpon>Inventory_Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -315,6 +342,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Inventory\Inventory_Panel.resx">
       <DependentUpon>Inventory_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_Profile.resx">
+      <DependentUpon>Inventory_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_ResReq.resx">
+      <DependentUpon>Inventory_ResReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_Restock_Products.resx">
+      <DependentUpon>Inventory_Restock_Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventory\Inventory_View_Products.resx">
       <DependentUpon>Inventory_View_Products.cs</DependentUpon>

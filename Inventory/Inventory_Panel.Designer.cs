@@ -38,6 +38,7 @@
             this.isdbbtn = new System.Windows.Forms.Button();
             this.HiInventoryPanel = new System.Windows.Forms.Label();
             this.InventoryPanelFLP = new System.Windows.Forms.FlowLayoutPanel();
+            this.isarchbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.InventorySC)).BeginInit();
             this.InventorySC.Panel1.SuspendLayout();
             this.InventorySC.Panel2.SuspendLayout();
@@ -54,6 +55,7 @@
             // InventorySC.Panel1
             // 
             this.InventorySC.Panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.InventorySC.Panel1.Controls.Add(this.isarchbtn);
             this.InventorySC.Panel1.Controls.Add(this.isprofPB);
             this.InventorySC.Panel1.Controls.Add(this.InventoryStaffPanel);
             this.InventorySC.Panel1.Controls.Add(this.isprofbtn);
@@ -96,7 +98,7 @@
             this.isprofbtn.FlatAppearance.BorderSize = 0;
             this.isprofbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.isprofbtn.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isprofbtn.Location = new System.Drawing.Point(-127, 491);
+            this.isprofbtn.Location = new System.Drawing.Point(-134, 568);
             this.isprofbtn.Name = "isprofbtn";
             this.isprofbtn.Size = new System.Drawing.Size(473, 75);
             this.isprofbtn.TabIndex = 5;
@@ -165,6 +167,19 @@
             this.InventoryPanelFLP.Size = new System.Drawing.Size(1276, 855);
             this.InventoryPanelFLP.TabIndex = 2;
             // 
+            // isarchbtn
+            // 
+            this.isarchbtn.BackColor = System.Drawing.Color.Transparent;
+            this.isarchbtn.FlatAppearance.BorderSize = 0;
+            this.isarchbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.isarchbtn.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isarchbtn.Location = new System.Drawing.Point(-103, 488);
+            this.isarchbtn.Name = "isarchbtn";
+            this.isarchbtn.Size = new System.Drawing.Size(437, 75);
+            this.isarchbtn.TabIndex = 10;
+            this.isarchbtn.Text = "📥   Archive";
+            this.isarchbtn.UseVisualStyleBackColor = false;
+            // 
             // Inventory_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,5 +209,6 @@
         private System.Windows.Forms.Button isdbbtn;
         private System.Windows.Forms.Label HiInventoryPanel;
         private System.Windows.Forms.FlowLayoutPanel InventoryPanelFLP;
+        private System.Windows.Forms.Button isarchbtn;
     }
 }

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales_Profile));
             this.pmpanel = new System.Windows.Forms.Panel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.logoutPB = new System.Windows.Forms.PictureBox();
             this.staffuserlbl = new System.Windows.Forms.Label();
             this.lobtn = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@
             this.Staffemail = new System.Windows.Forms.Label();
             this.StaffName = new System.Windows.Forms.Label();
             this.ssprofPB = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.ssmaininfopanel = new System.Windows.Forms.Panel();
             this.ssResetChangesbtn = new System.Windows.Forms.Button();
             this.ssSaveChangesbtn = new System.Windows.Forms.Button();
             this.enterpass3PHTB = new PlaceholderTextBox.PlaceholderTextBox();
@@ -64,12 +65,11 @@
             this.sseditprofilepanel = new System.Windows.Forms.Panel();
             this.dispbtn = new System.Windows.Forms.Button();
             this.sseditprofilelbl = new System.Windows.Forms.Label();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.pmpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).BeginInit();
             this.sscontactinfopanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ssprofPB)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.ssmaininfopanel.SuspendLayout();
             this.sschangepasspanel.SuspendLayout();
             this.sseditprofilepanel.SuspendLayout();
             this.SuspendLayout();
@@ -87,6 +87,14 @@
             this.pmpanel.Name = "pmpanel";
             this.pmpanel.Size = new System.Drawing.Size(1210, 66);
             this.pmpanel.TabIndex = 13;
+            // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 66);
+            this.splitter1.TabIndex = 9;
+            this.splitter1.TabStop = false;
             // 
             // logoutPB
             // 
@@ -204,30 +212,30 @@
             this.ssprofPB.TabIndex = 1;
             this.ssprofPB.TabStop = false;
             // 
-            // panel1
+            // ssmaininfopanel
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.ssResetChangesbtn);
-            this.panel1.Controls.Add(this.ssSaveChangesbtn);
-            this.panel1.Controls.Add(this.enterpass3PHTB);
-            this.panel1.Controls.Add(this.enterpass2PHTB);
-            this.panel1.Controls.Add(this.enterpass1PHTB);
-            this.panel1.Controls.Add(this.connewpasslbl);
-            this.panel1.Controls.Add(this.newpasslbl);
-            this.panel1.Controls.Add(this.currentpasslbl);
-            this.panel1.Controls.Add(this.sschangepasspanel);
-            this.panel1.Controls.Add(this.ssphonePHTB);
-            this.panel1.Controls.Add(this.ssemailPHTB);
-            this.panel1.Controls.Add(this.sslnamePHTB);
-            this.panel1.Controls.Add(this.ssphonelbl);
-            this.panel1.Controls.Add(this.ssemaillbl);
-            this.panel1.Controls.Add(this.sslnamelbl);
-            this.panel1.Controls.Add(this.ssfnamePHTB);
-            this.panel1.Controls.Add(this.ssfnamelbl);
-            this.panel1.Location = new System.Drawing.Point(566, 129);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 688);
-            this.panel1.TabIndex = 15;
+            this.ssmaininfopanel.BackColor = System.Drawing.Color.Transparent;
+            this.ssmaininfopanel.Controls.Add(this.ssResetChangesbtn);
+            this.ssmaininfopanel.Controls.Add(this.ssSaveChangesbtn);
+            this.ssmaininfopanel.Controls.Add(this.enterpass3PHTB);
+            this.ssmaininfopanel.Controls.Add(this.enterpass2PHTB);
+            this.ssmaininfopanel.Controls.Add(this.enterpass1PHTB);
+            this.ssmaininfopanel.Controls.Add(this.connewpasslbl);
+            this.ssmaininfopanel.Controls.Add(this.newpasslbl);
+            this.ssmaininfopanel.Controls.Add(this.currentpasslbl);
+            this.ssmaininfopanel.Controls.Add(this.sschangepasspanel);
+            this.ssmaininfopanel.Controls.Add(this.ssphonePHTB);
+            this.ssmaininfopanel.Controls.Add(this.ssemailPHTB);
+            this.ssmaininfopanel.Controls.Add(this.sslnamePHTB);
+            this.ssmaininfopanel.Controls.Add(this.ssphonelbl);
+            this.ssmaininfopanel.Controls.Add(this.ssemaillbl);
+            this.ssmaininfopanel.Controls.Add(this.sslnamelbl);
+            this.ssmaininfopanel.Controls.Add(this.ssfnamePHTB);
+            this.ssmaininfopanel.Controls.Add(this.ssfnamelbl);
+            this.ssmaininfopanel.Location = new System.Drawing.Point(566, 129);
+            this.ssmaininfopanel.Name = "ssmaininfopanel";
+            this.ssmaininfopanel.Size = new System.Drawing.Size(684, 688);
+            this.ssmaininfopanel.TabIndex = 15;
             // 
             // ssResetChangesbtn
             // 
@@ -459,14 +467,6 @@
             this.sseditprofilelbl.TabIndex = 0;
             this.sseditprofilelbl.Text = "Edit Profile";
             // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 66);
-            this.splitter1.TabIndex = 9;
-            this.splitter1.TabStop = false;
-            // 
             // Sales_Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,7 +475,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.sseditprofilepanel);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.ssmaininfopanel);
             this.Controls.Add(this.sscontactinfopanel);
             this.Controls.Add(this.pmpanel);
             this.Name = "Sales_Profile";
@@ -486,8 +486,8 @@
             this.sscontactinfopanel.ResumeLayout(false);
             this.sscontactinfopanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ssprofPB)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.ssmaininfopanel.ResumeLayout(false);
+            this.ssmaininfopanel.PerformLayout();
             this.sschangepasspanel.ResumeLayout(false);
             this.sschangepasspanel.PerformLayout();
             this.sseditprofilepanel.ResumeLayout(false);
@@ -510,7 +510,7 @@
         private PlaceholderTextBox.PlaceholderTextBox ssstaffphonePHTB;
         private PlaceholderTextBox.PlaceholderTextBox ssrolePHTB;
         private PlaceholderTextBox.PlaceholderTextBox ssmemshipPHTB;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel ssmaininfopanel;
         private PlaceholderTextBox.PlaceholderTextBox ssfnamePHTB;
         private System.Windows.Forms.Label ssfnamelbl;
         private System.Windows.Forms.Panel sseditprofilepanel;

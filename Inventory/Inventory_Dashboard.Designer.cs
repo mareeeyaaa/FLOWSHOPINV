@@ -59,22 +59,22 @@
             this.isovchart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.earningovpanel = new System.Windows.Forms.Panel();
             this.retockedpanel = new System.Windows.Forms.Panel();
-            this.isresinfopanel = new System.Windows.Forms.Panel();
-            this.inlbl = new System.Windows.Forms.Label();
-            this.reqstocklbl = new System.Windows.Forms.Label();
-            this.regstockstatlbl = new System.Windows.Forms.Label();
-            this.reqresinfo1panel = new System.Windows.Forms.Panel();
-            this.reqreslbl1 = new System.Windows.Forms.Label();
-            this.inlbl1 = new System.Windows.Forms.Label();
-            this.reqresinfo2panel = new System.Windows.Forms.Panel();
-            this.reqreslbl2 = new System.Windows.Forms.Label();
-            this.inlbl2 = new System.Windows.Forms.Label();
             this.reqresinfo3panel = new System.Windows.Forms.Panel();
+            this.isstat3btn = new System.Windows.Forms.Button();
             this.reqreslbl3 = new System.Windows.Forms.Label();
             this.inlbl3 = new System.Windows.Forms.Label();
+            this.reqresinfo2panel = new System.Windows.Forms.Panel();
             this.isstat2btn = new System.Windows.Forms.Button();
+            this.reqreslbl2 = new System.Windows.Forms.Label();
+            this.inlbl2 = new System.Windows.Forms.Label();
+            this.isresinfopanel = new System.Windows.Forms.Panel();
+            this.regstockstatlbl = new System.Windows.Forms.Label();
+            this.reqstocklbl = new System.Windows.Forms.Label();
+            this.inlbl = new System.Windows.Forms.Label();
+            this.reqresinfo1panel = new System.Windows.Forms.Panel();
             this.isstat1btn = new System.Windows.Forms.Button();
-            this.isstat3btn = new System.Windows.Forms.Button();
+            this.reqreslbl1 = new System.Windows.Forms.Label();
+            this.inlbl1 = new System.Windows.Forms.Label();
             this.isdashpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.islogoutPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.totalusersPB)).BeginInit();
@@ -85,10 +85,10 @@
             this.istotalprodpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.isovchart)).BeginInit();
             this.retockedpanel.SuspendLayout();
+            this.reqresinfo3panel.SuspendLayout();
+            this.reqresinfo2panel.SuspendLayout();
             this.isresinfopanel.SuspendLayout();
             this.reqresinfo1panel.SuspendLayout();
-            this.reqresinfo2panel.SuspendLayout();
-            this.reqresinfo3panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // isdashpanel
@@ -160,7 +160,7 @@
             // 
             this.totalusersPB.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.totalusersPB.Image = ((System.Drawing.Image)(resources.GetObject("totalusersPB.Image")));
-            this.totalusersPB.Location = new System.Drawing.Point(101, 68);
+            this.totalusersPB.Location = new System.Drawing.Point(76, 67);
             this.totalusersPB.Name = "totalusersPB";
             this.totalusersPB.Size = new System.Drawing.Size(43, 40);
             this.totalusersPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -172,7 +172,7 @@
             this.islowstocklbl.AutoSize = true;
             this.islowstocklbl.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.islowstocklbl.Font = new System.Drawing.Font("Palatino Linotype", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.islowstocklbl.Location = new System.Drawing.Point(147, 68);
+            this.islowstocklbl.Location = new System.Drawing.Point(122, 67);
             this.islowstocklbl.Name = "islowstocklbl";
             this.islowstocklbl.Size = new System.Drawing.Size(166, 23);
             this.islowstocklbl.TabIndex = 3;
@@ -216,7 +216,7 @@
             this.lbl3.AutoSize = true;
             this.lbl3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(160, 91);
+            this.lbl3.Location = new System.Drawing.Point(135, 90);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(118, 18);
             this.lbl3.TabIndex = 5;
@@ -396,112 +396,6 @@
             this.retockedpanel.TabIndex = 19;
             this.retockedpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // isresinfopanel
-            // 
-            this.isresinfopanel.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.isresinfopanel.Controls.Add(this.regstockstatlbl);
-            this.isresinfopanel.Controls.Add(this.reqstocklbl);
-            this.isresinfopanel.Controls.Add(this.inlbl);
-            this.isresinfopanel.ForeColor = System.Drawing.Color.Black;
-            this.isresinfopanel.Location = new System.Drawing.Point(1, 1);
-            this.isresinfopanel.Name = "isresinfopanel";
-            this.isresinfopanel.Size = new System.Drawing.Size(412, 55);
-            this.isresinfopanel.TabIndex = 6;
-            // 
-            // inlbl
-            // 
-            this.inlbl.AutoSize = true;
-            this.inlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inlbl.Location = new System.Drawing.Point(37, 18);
-            this.inlbl.Name = "inlbl";
-            this.inlbl.Size = new System.Drawing.Size(76, 18);
-            this.inlbl.TabIndex = 2;
-            this.inlbl.Text = "Item Name";
-            // 
-            // reqstocklbl
-            // 
-            this.reqstocklbl.AutoSize = true;
-            this.reqstocklbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqstocklbl.Location = new System.Drawing.Point(170, 18);
-            this.reqstocklbl.Name = "reqstocklbl";
-            this.reqstocklbl.Size = new System.Drawing.Size(109, 18);
-            this.reqstocklbl.TabIndex = 3;
-            this.reqstocklbl.Text = "Requested Stock";
-            // 
-            // regstockstatlbl
-            // 
-            this.regstockstatlbl.AutoSize = true;
-            this.regstockstatlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regstockstatlbl.Location = new System.Drawing.Point(340, 18);
-            this.regstockstatlbl.Name = "regstockstatlbl";
-            this.regstockstatlbl.Size = new System.Drawing.Size(45, 18);
-            this.regstockstatlbl.TabIndex = 4;
-            this.regstockstatlbl.Text = "Status";
-            // 
-            // reqresinfo1panel
-            // 
-            this.reqresinfo1panel.BackColor = System.Drawing.SystemColors.Window;
-            this.reqresinfo1panel.Controls.Add(this.isstat1btn);
-            this.reqresinfo1panel.Controls.Add(this.reqreslbl1);
-            this.reqresinfo1panel.Controls.Add(this.inlbl1);
-            this.reqresinfo1panel.ForeColor = System.Drawing.Color.Black;
-            this.reqresinfo1panel.Location = new System.Drawing.Point(728, 430);
-            this.reqresinfo1panel.Name = "reqresinfo1panel";
-            this.reqresinfo1panel.Size = new System.Drawing.Size(415, 55);
-            this.reqresinfo1panel.TabIndex = 7;
-            // 
-            // reqreslbl1
-            // 
-            this.reqreslbl1.AutoSize = true;
-            this.reqreslbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqreslbl1.Location = new System.Drawing.Point(208, 18);
-            this.reqreslbl1.Name = "reqreslbl1";
-            this.reqreslbl1.Size = new System.Drawing.Size(29, 18);
-            this.reqreslbl1.TabIndex = 3;
-            this.reqreslbl1.Text = "200";
-            // 
-            // inlbl1
-            // 
-            this.inlbl1.AutoSize = true;
-            this.inlbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inlbl1.Location = new System.Drawing.Point(37, 18);
-            this.inlbl1.Name = "inlbl1";
-            this.inlbl1.Size = new System.Drawing.Size(84, 18);
-            this.inlbl1.TabIndex = 2;
-            this.inlbl1.Text = "Eternal Rose";
-            // 
-            // reqresinfo2panel
-            // 
-            this.reqresinfo2panel.BackColor = System.Drawing.Color.Transparent;
-            this.reqresinfo2panel.Controls.Add(this.isstat2btn);
-            this.reqresinfo2panel.Controls.Add(this.reqreslbl2);
-            this.reqresinfo2panel.Controls.Add(this.inlbl2);
-            this.reqresinfo2panel.ForeColor = System.Drawing.Color.Black;
-            this.reqresinfo2panel.Location = new System.Drawing.Point(0, 111);
-            this.reqresinfo2panel.Name = "reqresinfo2panel";
-            this.reqresinfo2panel.Size = new System.Drawing.Size(415, 55);
-            this.reqresinfo2panel.TabIndex = 8;
-            // 
-            // reqreslbl2
-            // 
-            this.reqreslbl2.AutoSize = true;
-            this.reqreslbl2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqreslbl2.Location = new System.Drawing.Point(208, 18);
-            this.reqreslbl2.Name = "reqreslbl2";
-            this.reqreslbl2.Size = new System.Drawing.Size(29, 18);
-            this.reqreslbl2.TabIndex = 3;
-            this.reqreslbl2.Text = "300";
-            // 
-            // inlbl2
-            // 
-            this.inlbl2.AutoSize = true;
-            this.inlbl2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inlbl2.Location = new System.Drawing.Point(37, 18);
-            this.inlbl2.Name = "inlbl2";
-            this.inlbl2.Size = new System.Drawing.Size(110, 18);
-            this.inlbl2.TabIndex = 2;
-            this.inlbl2.Text = "Garden Fairytale";
-            // 
             // reqresinfo3panel
             // 
             this.reqresinfo3panel.BackColor = System.Drawing.SystemColors.Window;
@@ -513,6 +407,17 @@
             this.reqresinfo3panel.Name = "reqresinfo3panel";
             this.reqresinfo3panel.Size = new System.Drawing.Size(415, 55);
             this.reqresinfo3panel.TabIndex = 8;
+            // 
+            // isstat3btn
+            // 
+            this.isstat3btn.BackColor = System.Drawing.Color.Red;
+            this.isstat3btn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isstat3btn.Location = new System.Drawing.Point(319, 17);
+            this.isstat3btn.Name = "isstat3btn";
+            this.isstat3btn.Size = new System.Drawing.Size(75, 23);
+            this.isstat3btn.TabIndex = 12;
+            this.isstat3btn.Text = "Rejected";
+            this.isstat3btn.UseVisualStyleBackColor = false;
             // 
             // reqreslbl3
             // 
@@ -534,6 +439,18 @@
             this.inlbl3.TabIndex = 2;
             this.inlbl3.Text = "Golden Years";
             // 
+            // reqresinfo2panel
+            // 
+            this.reqresinfo2panel.BackColor = System.Drawing.Color.Transparent;
+            this.reqresinfo2panel.Controls.Add(this.isstat2btn);
+            this.reqresinfo2panel.Controls.Add(this.reqreslbl2);
+            this.reqresinfo2panel.Controls.Add(this.inlbl2);
+            this.reqresinfo2panel.ForeColor = System.Drawing.Color.Black;
+            this.reqresinfo2panel.Location = new System.Drawing.Point(0, 111);
+            this.reqresinfo2panel.Name = "reqresinfo2panel";
+            this.reqresinfo2panel.Size = new System.Drawing.Size(415, 55);
+            this.reqresinfo2panel.TabIndex = 8;
+            // 
             // isstat2btn
             // 
             this.isstat2btn.BackColor = System.Drawing.Color.Lime;
@@ -544,6 +461,80 @@
             this.isstat2btn.TabIndex = 10;
             this.isstat2btn.Text = "Restocked";
             this.isstat2btn.UseVisualStyleBackColor = false;
+            // 
+            // reqreslbl2
+            // 
+            this.reqreslbl2.AutoSize = true;
+            this.reqreslbl2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqreslbl2.Location = new System.Drawing.Point(208, 18);
+            this.reqreslbl2.Name = "reqreslbl2";
+            this.reqreslbl2.Size = new System.Drawing.Size(29, 18);
+            this.reqreslbl2.TabIndex = 3;
+            this.reqreslbl2.Text = "300";
+            // 
+            // inlbl2
+            // 
+            this.inlbl2.AutoSize = true;
+            this.inlbl2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inlbl2.Location = new System.Drawing.Point(37, 18);
+            this.inlbl2.Name = "inlbl2";
+            this.inlbl2.Size = new System.Drawing.Size(110, 18);
+            this.inlbl2.TabIndex = 2;
+            this.inlbl2.Text = "Garden Fairytale";
+            // 
+            // isresinfopanel
+            // 
+            this.isresinfopanel.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.isresinfopanel.Controls.Add(this.regstockstatlbl);
+            this.isresinfopanel.Controls.Add(this.reqstocklbl);
+            this.isresinfopanel.Controls.Add(this.inlbl);
+            this.isresinfopanel.ForeColor = System.Drawing.Color.Black;
+            this.isresinfopanel.Location = new System.Drawing.Point(1, 1);
+            this.isresinfopanel.Name = "isresinfopanel";
+            this.isresinfopanel.Size = new System.Drawing.Size(412, 55);
+            this.isresinfopanel.TabIndex = 6;
+            // 
+            // regstockstatlbl
+            // 
+            this.regstockstatlbl.AutoSize = true;
+            this.regstockstatlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.regstockstatlbl.Location = new System.Drawing.Point(340, 18);
+            this.regstockstatlbl.Name = "regstockstatlbl";
+            this.regstockstatlbl.Size = new System.Drawing.Size(45, 18);
+            this.regstockstatlbl.TabIndex = 4;
+            this.regstockstatlbl.Text = "Status";
+            // 
+            // reqstocklbl
+            // 
+            this.reqstocklbl.AutoSize = true;
+            this.reqstocklbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqstocklbl.Location = new System.Drawing.Point(170, 18);
+            this.reqstocklbl.Name = "reqstocklbl";
+            this.reqstocklbl.Size = new System.Drawing.Size(109, 18);
+            this.reqstocklbl.TabIndex = 3;
+            this.reqstocklbl.Text = "Requested Stock";
+            // 
+            // inlbl
+            // 
+            this.inlbl.AutoSize = true;
+            this.inlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inlbl.Location = new System.Drawing.Point(37, 18);
+            this.inlbl.Name = "inlbl";
+            this.inlbl.Size = new System.Drawing.Size(76, 18);
+            this.inlbl.TabIndex = 2;
+            this.inlbl.Text = "Item Name";
+            // 
+            // reqresinfo1panel
+            // 
+            this.reqresinfo1panel.BackColor = System.Drawing.SystemColors.Window;
+            this.reqresinfo1panel.Controls.Add(this.isstat1btn);
+            this.reqresinfo1panel.Controls.Add(this.reqreslbl1);
+            this.reqresinfo1panel.Controls.Add(this.inlbl1);
+            this.reqresinfo1panel.ForeColor = System.Drawing.Color.Black;
+            this.reqresinfo1panel.Location = new System.Drawing.Point(728, 430);
+            this.reqresinfo1panel.Name = "reqresinfo1panel";
+            this.reqresinfo1panel.Size = new System.Drawing.Size(415, 55);
+            this.reqresinfo1panel.TabIndex = 7;
             // 
             // isstat1btn
             // 
@@ -556,16 +547,25 @@
             this.isstat1btn.Text = "Pending";
             this.isstat1btn.UseVisualStyleBackColor = false;
             // 
-            // isstat3btn
+            // reqreslbl1
             // 
-            this.isstat3btn.BackColor = System.Drawing.Color.Red;
-            this.isstat3btn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isstat3btn.Location = new System.Drawing.Point(319, 17);
-            this.isstat3btn.Name = "isstat3btn";
-            this.isstat3btn.Size = new System.Drawing.Size(75, 23);
-            this.isstat3btn.TabIndex = 12;
-            this.isstat3btn.Text = "Rejected";
-            this.isstat3btn.UseVisualStyleBackColor = false;
+            this.reqreslbl1.AutoSize = true;
+            this.reqreslbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqreslbl1.Location = new System.Drawing.Point(208, 18);
+            this.reqreslbl1.Name = "reqreslbl1";
+            this.reqreslbl1.Size = new System.Drawing.Size(29, 18);
+            this.reqreslbl1.TabIndex = 3;
+            this.reqreslbl1.Text = "200";
+            // 
+            // inlbl1
+            // 
+            this.inlbl1.AutoSize = true;
+            this.inlbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inlbl1.Location = new System.Drawing.Point(37, 18);
+            this.inlbl1.Name = "inlbl1";
+            this.inlbl1.Size = new System.Drawing.Size(84, 18);
+            this.inlbl1.TabIndex = 2;
+            this.inlbl1.Text = "Eternal Rose";
             // 
             // Inventory_Dashboard
             // 
@@ -598,14 +598,14 @@
             this.istotalprodpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.isovchart)).EndInit();
             this.retockedpanel.ResumeLayout(false);
+            this.reqresinfo3panel.ResumeLayout(false);
+            this.reqresinfo3panel.PerformLayout();
+            this.reqresinfo2panel.ResumeLayout(false);
+            this.reqresinfo2panel.PerformLayout();
             this.isresinfopanel.ResumeLayout(false);
             this.isresinfopanel.PerformLayout();
             this.reqresinfo1panel.ResumeLayout(false);
             this.reqresinfo1panel.PerformLayout();
-            this.reqresinfo2panel.ResumeLayout(false);
-            this.reqresinfo2panel.PerformLayout();
-            this.reqresinfo3panel.ResumeLayout(false);
-            this.reqresinfo3panel.PerformLayout();
             this.ResumeLayout(false);
 
         }

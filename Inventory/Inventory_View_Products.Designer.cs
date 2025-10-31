@@ -41,7 +41,7 @@
             this.isiinvtem1lbl = new System.Windows.Forms.Label();
             this.isinvstat1btn = new System.Windows.Forms.Button();
             this.qtynumlbl = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.isinvdesclbl = new System.Windows.Forms.Label();
             this.isinvclosebtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.isinvpb)).BeginInit();
             this.SuspendLayout();
@@ -186,17 +186,17 @@
             this.qtynumlbl.Text = "200";
             this.qtynumlbl.Click += new System.EventHandler(this.qtynumlbl_Click);
             // 
-            // label1
+            // isinvdesclbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Pink;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(316, 171);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 80);
-            this.label1.TabIndex = 44;
-            this.label1.Text = "A dozen red roses \r\nwrapped in black \r\nmatte paper with  \r\n   a satin ribbon.";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.isinvdesclbl.AutoSize = true;
+            this.isinvdesclbl.BackColor = System.Drawing.Color.Pink;
+            this.isinvdesclbl.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isinvdesclbl.Location = new System.Drawing.Point(316, 171);
+            this.isinvdesclbl.Name = "isinvdesclbl";
+            this.isinvdesclbl.Size = new System.Drawing.Size(144, 80);
+            this.isinvdesclbl.TabIndex = 44;
+            this.isinvdesclbl.Text = "A dozen red roses \r\nwrapped in black \r\nmatte paper with  \r\n   a satin ribbon.";
+            this.isinvdesclbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // isinvclosebtn
             // 
@@ -217,7 +217,7 @@
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(490, 414);
             this.Controls.Add(this.isinvclosebtn);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.isinvdesclbl);
             this.Controls.Add(this.isinvstat1btn);
             this.Controls.Add(this.qtynumlbl);
             this.Controls.Add(this.isinprc1lbl);
@@ -253,7 +253,7 @@
         private System.Windows.Forms.Label isiinvtem1lbl;
         private System.Windows.Forms.Button isinvstat1btn;
         private System.Windows.Forms.Label qtynumlbl;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label isinvdesclbl;
         private System.Windows.Forms.Button isinvclosebtn;
     }
 }

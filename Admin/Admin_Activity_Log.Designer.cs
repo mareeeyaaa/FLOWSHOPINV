@@ -424,7 +424,7 @@
             // 
             this.userslbl.AutoSize = true;
             this.userslbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userslbl.Location = new System.Drawing.Point(305, 16);
+            this.userslbl.Location = new System.Drawing.Point(295, 13);
             this.userslbl.Name = "userslbl";
             this.userslbl.Size = new System.Drawing.Size(51, 22);
             this.userslbl.TabIndex = 3;

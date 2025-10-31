@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inventory_Invpanel));
+            System.Windows.Forms.Button isarcbtn;
             this.maininvpanel = new System.Windows.Forms.Panel();
             this.maininvpanellbl = new System.Windows.Forms.Label();
             this.iscateg2lbl = new System.Windows.Forms.Label();
@@ -40,36 +41,36 @@
             this.isentrieslbl = new System.Windows.Forms.Label();
             this.isprc1lbl = new System.Windows.Forms.Label();
             this.isprod3panel = new System.Windows.Forms.Panel();
+            this.isarcbtn2 = new System.Windows.Forms.Button();
+            this.isinvviewbutton2 = new System.Windows.Forms.Button();
             this.isinvstat3btn = new System.Windows.Forms.Button();
             this.qty3 = new System.Windows.Forms.Label();
             this.isprc3lbl = new System.Windows.Forms.Label();
             this.iscateg3lbl = new System.Windows.Forms.Label();
             this.isitem3lbl = new System.Windows.Forms.Label();
             this.isprod1panel = new System.Windows.Forms.Panel();
+            this.isinvviewbutton = new System.Windows.Forms.Button();
             this.isinvstat1btn = new System.Windows.Forms.Button();
             this.iscateg1lbl = new System.Windows.Forms.Label();
             this.isitem1lbl = new System.Windows.Forms.Label();
             this.invdeetspanel = new System.Windows.Forms.Panel();
             this.isprod2panel = new System.Windows.Forms.Panel();
+            this.isarcbtn1 = new System.Windows.Forms.Button();
             this.isinvstat2btn = new System.Windows.Forms.Button();
+            this.isinvviewbutton1 = new System.Windows.Forms.Button();
             this.qty2lbl = new System.Windows.Forms.Label();
             this.isprc2lbl = new System.Windows.Forms.Label();
             this.isinvdud = new System.Windows.Forms.DomainUpDown();
             this.isprodstatuslbl = new System.Windows.Forms.Label();
             this.ismaininvpanel = new System.Windows.Forms.Panel();
+            this.isinvsfiltPHTB = new PlaceholderTextBox.PlaceholderTextBox();
             this.isshowlbl = new System.Windows.Forms.Label();
             this.ismaininvlabelpanel = new System.Windows.Forms.Panel();
             this.isqtylbl = new System.Windows.Forms.Label();
             this.isprodactionslbl = new System.Windows.Forms.Label();
             this.actionlbl = new System.Windows.Forms.Label();
             this.isprodnamelbl = new System.Windows.Forms.Label();
-            this.isinvedtbutton = new System.Windows.Forms.Button();
-            this.isinvviewbutton = new System.Windows.Forms.Button();
-            this.isinvedtbutton1 = new System.Windows.Forms.Button();
-            this.isinvviewbutton1 = new System.Windows.Forms.Button();
-            this.isinvedtbutton2 = new System.Windows.Forms.Button();
-            this.isinvviewbutton2 = new System.Windows.Forms.Button();
-            this.isinvsfiltPHTB = new PlaceholderTextBox.PlaceholderTextBox();
+            isarcbtn = new System.Windows.Forms.Button();
             this.maininvpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.issearchPB)).BeginInit();
             this.isprod3panel.SuspendLayout();
@@ -185,7 +186,7 @@
             // 
             this.isprod3panel.BackColor = System.Drawing.SystemColors.Control;
             this.isprod3panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.isprod3panel.Controls.Add(this.isinvedtbutton2);
+            this.isprod3panel.Controls.Add(this.isarcbtn2);
             this.isprod3panel.Controls.Add(this.isinvviewbutton2);
             this.isprod3panel.Controls.Add(this.isinvstat3btn);
             this.isprod3panel.Controls.Add(this.qty3);
@@ -196,6 +197,30 @@
             this.isprod3panel.Name = "isprod3panel";
             this.isprod3panel.Size = new System.Drawing.Size(1137, 73);
             this.isprod3panel.TabIndex = 28;
+            // 
+            // isarcbtn2
+            // 
+            this.isarcbtn2.BackColor = System.Drawing.Color.Azure;
+            this.isarcbtn2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isarcbtn2.BackgroundImage")));
+            this.isarcbtn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.isarcbtn2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isarcbtn2.Location = new System.Drawing.Point(1027, 13);
+            this.isarcbtn2.Name = "isarcbtn2";
+            this.isarcbtn2.Size = new System.Drawing.Size(34, 32);
+            this.isarcbtn2.TabIndex = 34;
+            this.isarcbtn2.UseVisualStyleBackColor = false;
+            // 
+            // isinvviewbutton2
+            // 
+            this.isinvviewbutton2.BackColor = System.Drawing.Color.LightPink;
+            this.isinvviewbutton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvviewbutton2.BackgroundImage")));
+            this.isinvviewbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.isinvviewbutton2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isinvviewbutton2.Location = new System.Drawing.Point(995, 13);
+            this.isinvviewbutton2.Name = "isinvviewbutton2";
+            this.isinvviewbutton2.Size = new System.Drawing.Size(34, 32);
+            this.isinvviewbutton2.TabIndex = 33;
+            this.isinvviewbutton2.UseVisualStyleBackColor = false;
             // 
             // isinvstat3btn
             // 
@@ -252,7 +277,7 @@
             // 
             this.isprod1panel.BackColor = System.Drawing.SystemColors.Control;
             this.isprod1panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.isprod1panel.Controls.Add(this.isinvedtbutton);
+            this.isprod1panel.Controls.Add(isarcbtn);
             this.isprod1panel.Controls.Add(this.isinvviewbutton);
             this.isprod1panel.Controls.Add(this.isinvstat1btn);
             this.isprod1panel.Controls.Add(this.qtynumlbl);
@@ -263,6 +288,30 @@
             this.isprod1panel.Name = "isprod1panel";
             this.isprod1panel.Size = new System.Drawing.Size(1137, 73);
             this.isprod1panel.TabIndex = 21;
+            // 
+            // isarcbtn
+            // 
+            isarcbtn.BackColor = System.Drawing.Color.Azure;
+            isarcbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isarcbtn.BackgroundImage")));
+            isarcbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            isarcbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            isarcbtn.Location = new System.Drawing.Point(1028, 23);
+            isarcbtn.Name = "isarcbtn";
+            isarcbtn.Size = new System.Drawing.Size(34, 32);
+            isarcbtn.TabIndex = 30;
+            isarcbtn.UseVisualStyleBackColor = false;
+            // 
+            // isinvviewbutton
+            // 
+            this.isinvviewbutton.BackColor = System.Drawing.Color.LightPink;
+            this.isinvviewbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvviewbutton.BackgroundImage")));
+            this.isinvviewbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.isinvviewbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isinvviewbutton.Location = new System.Drawing.Point(996, 23);
+            this.isinvviewbutton.Name = "isinvviewbutton";
+            this.isinvviewbutton.Size = new System.Drawing.Size(34, 32);
+            this.isinvviewbutton.TabIndex = 29;
+            this.isinvviewbutton.UseVisualStyleBackColor = false;
             // 
             // isinvstat1btn
             // 
@@ -310,7 +359,7 @@
             // 
             this.isprod2panel.BackColor = System.Drawing.Color.Transparent;
             this.isprod2panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.isprod2panel.Controls.Add(this.isinvedtbutton1);
+            this.isprod2panel.Controls.Add(this.isarcbtn1);
             this.isprod2panel.Controls.Add(this.isinvstat2btn);
             this.isprod2panel.Controls.Add(this.isinvviewbutton1);
             this.isprod2panel.Controls.Add(this.qty2lbl);
@@ -322,6 +371,18 @@
             this.isprod2panel.Size = new System.Drawing.Size(1137, 73);
             this.isprod2panel.TabIndex = 27;
             // 
+            // isarcbtn1
+            // 
+            this.isarcbtn1.BackColor = System.Drawing.Color.Azure;
+            this.isarcbtn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isarcbtn1.BackgroundImage")));
+            this.isarcbtn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.isarcbtn1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isarcbtn1.Location = new System.Drawing.Point(1028, 15);
+            this.isarcbtn1.Name = "isarcbtn1";
+            this.isarcbtn1.Size = new System.Drawing.Size(34, 32);
+            this.isarcbtn1.TabIndex = 32;
+            this.isarcbtn1.UseVisualStyleBackColor = false;
+            // 
             // isinvstat2btn
             // 
             this.isinvstat2btn.BackColor = System.Drawing.Color.Lime;
@@ -332,6 +393,18 @@
             this.isinvstat2btn.TabIndex = 9;
             this.isinvstat2btn.Text = "Active";
             this.isinvstat2btn.UseVisualStyleBackColor = false;
+            // 
+            // isinvviewbutton1
+            // 
+            this.isinvviewbutton1.BackColor = System.Drawing.Color.LightPink;
+            this.isinvviewbutton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvviewbutton1.BackgroundImage")));
+            this.isinvviewbutton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.isinvviewbutton1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isinvviewbutton1.Location = new System.Drawing.Point(996, 15);
+            this.isinvviewbutton1.Name = "isinvviewbutton1";
+            this.isinvviewbutton1.Size = new System.Drawing.Size(34, 32);
+            this.isinvviewbutton1.TabIndex = 31;
+            this.isinvviewbutton1.UseVisualStyleBackColor = false;
             // 
             // qty2lbl
             // 
@@ -387,6 +460,16 @@
             this.ismaininvpanel.Size = new System.Drawing.Size(1186, 643);
             this.ismaininvpanel.TabIndex = 8;
             // 
+            // isinvsfiltPHTB
+            // 
+            this.isinvsfiltPHTB.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isinvsfiltPHTB.Location = new System.Drawing.Point(883, 18);
+            this.isinvsfiltPHTB.Multiline = true;
+            this.isinvsfiltPHTB.Name = "isinvsfiltPHTB";
+            this.isinvsfiltPHTB.PlaceholderText = "Search Products";
+            this.isinvsfiltPHTB.Size = new System.Drawing.Size(276, 28);
+            this.isinvsfiltPHTB.TabIndex = 31;
+            // 
             // isshowlbl
             // 
             this.isshowlbl.AutoSize = true;
@@ -399,7 +482,7 @@
             // 
             // ismaininvlabelpanel
             // 
-            this.ismaininvlabelpanel.BackColor = System.Drawing.Color.LightPink;
+            this.ismaininvlabelpanel.BackColor = System.Drawing.Color.PaleVioletRed;
             this.ismaininvlabelpanel.Controls.Add(this.isqtylbl);
             this.ismaininvlabelpanel.Controls.Add(this.isprodactionslbl);
             this.ismaininvlabelpanel.Controls.Add(this.isprodstatuslbl);
@@ -451,88 +534,6 @@
             this.isprodnamelbl.Size = new System.Drawing.Size(54, 22);
             this.isprodnamelbl.TabIndex = 3;
             this.isprodnamelbl.Text = "Name";
-            // 
-            // isinvedtbutton
-            // 
-            this.isinvedtbutton.BackColor = System.Drawing.Color.Crimson;
-            this.isinvedtbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvedtbutton.BackgroundImage")));
-            this.isinvedtbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.isinvedtbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvedtbutton.Location = new System.Drawing.Point(1028, 23);
-            this.isinvedtbutton.Name = "isinvedtbutton";
-            this.isinvedtbutton.Size = new System.Drawing.Size(34, 32);
-            this.isinvedtbutton.TabIndex = 30;
-            this.isinvedtbutton.UseVisualStyleBackColor = false;
-            // 
-            // isinvviewbutton
-            // 
-            this.isinvviewbutton.BackColor = System.Drawing.Color.LightPink;
-            this.isinvviewbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvviewbutton.BackgroundImage")));
-            this.isinvviewbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.isinvviewbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvviewbutton.Location = new System.Drawing.Point(996, 23);
-            this.isinvviewbutton.Name = "isinvviewbutton";
-            this.isinvviewbutton.Size = new System.Drawing.Size(34, 32);
-            this.isinvviewbutton.TabIndex = 29;
-            this.isinvviewbutton.UseVisualStyleBackColor = false;
-            // 
-            // isinvedtbutton1
-            // 
-            this.isinvedtbutton1.BackColor = System.Drawing.Color.Crimson;
-            this.isinvedtbutton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvedtbutton1.BackgroundImage")));
-            this.isinvedtbutton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.isinvedtbutton1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvedtbutton1.Location = new System.Drawing.Point(1028, 15);
-            this.isinvedtbutton1.Name = "isinvedtbutton1";
-            this.isinvedtbutton1.Size = new System.Drawing.Size(34, 32);
-            this.isinvedtbutton1.TabIndex = 32;
-            this.isinvedtbutton1.UseVisualStyleBackColor = false;
-            // 
-            // isinvviewbutton1
-            // 
-            this.isinvviewbutton1.BackColor = System.Drawing.Color.LightPink;
-            this.isinvviewbutton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvviewbutton1.BackgroundImage")));
-            this.isinvviewbutton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.isinvviewbutton1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvviewbutton1.Location = new System.Drawing.Point(996, 15);
-            this.isinvviewbutton1.Name = "isinvviewbutton1";
-            this.isinvviewbutton1.Size = new System.Drawing.Size(34, 32);
-            this.isinvviewbutton1.TabIndex = 31;
-            this.isinvviewbutton1.UseVisualStyleBackColor = false;
-            // 
-            // isinvedtbutton2
-            // 
-            this.isinvedtbutton2.BackColor = System.Drawing.Color.Crimson;
-            this.isinvedtbutton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvedtbutton2.BackgroundImage")));
-            this.isinvedtbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.isinvedtbutton2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvedtbutton2.Location = new System.Drawing.Point(1027, 19);
-            this.isinvedtbutton2.Name = "isinvedtbutton2";
-            this.isinvedtbutton2.Size = new System.Drawing.Size(34, 32);
-            this.isinvedtbutton2.TabIndex = 34;
-            this.isinvedtbutton2.UseVisualStyleBackColor = false;
-            // 
-            // isinvviewbutton2
-            // 
-            this.isinvviewbutton2.BackColor = System.Drawing.Color.LightPink;
-            this.isinvviewbutton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("isinvviewbutton2.BackgroundImage")));
-            this.isinvviewbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.isinvviewbutton2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvviewbutton2.Location = new System.Drawing.Point(995, 19);
-            this.isinvviewbutton2.Name = "isinvviewbutton2";
-            this.isinvviewbutton2.Size = new System.Drawing.Size(34, 32);
-            this.isinvviewbutton2.TabIndex = 33;
-            this.isinvviewbutton2.UseVisualStyleBackColor = false;
-            // 
-            // isinvsfiltPHTB
-            // 
-            this.isinvsfiltPHTB.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.isinvsfiltPHTB.Location = new System.Drawing.Point(883, 18);
-            this.isinvsfiltPHTB.Multiline = true;
-            this.isinvsfiltPHTB.Name = "isinvsfiltPHTB";
-            this.isinvsfiltPHTB.PlaceholderText = "Search Products";
-            this.isinvsfiltPHTB.Size = new System.Drawing.Size(276, 28);
-            this.isinvsfiltPHTB.TabIndex = 31;
             // 
             // Inventory_Invpanel
             // 
@@ -599,11 +600,10 @@
         private System.Windows.Forms.Label isprodactionslbl;
         private System.Windows.Forms.Label actionlbl;
         private System.Windows.Forms.Label isprodnamelbl;
-        private System.Windows.Forms.Button isinvedtbutton;
         private System.Windows.Forms.Button isinvviewbutton;
-        private System.Windows.Forms.Button isinvedtbutton2;
+        private System.Windows.Forms.Button isarcbtn2;
         private System.Windows.Forms.Button isinvviewbutton2;
-        private System.Windows.Forms.Button isinvedtbutton1;
+        private System.Windows.Forms.Button isarcbtn1;
         private System.Windows.Forms.Button isinvviewbutton1;
         private PlaceholderTextBox.PlaceholderTextBox isinvsfiltPHTB;
     }
