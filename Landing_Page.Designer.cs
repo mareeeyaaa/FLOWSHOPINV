@@ -43,7 +43,7 @@
             this.lpmesspanel.Controls.Add(this.expprodbtn);
             this.lpmesspanel.Controls.Add(this.lpmesslbl1);
             this.lpmesspanel.Controls.Add(this.lpmesslbl);
-            this.lpmesspanel.Location = new System.Drawing.Point(341, 199);
+            this.lpmesspanel.Location = new System.Drawing.Point(355, 199);
             this.lpmesspanel.Name = "lpmesspanel";
             this.lpmesspanel.Size = new System.Drawing.Size(869, 414);
             this.lpmesspanel.TabIndex = 0;
