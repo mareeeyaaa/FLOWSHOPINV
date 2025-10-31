@@ -75,7 +75,7 @@
             // 
             // invarchpanel
             // 
-            this.invarchpanel.BackColor = System.Drawing.SystemColors.Control;
+            this.invarchpanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.invarchpanel.Controls.Add(this.invarchlbl);
             this.invarchpanel.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.invarchpanel.Location = new System.Drawing.Point(40, 20);
@@ -210,7 +210,7 @@
             // 
             // archmainpanel
             // 
-            this.archmainpanel.BackColor = System.Drawing.SystemColors.Window;
+            this.archmainpanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.archmainpanel.Controls.Add(this.archsfiltPHTB1);
             this.archmainpanel.Controls.Add(this.archsearchPB);
             this.archmainpanel.Controls.Add(this.archdud);

@@ -263,7 +263,7 @@
             // 
             // invspanel
             // 
-            this.invspanel.BackColor = System.Drawing.SystemColors.Window;
+            this.invspanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.invspanel.Controls.Add(this.splitter1);
             this.invspanel.Controls.Add(this.logoutPB);
             this.invspanel.Controls.Add(this.invstaffuserlbl);

@@ -51,7 +51,7 @@
             this.menupanel.Controls.Add(this.homePB);
             this.menupanel.Controls.Add(this.optPB);
             this.menupanel.Location = new System.Drawing.Point(1, 0);
-            this.menupanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.menupanel.Margin = new System.Windows.Forms.Padding(2);
             this.menupanel.Name = "menupanel";
             this.menupanel.Size = new System.Drawing.Size(1657, 80);
             this.menupanel.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.atcPB.Image = ((System.Drawing.Image)(resources.GetObject("atcPB.Image")));
             this.atcPB.Location = new System.Drawing.Point(1505, 20);
-            this.atcPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.atcPB.Margin = new System.Windows.Forms.Padding(2);
             this.atcPB.Name = "atcPB";
             this.atcPB.Size = new System.Drawing.Size(44, 41);
             this.atcPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,7 +72,7 @@
             // 
             this.prodPB.Image = ((System.Drawing.Image)(resources.GetObject("prodPB.Image")));
             this.prodPB.Location = new System.Drawing.Point(1432, 20);
-            this.prodPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.prodPB.Margin = new System.Windows.Forms.Padding(2);
             this.prodPB.Name = "prodPB";
             this.prodPB.Size = new System.Drawing.Size(44, 41);
             this.prodPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -84,7 +84,7 @@
             // 
             this.homePB.Image = ((System.Drawing.Image)(resources.GetObject("homePB.Image")));
             this.homePB.Location = new System.Drawing.Point(1354, 20);
-            this.homePB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.homePB.Margin = new System.Windows.Forms.Padding(2);
             this.homePB.Name = "homePB";
             this.homePB.Size = new System.Drawing.Size(44, 41);
             this.homePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -95,10 +95,10 @@
             // optPB
             // 
             this.optPB.Image = ((System.Drawing.Image)(resources.GetObject("optPB.Image")));
-            this.optPB.Location = new System.Drawing.Point(28, 20);
-            this.optPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.optPB.Location = new System.Drawing.Point(15, -25);
+            this.optPB.Margin = new System.Windows.Forms.Padding(2);
             this.optPB.Name = "optPB";
-            this.optPB.Size = new System.Drawing.Size(44, 41);
+            this.optPB.Size = new System.Drawing.Size(112, 123);
             this.optPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.optPB.TabIndex = 0;
             this.optPB.TabStop = false;
@@ -107,7 +107,7 @@
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
             this.mainPanel.Location = new System.Drawing.Point(89, 110);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1487, 738);
             this.mainPanel.TabIndex = 3;
@@ -122,7 +122,7 @@
             this.ClientSize = new System.Drawing.Size(1616, 859);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.menupanel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Homepage";
             this.Text = "Homepage";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -83,7 +83,7 @@
             // 
             // maininvpanel
             // 
-            this.maininvpanel.BackColor = System.Drawing.SystemColors.Control;
+            this.maininvpanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.maininvpanel.Controls.Add(this.maininvpanellbl);
             this.maininvpanel.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maininvpanel.Location = new System.Drawing.Point(40, 20);
@@ -447,7 +447,7 @@
             // 
             // ismaininvpanel
             // 
-            this.ismaininvpanel.BackColor = System.Drawing.SystemColors.Window;
+            this.ismaininvpanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.ismaininvpanel.Controls.Add(this.isinvsfiltPHTB);
             this.ismaininvpanel.Controls.Add(this.issearchPB);
             this.ismaininvpanel.Controls.Add(this.isinvdud);

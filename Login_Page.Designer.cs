@@ -35,13 +35,13 @@
             this.bthbutton = new System.Windows.Forms.Button();
             this.logpan = new System.Windows.Forms.Panel();
             this.loginbutton = new System.Windows.Forms.Button();
-            this.regbutton = new System.Windows.Forms.Button();
             this.forgpasslnklbl = new System.Windows.Forms.LinkLabel();
             this.remcb = new System.Windows.Forms.CheckBox();
             this.passlbl = new System.Windows.Forms.Label();
             this.emlbl = new System.Windows.Forms.Label();
             this.passTB = new System.Windows.Forms.TextBox();
             this.emailTB = new System.Windows.Forms.TextBox();
+            this.regbutton = new System.Windows.Forms.Button();
             this.loginpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.loginsplt)).BeginInit();
             this.loginsplt.Panel1.SuspendLayout();
@@ -55,7 +55,7 @@
             // 
             this.loginpanel.Controls.Add(this.loginsplt);
             this.loginpanel.Location = new System.Drawing.Point(337, 176);
-            this.loginpanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.loginpanel.Margin = new System.Windows.Forms.Padding(2);
             this.loginpanel.Name = "loginpanel";
             this.loginpanel.Size = new System.Drawing.Size(1020, 579);
             this.loginpanel.TabIndex = 0;
@@ -64,7 +64,7 @@
             // 
             this.loginsplt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loginsplt.Location = new System.Drawing.Point(0, 0);
-            this.loginsplt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.loginsplt.Margin = new System.Windows.Forms.Padding(2);
             this.loginsplt.Name = "loginsplt";
             // 
             // loginsplt.Panel1
@@ -76,7 +76,7 @@
             // 
             // loginsplt.Panel2
             // 
-            this.loginsplt.Panel2.BackColor = System.Drawing.Color.LightCoral;
+            this.loginsplt.Panel2.BackColor = System.Drawing.Color.Pink;
             this.loginsplt.Panel2.Controls.Add(this.bthbutton);
             this.loginsplt.Panel2.Controls.Add(this.logpan);
             this.loginsplt.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.loginsplt_Panel2_Paint);
@@ -91,7 +91,7 @@
             this.btpb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btpb.Image = ((System.Drawing.Image)(resources.GetObject("btpb.Image")));
             this.btpb.Location = new System.Drawing.Point(-35, 47);
-            this.btpb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btpb.Margin = new System.Windows.Forms.Padding(2);
             this.btpb.Name = "btpb";
             this.btpb.Size = new System.Drawing.Size(429, 437);
             this.btpb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,7 +103,7 @@
             this.bthbutton.BackColor = System.Drawing.Color.LightCoral;
             this.bthbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bthbutton.Location = new System.Drawing.Point(43, 442);
-            this.bthbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bthbutton.Margin = new System.Windows.Forms.Padding(2);
             this.bthbutton.Name = "bthbutton";
             this.bthbutton.Size = new System.Drawing.Size(519, 37);
             this.bthbutton.TabIndex = 1;
@@ -122,7 +122,7 @@
             this.logpan.Controls.Add(this.passTB);
             this.logpan.Controls.Add(this.emailTB);
             this.logpan.Location = new System.Drawing.Point(43, 58);
-            this.logpan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logpan.Margin = new System.Windows.Forms.Padding(2);
             this.logpan.Name = "logpan";
             this.logpan.Size = new System.Drawing.Size(519, 349);
             this.logpan.TabIndex = 0;
@@ -134,26 +134,12 @@
             this.loginbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.loginbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginbutton.Location = new System.Drawing.Point(23, 268);
-            this.loginbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.loginbutton.Margin = new System.Windows.Forms.Padding(2);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(471, 37);
             this.loginbutton.TabIndex = 7;
             this.loginbutton.Text = "Login";
             this.loginbutton.UseVisualStyleBackColor = false;
-            // 
-            // regbutton
-            // 
-            this.regbutton.BackColor = System.Drawing.Color.Salmon;
-            this.regbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.regbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regbutton.Location = new System.Drawing.Point(22, 215);
-            this.regbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.regbutton.Name = "regbutton";
-            this.regbutton.Size = new System.Drawing.Size(472, 37);
-            this.regbutton.TabIndex = 6;
-            this.regbutton.Text = "Register";
-            this.regbutton.UseVisualStyleBackColor = false;
-            this.regbutton.Click += new System.EventHandler(this.regbutton_Click);
             // 
             // forgpasslnklbl
             // 
@@ -174,7 +160,7 @@
             this.remcb.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.remcb.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.remcb.Location = new System.Drawing.Point(23, 164);
-            this.remcb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.remcb.Margin = new System.Windows.Forms.Padding(2);
             this.remcb.Name = "remcb";
             this.remcb.Size = new System.Drawing.Size(143, 21);
             this.remcb.TabIndex = 4;
@@ -210,7 +196,7 @@
             this.passTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passTB.ForeColor = System.Drawing.SystemColors.InfoText;
             this.passTB.Location = new System.Drawing.Point(22, 119);
-            this.passTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passTB.Margin = new System.Windows.Forms.Padding(2);
             this.passTB.Multiline = true;
             this.passTB.Name = "passTB";
             this.passTB.Size = new System.Drawing.Size(472, 30);
@@ -222,11 +208,25 @@
             this.emailTB.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailTB.ForeColor = System.Drawing.SystemColors.InfoText;
             this.emailTB.Location = new System.Drawing.Point(22, 49);
-            this.emailTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.emailTB.Margin = new System.Windows.Forms.Padding(2);
             this.emailTB.Multiline = true;
             this.emailTB.Name = "emailTB";
             this.emailTB.Size = new System.Drawing.Size(472, 30);
             this.emailTB.TabIndex = 0;
+            // 
+            // regbutton
+            // 
+            this.regbutton.BackColor = System.Drawing.Color.LightPink;
+            this.regbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.regbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.regbutton.Location = new System.Drawing.Point(22, 215);
+            this.regbutton.Margin = new System.Windows.Forms.Padding(2);
+            this.regbutton.Name = "regbutton";
+            this.regbutton.Size = new System.Drawing.Size(472, 37);
+            this.regbutton.TabIndex = 6;
+            this.regbutton.Text = "Register";
+            this.regbutton.UseVisualStyleBackColor = false;
+            this.regbutton.Click += new System.EventHandler(this.regbutton_Click);
             // 
             // Login_Panel
             // 
@@ -236,7 +236,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1616, 859);
             this.Controls.Add(this.loginpanel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login_Panel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_Page";
@@ -265,10 +265,10 @@
         private System.Windows.Forms.Label emlbl;
         private System.Windows.Forms.CheckBox remcb;
         private System.Windows.Forms.LinkLabel forgpasslnklbl;
-        private System.Windows.Forms.Button regbutton;
         private System.Windows.Forms.Button loginbutton;
         private System.Windows.Forms.Button bthbutton;
         private System.Windows.Forms.PictureBox btpb;
+        private System.Windows.Forms.Button regbutton;
     }
 }
 

@@ -51,6 +51,7 @@
             this.totalorderPB = new System.Windows.Forms.PictureBox();
             this.totallprodinvlbl = new System.Windows.Forms.Label();
             this.sstotalorderpanel = new System.Windows.Forms.Panel();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.sstotalorderTB = new System.Windows.Forms.TextBox();
             this.recentordpanel = new System.Windows.Forms.Panel();
             this.dispbtn = new System.Windows.Forms.Button();
@@ -85,7 +86,6 @@
             this.ssqtylbl = new System.Windows.Forms.Label();
             this.sscateglbl = new System.Windows.Forms.Label();
             this.ssproductlbl = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
             this.ssdashpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pendingordersPB)).BeginInit();
@@ -106,7 +106,7 @@
             // 
             // ssdashpanel
             // 
-            this.ssdashpanel.BackColor = System.Drawing.SystemColors.Window;
+            this.ssdashpanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.ssdashpanel.Controls.Add(this.logoutPB);
             this.ssdashpanel.Controls.Add(this.staffuserlbl);
             this.ssdashpanel.Controls.Add(this.lobtn);
@@ -350,6 +350,18 @@
             this.sstotalorderpanel.Size = new System.Drawing.Size(342, 184);
             this.sstotalorderpanel.TabIndex = 11;
             // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.Location = new System.Drawing.Point(129, 94);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(98, 18);
+            this.lbl1.TabIndex = 5;
+            this.lbl1.Text = "All time orders";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
+            // 
             // sstotalorderTB
             // 
             this.sstotalorderTB.BackColor = System.Drawing.SystemColors.Window;
@@ -396,7 +408,7 @@
             // ssrecoddeetspanel
             // 
             this.ssrecoddeetspanel.AutoScroll = true;
-            this.ssrecoddeetspanel.BackColor = System.Drawing.SystemColors.Control;
+            this.ssrecoddeetspanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.ssrecoddeetspanel.Controls.Add(this.ord2deetspanel);
             this.ssrecoddeetspanel.Controls.Add(this.ord1deetspanel);
             this.ssrecoddeetspanel.Controls.Add(this.ssrecordinfopanel);
@@ -646,7 +658,7 @@
             // sslsppanel
             // 
             this.sslsppanel.AutoScroll = true;
-            this.sslsppanel.BackColor = System.Drawing.SystemColors.Control;
+            this.sslsppanel.BackColor = System.Drawing.Color.LavenderBlush;
             this.sslsppanel.Controls.Add(this.panel4);
             this.sslsppanel.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sslsppanel.Location = new System.Drawing.Point(40, 739);
@@ -716,18 +728,6 @@
             this.ssproductlbl.Size = new System.Drawing.Size(69, 22);
             this.ssproductlbl.TabIndex = 2;
             this.ssproductlbl.Text = "Product";
-            // 
-            // lbl1
-            // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(129, 94);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(98, 18);
-            this.lbl1.TabIndex = 5;
-            this.lbl1.Text = "All time orders";
-            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // Sales_Dashboard
             // 

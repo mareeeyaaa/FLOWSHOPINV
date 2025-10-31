@@ -178,7 +178,7 @@
             this.con1TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con1TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con1TB.Location = new System.Drawing.Point(13, 57);
-            this.con1TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con1TB.Margin = new System.Windows.Forms.Padding(2);
             this.con1TB.Multiline = true;
             this.con1TB.Name = "con1TB";
             this.con1TB.Size = new System.Drawing.Size(486, 46);
@@ -191,7 +191,7 @@
             this.con2TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con2TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con2TB.Location = new System.Drawing.Point(13, 127);
-            this.con2TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con2TB.Margin = new System.Windows.Forms.Padding(2);
             this.con2TB.Multiline = true;
             this.con2TB.Name = "con2TB";
             this.con2TB.Size = new System.Drawing.Size(486, 44);
@@ -204,7 +204,7 @@
             this.con3TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con3TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con3TB.Location = new System.Drawing.Point(13, 194);
-            this.con3TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con3TB.Margin = new System.Windows.Forms.Padding(2);
             this.con3TB.Multiline = true;
             this.con3TB.Name = "con3TB";
             this.con3TB.Size = new System.Drawing.Size(486, 41);
@@ -217,7 +217,7 @@
             this.con4TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con4TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con4TB.Location = new System.Drawing.Point(12, 259);
-            this.con4TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con4TB.Margin = new System.Windows.Forms.Padding(2);
             this.con4TB.Multiline = true;
             this.con4TB.Name = "con4TB";
             this.con4TB.Size = new System.Drawing.Size(486, 58);
@@ -230,7 +230,7 @@
             this.con5TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con5TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con5TB.Location = new System.Drawing.Point(8, 340);
-            this.con5TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con5TB.Margin = new System.Windows.Forms.Padding(2);
             this.con5TB.Multiline = true;
             this.con5TB.Name = "con5TB";
             this.con5TB.Size = new System.Drawing.Size(486, 57);
@@ -243,7 +243,7 @@
             this.con6TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con6TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con6TB.Location = new System.Drawing.Point(13, 421);
-            this.con6TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con6TB.Margin = new System.Windows.Forms.Padding(2);
             this.con6TB.Multiline = true;
             this.con6TB.Name = "con6TB";
             this.con6TB.Size = new System.Drawing.Size(486, 46);
@@ -257,7 +257,7 @@
             this.con7TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con7TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con7TB.Location = new System.Drawing.Point(9, 490);
-            this.con7TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con7TB.Margin = new System.Windows.Forms.Padding(2);
             this.con7TB.Multiline = true;
             this.con7TB.Name = "con7TB";
             this.con7TB.Size = new System.Drawing.Size(486, 42);
@@ -270,7 +270,7 @@
             this.con8TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con8TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con8TB.Location = new System.Drawing.Point(9, 560);
-            this.con8TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con8TB.Margin = new System.Windows.Forms.Padding(2);
             this.con8TB.Multiline = true;
             this.con8TB.Name = "con8TB";
             this.con8TB.Size = new System.Drawing.Size(486, 27);
@@ -285,7 +285,7 @@
             this.con9TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.con9TB.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.con9TB.Location = new System.Drawing.Point(9, 613);
-            this.con9TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.con9TB.Margin = new System.Windows.Forms.Padding(2);
             this.con9TB.Multiline = true;
             this.con9TB.Name = "con9TB";
             this.con9TB.Size = new System.Drawing.Size(486, 43);
@@ -298,8 +298,8 @@
             this.agreebutton.BackColor = System.Drawing.Color.LightCoral;
             this.agreebutton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agreebutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.agreebutton.Location = new System.Drawing.Point(14, 691);
-            this.agreebutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.agreebutton.Location = new System.Drawing.Point(27, 707);
+            this.agreebutton.Margin = new System.Windows.Forms.Padding(2);
             this.agreebutton.Name = "agreebutton";
             this.agreebutton.Size = new System.Drawing.Size(212, 29);
             this.agreebutton.TabIndex = 19;
@@ -312,8 +312,8 @@
             this.disagbutton.BackColor = System.Drawing.Color.MistyRose;
             this.disagbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.disagbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.disagbutton.Location = new System.Drawing.Point(257, 691);
-            this.disagbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.disagbutton.Location = new System.Drawing.Point(264, 707);
+            this.disagbutton.Margin = new System.Windows.Forms.Padding(2);
             this.disagbutton.Name = "disagbutton";
             this.disagbutton.Size = new System.Drawing.Size(212, 29);
             this.disagbutton.TabIndex = 20;
@@ -328,7 +328,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(526, 857);
+            this.ClientSize = new System.Drawing.Size(526, 761);
             this.Controls.Add(this.disagbutton);
             this.Controls.Add(this.agreebutton);
             this.Controls.Add(this.con9TB);
@@ -350,7 +350,7 @@
             this.Controls.Add(this.con3);
             this.Controls.Add(this.con1lbl);
             this.Controls.Add(this.tavlbl);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Terms_and_Conditions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Terms_and_Conditions";

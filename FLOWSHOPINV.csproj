@@ -56,6 +56,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs_Page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AboutUs_Page.Designer.cs">
+      <DependentUpon>AboutUs_Page.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminAddProducts.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -182,6 +188,18 @@
     <Compile Include="Inventory\Inventory_View_Products.Designer.cs">
       <DependentUpon>Inventory_View_Products.cs</DependentUpon>
     </Compile>
+    <Compile Include="Landing_HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Landing_HomePage.Designer.cs">
+      <DependentUpon>Landing_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Landing_Page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Landing_Page.Designer.cs">
+      <DependentUpon>Landing_Page.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sales\Sales_Cashier.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -292,6 +310,9 @@
     <Compile Include="Terms and Conditions.Designer.cs">
       <DependentUpon>Terms and Conditions.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AboutUs_Page.resx">
+      <DependentUpon>AboutUs_Page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\AdminAddProducts.resx">
       <DependentUpon>AdminAddProducts.cs</DependentUpon>
     </EmbeddedResource>
@@ -354,6 +375,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Inventory\Inventory_View_Products.resx">
       <DependentUpon>Inventory_View_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing_HomePage.resx">
+      <DependentUpon>Landing_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing_Page.resx">
+      <DependentUpon>Landing_Page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sales_Cashier.resx">
       <DependentUpon>Sales_Cashier.cs</DependentUpon>
