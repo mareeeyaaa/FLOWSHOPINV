@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Items));
             this.itemName = new System.Windows.Forms.Label();
             this.itemPictureBox = new System.Windows.Forms.PictureBox();
             this.Price = new System.Windows.Forms.Label();
@@ -54,7 +53,6 @@
             // 
             // itemPictureBox
             // 
-            this.itemPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("itemPictureBox.Image")));
             this.itemPictureBox.Location = new System.Drawing.Point(0, 2);
             this.itemPictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.itemPictureBox.Name = "itemPictureBox";

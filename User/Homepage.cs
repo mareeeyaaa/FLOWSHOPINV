@@ -59,7 +59,7 @@ namespace FLOWSHOPINV
 
         private void profPB_Click(object sender, EventArgs e) // PROFILE BUTTON
         {
-            openChildForm(new Profile());
+            
         }
 
         // ========================================== FUNCTIONS ==========================================

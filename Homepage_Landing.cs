@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FLOWSHOPINV
 {
-    public partial class Landing_Page : Form
+    public partial class Homepage_Landing : Form
     {
-        public Landing_Page()
+        public Homepage_Landing()
         {
             InitializeComponent();
         }
