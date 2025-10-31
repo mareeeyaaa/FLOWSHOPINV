@@ -34,7 +34,7 @@
             this.btobutton = new System.Windows.Forms.Button();
             this.orderdeetslbl = new System.Windows.Forms.Label();
             this.orderdeetsprodpanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.ordpanel = new System.Windows.Forms.Panel();
             this.ordertotallbl = new System.Windows.Forms.Label();
             this.gtlbl = new System.Windows.Forms.Label();
             this.orderproddeetspanel = new System.Windows.Forms.Panel();
@@ -50,15 +50,21 @@
             this.qtylbl = new System.Windows.Forms.Label();
             this.pricelbl = new System.Windows.Forms.Label();
             this.productnamelbl = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.orditempanel = new System.Windows.Forms.Panel();
             this.orderprodlbl = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.orderinfopanel = new System.Windows.Forms.Panel();
+            this.statbutton = new System.Windows.Forms.Button();
+            this.odlbl = new System.Windows.Forms.Label();
+            this.ordid = new System.Windows.Forms.Label();
             this.statuslbl = new System.Windows.Forms.Label();
             this.datelbl = new System.Windows.Forms.Label();
             this.orderidlbl = new System.Windows.Forms.Label();
             this.customerinfopanel = new System.Windows.Forms.Panel();
+            this.email = new System.Windows.Forms.Label();
+            this.custname = new System.Windows.Forms.Label();
+            this.custidlbl = new System.Windows.Forms.Label();
             this.custid = new System.Windows.Forms.Label();
             this.emaillbl = new System.Windows.Forms.Label();
             this.custnamelbl = new System.Windows.Forms.Label();
@@ -70,20 +76,14 @@
             this.OrderInfolabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.ordid = new System.Windows.Forms.Label();
-            this.odlbl = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.statbutton = new System.Windows.Forms.Button();
-            this.custidlbl = new System.Windows.Forms.Label();
-            this.custname = new System.Windows.Forms.Label();
-            this.email = new System.Windows.Forms.Label();
             this.orderdeetspanel.SuspendLayout();
             this.orderdeetsprodpanel.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.ordpanel.SuspendLayout();
             this.orderproddeetspanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.odPB)).BeginInit();
             this.productinfopanel.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.orditempanel.SuspendLayout();
             this.orderinfopanel.SuspendLayout();
             this.customerinfopanel.SuspendLayout();
             this.customerinfopanel1.SuspendLayout();
@@ -126,25 +126,25 @@
             // orderdeetsprodpanel
             // 
             this.orderdeetsprodpanel.BackColor = System.Drawing.Color.Transparent;
-            this.orderdeetsprodpanel.Controls.Add(this.panel1);
+            this.orderdeetsprodpanel.Controls.Add(this.ordpanel);
             this.orderdeetsprodpanel.Controls.Add(this.orderproddeetspanel);
             this.orderdeetsprodpanel.Controls.Add(this.productinfopanel);
-            this.orderdeetsprodpanel.Controls.Add(this.panel2);
+            this.orderdeetsprodpanel.Controls.Add(this.orditempanel);
             this.orderdeetsprodpanel.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderdeetsprodpanel.Location = new System.Drawing.Point(42, 130);
             this.orderdeetsprodpanel.Name = "orderdeetsprodpanel";
             this.orderdeetsprodpanel.Size = new System.Drawing.Size(878, 473);
             this.orderdeetsprodpanel.TabIndex = 2;
             // 
-            // panel1
+            // ordpanel
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.ordertotallbl);
-            this.panel1.Controls.Add(this.gtlbl);
-            this.panel1.Location = new System.Drawing.Point(29, 235);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(819, 48);
-            this.panel1.TabIndex = 10;
+            this.ordpanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ordpanel.Controls.Add(this.ordertotallbl);
+            this.ordpanel.Controls.Add(this.gtlbl);
+            this.ordpanel.Location = new System.Drawing.Point(29, 235);
+            this.ordpanel.Name = "ordpanel";
+            this.ordpanel.Size = new System.Drawing.Size(819, 48);
+            this.ordpanel.TabIndex = 10;
             // 
             // ordertotallbl
             // 
@@ -303,17 +303,17 @@
             this.productnamelbl.TabIndex = 2;
             this.productnamelbl.Text = "Products";
             // 
-            // panel2
+            // orditempanel
             // 
-            this.panel2.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.panel2.Controls.Add(this.orderprodlbl);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(879, 55);
-            this.panel2.TabIndex = 8;
+            this.orditempanel.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.orditempanel.Controls.Add(this.orderprodlbl);
+            this.orditempanel.Controls.Add(this.label2);
+            this.orditempanel.Controls.Add(this.label3);
+            this.orditempanel.ForeColor = System.Drawing.Color.Black;
+            this.orditempanel.Location = new System.Drawing.Point(0, 0);
+            this.orditempanel.Name = "orditempanel";
+            this.orditempanel.Size = new System.Drawing.Size(879, 55);
+            this.orditempanel.TabIndex = 8;
             // 
             // orderprodlbl
             // 
@@ -355,6 +355,37 @@
             this.orderinfopanel.Name = "orderinfopanel";
             this.orderinfopanel.Size = new System.Drawing.Size(288, 185);
             this.orderinfopanel.TabIndex = 3;
+            // 
+            // statbutton
+            // 
+            this.statbutton.BackColor = System.Drawing.Color.Gold;
+            this.statbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statbutton.Location = new System.Drawing.Point(84, 125);
+            this.statbutton.Name = "statbutton";
+            this.statbutton.Size = new System.Drawing.Size(75, 23);
+            this.statbutton.TabIndex = 6;
+            this.statbutton.Text = "Done";
+            this.statbutton.UseVisualStyleBackColor = false;
+            // 
+            // odlbl
+            // 
+            this.odlbl.AutoSize = true;
+            this.odlbl.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.odlbl.Location = new System.Drawing.Point(81, 97);
+            this.odlbl.Name = "odlbl";
+            this.odlbl.Size = new System.Drawing.Size(126, 16);
+            this.odlbl.TabIndex = 4;
+            this.odlbl.Text = "Oct 13, 2025   23:25";
+            // 
+            // ordid
+            // 
+            this.ordid.AutoSize = true;
+            this.ordid.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ordid.Location = new System.Drawing.Point(81, 68);
+            this.ordid.Name = "ordid";
+            this.ordid.Size = new System.Drawing.Size(89, 16);
+            this.ordid.TabIndex = 3;
+            this.ordid.Text = "SPR4K9T82L";
             // 
             // statuslbl
             // 
@@ -399,6 +430,36 @@
             this.customerinfopanel.Name = "customerinfopanel";
             this.customerinfopanel.Size = new System.Drawing.Size(288, 185);
             this.customerinfopanel.TabIndex = 4;
+            // 
+            // email
+            // 
+            this.email.AutoSize = true;
+            this.email.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.Location = new System.Drawing.Point(104, 138);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(124, 16);
+            this.email.TabIndex = 15;
+            this.email.Text = "doejohn@gmail.com";
+            // 
+            // custname
+            // 
+            this.custname.AutoSize = true;
+            this.custname.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.custname.Location = new System.Drawing.Point(104, 107);
+            this.custname.Name = "custname";
+            this.custname.Size = new System.Drawing.Size(62, 16);
+            this.custname.TabIndex = 14;
+            this.custname.Text = "John Doe";
+            // 
+            // custidlbl
+            // 
+            this.custidlbl.AutoSize = true;
+            this.custidlbl.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.custidlbl.Location = new System.Drawing.Point(104, 75);
+            this.custidlbl.Name = "custidlbl";
+            this.custidlbl.Size = new System.Drawing.Size(91, 16);
+            this.custidlbl.TabIndex = 7;
+            this.custidlbl.Text = "CUS9F2R6JQ";
             // 
             // custid
             // 
@@ -510,71 +571,10 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Total";
             // 
-            // ordid
-            // 
-            this.ordid.AutoSize = true;
-            this.ordid.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ordid.Location = new System.Drawing.Point(81, 68);
-            this.ordid.Name = "ordid";
-            this.ordid.Size = new System.Drawing.Size(89, 16);
-            this.ordid.TabIndex = 3;
-            this.ordid.Text = "SPR4K9T82L";
-            // 
-            // odlbl
-            // 
-            this.odlbl.AutoSize = true;
-            this.odlbl.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.odlbl.Location = new System.Drawing.Point(81, 97);
-            this.odlbl.Name = "odlbl";
-            this.odlbl.Size = new System.Drawing.Size(126, 16);
-            this.odlbl.TabIndex = 4;
-            this.odlbl.Text = "Oct 13, 2025   23:25";
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // statbutton
-            // 
-            this.statbutton.BackColor = System.Drawing.Color.Gold;
-            this.statbutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statbutton.Location = new System.Drawing.Point(84, 125);
-            this.statbutton.Name = "statbutton";
-            this.statbutton.Size = new System.Drawing.Size(75, 23);
-            this.statbutton.TabIndex = 6;
-            this.statbutton.Text = "Done";
-            this.statbutton.UseVisualStyleBackColor = false;
-            // 
-            // custidlbl
-            // 
-            this.custidlbl.AutoSize = true;
-            this.custidlbl.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.custidlbl.Location = new System.Drawing.Point(104, 75);
-            this.custidlbl.Name = "custidlbl";
-            this.custidlbl.Size = new System.Drawing.Size(91, 16);
-            this.custidlbl.TabIndex = 7;
-            this.custidlbl.Text = "CUS9F2R6JQ";
-            // 
-            // custname
-            // 
-            this.custname.AutoSize = true;
-            this.custname.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.custname.Location = new System.Drawing.Point(104, 107);
-            this.custname.Name = "custname";
-            this.custname.Size = new System.Drawing.Size(62, 16);
-            this.custname.TabIndex = 14;
-            this.custname.Text = "John Doe";
-            // 
-            // email
-            // 
-            this.email.AutoSize = true;
-            this.email.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.Location = new System.Drawing.Point(104, 138);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(124, 16);
-            this.email.TabIndex = 15;
-            this.email.Text = "doejohn@gmail.com";
             // 
             // Admin_OrdersDetails
             // 
@@ -593,15 +593,15 @@
             this.orderdeetspanel.ResumeLayout(false);
             this.orderdeetspanel.PerformLayout();
             this.orderdeetsprodpanel.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.ordpanel.ResumeLayout(false);
+            this.ordpanel.PerformLayout();
             this.orderproddeetspanel.ResumeLayout(false);
             this.orderproddeetspanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.odPB)).EndInit();
             this.productinfopanel.ResumeLayout(false);
             this.productinfopanel.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.orditempanel.ResumeLayout(false);
+            this.orditempanel.PerformLayout();
             this.orderinfopanel.ResumeLayout(false);
             this.orderinfopanel.PerformLayout();
             this.customerinfopanel.ResumeLayout(false);
@@ -627,7 +627,7 @@
         private System.Windows.Forms.Label pricelbl;
         private System.Windows.Forms.Label productnamelbl;
         private System.Windows.Forms.Label totalitemlbl;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel orditempanel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label orderprodlbl;
@@ -635,7 +635,7 @@
         private System.Windows.Forms.Label coitemlbl;
         private System.Windows.Forms.PictureBox odPB;
         private System.Windows.Forms.Label ordercartlbl;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel ordpanel;
         private System.Windows.Forms.Label gtlbl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label otdlbl;

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FLOWSHOPINV.Admin
+namespace FLOWSHOPINV.Sales
 {
-    public partial class Admin_Products : UserControl
+    public partial class Sales_View_Products : Form
     {
-        public Admin_Products()
+        public Sales_View_Products()
         {
             InitializeComponent();
-        }
-
-        private void staremptybtn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

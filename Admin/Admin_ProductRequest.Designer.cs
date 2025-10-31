@@ -51,6 +51,7 @@
             this.trlbl = new System.Windows.Forms.Label();
             this.totalorderpanel = new System.Windows.Forms.Panel();
             this.resreqpanel = new System.Windows.Forms.Panel();
+            this.btobtn = new System.Windows.Forms.Button();
             this.resreqpanellbl = new System.Windows.Forms.Label();
             this.prodreqcontrolpanel = new System.Windows.Forms.Panel();
             this.reqdatelbl = new System.Windows.Forms.Label();
@@ -61,43 +62,42 @@
             this.currentstocklbl = new System.Windows.Forms.Label();
             this.itemnamelbl = new System.Windows.Forms.Label();
             this.actpivitylogpanel = new System.Windows.Forms.Panel();
+            this.lnklbl2 = new System.Windows.Forms.LinkLabel();
+            this.lnklbl1 = new System.Windows.Forms.LinkLabel();
+            this.admp2btn = new System.Windows.Forms.Button();
+            this.admp1btn = new System.Windows.Forms.Button();
+            this.adresreqnxtbtn = new System.Windows.Forms.Button();
+            this.adresreqprevbtn = new System.Windows.Forms.Button();
+            this.reqitm3panel = new System.Windows.Forms.Panel();
+            this.rejectbutton2 = new System.Windows.Forms.Button();
+            this.approvedbtn2 = new System.Windows.Forms.Button();
+            this.rd3lbl = new System.Windows.Forms.Label();
+            this.stat3btn = new System.Windows.Forms.Button();
+            this.reqqty3lbl = new System.Windows.Forms.Label();
+            this.cs3lbl = new System.Windows.Forms.Label();
+            this.reqitm3lbl = new System.Windows.Forms.Label();
+            this.reqitm2panel = new System.Windows.Forms.Panel();
+            this.rejectbutton1 = new System.Windows.Forms.Button();
+            this.approvedbtn1 = new System.Windows.Forms.Button();
+            this.rd2lbl = new System.Windows.Forms.Label();
+            this.stat2btn = new System.Windows.Forms.Button();
+            this.reqqty2lbl = new System.Windows.Forms.Label();
+            this.cs2lbl = new System.Windows.Forms.Label();
+            this.reqitm2lbl = new System.Windows.Forms.Label();
+            this.reqitm1panel = new System.Windows.Forms.Panel();
+            this.rejectbutton = new System.Windows.Forms.Button();
+            this.approvedbtn = new System.Windows.Forms.Button();
+            this.rd1lbl = new System.Windows.Forms.Label();
+            this.stat1button = new System.Windows.Forms.Button();
+            this.reqqty1lbl = new System.Windows.Forms.Label();
+            this.cs1lbl = new System.Windows.Forms.Label();
+            this.reqitm1lbl = new System.Windows.Forms.Label();
             this.p2lnklbl = new System.Windows.Forms.LinkLabel();
             this.p1lnklbl = new System.Windows.Forms.LinkLabel();
             this.p2btn = new System.Windows.Forms.Button();
             this.p1btn = new System.Windows.Forms.Button();
             this.nextbtn = new System.Windows.Forms.Button();
             this.Prevbtn = new System.Windows.Forms.Button();
-            this.reqitm3panel = new System.Windows.Forms.Panel();
-            this.stat3btn = new System.Windows.Forms.Button();
-            this.reqqty3lbl = new System.Windows.Forms.Label();
-            this.cs3lbl = new System.Windows.Forms.Label();
-            this.reqitm3lbl = new System.Windows.Forms.Label();
-            this.reqitm2panel = new System.Windows.Forms.Panel();
-            this.stat2btn = new System.Windows.Forms.Button();
-            this.reqqty2lbl = new System.Windows.Forms.Label();
-            this.cs2lbl = new System.Windows.Forms.Label();
-            this.reqitm2lbl = new System.Windows.Forms.Label();
-            this.reqitm1panel = new System.Windows.Forms.Panel();
-            this.stat1button = new System.Windows.Forms.Button();
-            this.reqqty1lbl = new System.Windows.Forms.Label();
-            this.cs1lbl = new System.Windows.Forms.Label();
-            this.reqitm1lbl = new System.Windows.Forms.Label();
-            this.rd1lbl = new System.Windows.Forms.Label();
-            this.rd2lbl = new System.Windows.Forms.Label();
-            this.rd3lbl = new System.Windows.Forms.Label();
-            this.approvedbtn = new System.Windows.Forms.Button();
-            this.rejectbutton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.btobtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.rejectedPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aprovedPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pendingreqPB)).BeginInit();
@@ -355,6 +355,16 @@
             this.resreqpanel.Size = new System.Drawing.Size(1186, 57);
             this.resreqpanel.TabIndex = 9;
             // 
+            // btobtn
+            // 
+            this.btobtn.BackColor = System.Drawing.Color.LightPink;
+            this.btobtn.Location = new System.Drawing.Point(1009, 14);
+            this.btobtn.Name = "btobtn";
+            this.btobtn.Size = new System.Drawing.Size(153, 30);
+            this.btobtn.TabIndex = 2;
+            this.btobtn.Text = "Back To Orders";
+            this.btobtn.UseVisualStyleBackColor = false;
+            // 
             // resreqpanellbl
             // 
             this.resreqpanellbl.AutoSize = true;
@@ -454,12 +464,12 @@
             // actpivitylogpanel
             // 
             this.actpivitylogpanel.BackColor = System.Drawing.SystemColors.Control;
-            this.actpivitylogpanel.Controls.Add(this.linkLabel1);
-            this.actpivitylogpanel.Controls.Add(this.linkLabel2);
-            this.actpivitylogpanel.Controls.Add(this.button5);
-            this.actpivitylogpanel.Controls.Add(this.button6);
-            this.actpivitylogpanel.Controls.Add(this.button7);
-            this.actpivitylogpanel.Controls.Add(this.button8);
+            this.actpivitylogpanel.Controls.Add(this.lnklbl2);
+            this.actpivitylogpanel.Controls.Add(this.lnklbl1);
+            this.actpivitylogpanel.Controls.Add(this.admp2btn);
+            this.actpivitylogpanel.Controls.Add(this.admp1btn);
+            this.actpivitylogpanel.Controls.Add(this.adresreqnxtbtn);
+            this.actpivitylogpanel.Controls.Add(this.adresreqprevbtn);
             this.actpivitylogpanel.Controls.Add(this.reqitm3panel);
             this.actpivitylogpanel.Controls.Add(this.reqitm2panel);
             this.actpivitylogpanel.Controls.Add(this.reqitm1panel);
@@ -474,6 +484,344 @@
             this.actpivitylogpanel.Name = "actpivitylogpanel";
             this.actpivitylogpanel.Size = new System.Drawing.Size(1191, 514);
             this.actpivitylogpanel.TabIndex = 11;
+            // 
+            // lnklbl2
+            // 
+            this.lnklbl2.AutoSize = true;
+            this.lnklbl2.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnklbl2.LinkColor = System.Drawing.Color.Crimson;
+            this.lnklbl2.Location = new System.Drawing.Point(1063, 465);
+            this.lnklbl2.Name = "lnklbl2";
+            this.lnklbl2.Size = new System.Drawing.Size(14, 17);
+            this.lnklbl2.TabIndex = 46;
+            this.lnklbl2.TabStop = true;
+            this.lnklbl2.Text = "2";
+            // 
+            // lnklbl1
+            // 
+            this.lnklbl1.AutoSize = true;
+            this.lnklbl1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnklbl1.LinkColor = System.Drawing.Color.Crimson;
+            this.lnklbl1.Location = new System.Drawing.Point(1028, 465);
+            this.lnklbl1.Name = "lnklbl1";
+            this.lnklbl1.Size = new System.Drawing.Size(14, 17);
+            this.lnklbl1.TabIndex = 45;
+            this.lnklbl1.TabStop = true;
+            this.lnklbl1.Text = "1";
+            // 
+            // admp2btn
+            // 
+            this.admp2btn.BackColor = System.Drawing.SystemColors.Window;
+            this.admp2btn.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admp2btn.ForeColor = System.Drawing.Color.Black;
+            this.admp2btn.Location = new System.Drawing.Point(1049, 460);
+            this.admp2btn.Name = "admp2btn";
+            this.admp2btn.Size = new System.Drawing.Size(36, 27);
+            this.admp2btn.TabIndex = 44;
+            this.admp2btn.UseVisualStyleBackColor = false;
+            // 
+            // admp1btn
+            // 
+            this.admp1btn.BackColor = System.Drawing.SystemColors.Window;
+            this.admp1btn.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admp1btn.ForeColor = System.Drawing.Color.Black;
+            this.admp1btn.Location = new System.Drawing.Point(1015, 460);
+            this.admp1btn.Name = "admp1btn";
+            this.admp1btn.Size = new System.Drawing.Size(36, 27);
+            this.admp1btn.TabIndex = 43;
+            this.admp1btn.UseVisualStyleBackColor = false;
+            // 
+            // adresreqnxtbtn
+            // 
+            this.adresreqnxtbtn.BackColor = System.Drawing.Color.LightPink;
+            this.adresreqnxtbtn.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adresreqnxtbtn.ForeColor = System.Drawing.Color.Black;
+            this.adresreqnxtbtn.Location = new System.Drawing.Point(1083, 459);
+            this.adresreqnxtbtn.Name = "adresreqnxtbtn";
+            this.adresreqnxtbtn.Size = new System.Drawing.Size(84, 28);
+            this.adresreqnxtbtn.TabIndex = 42;
+            this.adresreqnxtbtn.Text = "Next";
+            this.adresreqnxtbtn.UseVisualStyleBackColor = false;
+            // 
+            // adresreqprevbtn
+            // 
+            this.adresreqprevbtn.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.adresreqprevbtn.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adresreqprevbtn.ForeColor = System.Drawing.Color.Black;
+            this.adresreqprevbtn.Location = new System.Drawing.Point(933, 459);
+            this.adresreqprevbtn.Name = "adresreqprevbtn";
+            this.adresreqprevbtn.Size = new System.Drawing.Size(84, 28);
+            this.adresreqprevbtn.TabIndex = 41;
+            this.adresreqprevbtn.Text = "Previous";
+            this.adresreqprevbtn.UseVisualStyleBackColor = false;
+            // 
+            // reqitm3panel
+            // 
+            this.reqitm3panel.BackColor = System.Drawing.SystemColors.Control;
+            this.reqitm3panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.reqitm3panel.Controls.Add(this.rejectbutton2);
+            this.reqitm3panel.Controls.Add(this.approvedbtn2);
+            this.reqitm3panel.Controls.Add(this.rd3lbl);
+            this.reqitm3panel.Controls.Add(this.stat3btn);
+            this.reqitm3panel.Controls.Add(this.reqqty3lbl);
+            this.reqitm3panel.Controls.Add(this.cs3lbl);
+            this.reqitm3panel.Controls.Add(this.reqitm3lbl);
+            this.reqitm3panel.Location = new System.Drawing.Point(31, 225);
+            this.reqitm3panel.Name = "reqitm3panel";
+            this.reqitm3panel.Size = new System.Drawing.Size(1137, 73);
+            this.reqitm3panel.TabIndex = 40;
+            // 
+            // rejectbutton2
+            // 
+            this.rejectbutton2.BackColor = System.Drawing.Color.Red;
+            this.rejectbutton2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rejectbutton2.Location = new System.Drawing.Point(1008, 35);
+            this.rejectbutton2.Name = "rejectbutton2";
+            this.rejectbutton2.Size = new System.Drawing.Size(107, 30);
+            this.rejectbutton2.TabIndex = 43;
+            this.rejectbutton2.Text = "Reject";
+            this.rejectbutton2.UseVisualStyleBackColor = false;
+            // 
+            // approvedbtn2
+            // 
+            this.approvedbtn2.BackColor = System.Drawing.Color.LimeGreen;
+            this.approvedbtn2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.approvedbtn2.Location = new System.Drawing.Point(1008, 5);
+            this.approvedbtn2.Name = "approvedbtn2";
+            this.approvedbtn2.Size = new System.Drawing.Size(107, 30);
+            this.approvedbtn2.TabIndex = 44;
+            this.approvedbtn2.Text = "Aproved";
+            this.approvedbtn2.UseVisualStyleBackColor = false;
+            // 
+            // rd3lbl
+            // 
+            this.rd3lbl.AutoSize = true;
+            this.rd3lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rd3lbl.Location = new System.Drawing.Point(790, 22);
+            this.rd3lbl.Name = "rd3lbl";
+            this.rd3lbl.Size = new System.Drawing.Size(83, 18);
+            this.rd3lbl.TabIndex = 32;
+            this.rd3lbl.Text = "Oct  23, 2025";
+            // 
+            // stat3btn
+            // 
+            this.stat3btn.BackColor = System.Drawing.Color.Moccasin;
+            this.stat3btn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stat3btn.Location = new System.Drawing.Point(609, 20);
+            this.stat3btn.Name = "stat3btn";
+            this.stat3btn.Size = new System.Drawing.Size(75, 23);
+            this.stat3btn.TabIndex = 9;
+            this.stat3btn.Text = "Pending";
+            this.stat3btn.UseVisualStyleBackColor = false;
+            // 
+            // reqqty3lbl
+            // 
+            this.reqqty3lbl.AutoSize = true;
+            this.reqqty3lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqqty3lbl.Location = new System.Drawing.Point(442, 20);
+            this.reqqty3lbl.Name = "reqqty3lbl";
+            this.reqqty3lbl.Size = new System.Drawing.Size(33, 20);
+            this.reqqty3lbl.TabIndex = 8;
+            this.reqqty3lbl.Text = "175";
+            // 
+            // cs3lbl
+            // 
+            this.cs3lbl.AutoSize = true;
+            this.cs3lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cs3lbl.Location = new System.Drawing.Point(234, 21);
+            this.cs3lbl.Name = "cs3lbl";
+            this.cs3lbl.Size = new System.Drawing.Size(33, 20);
+            this.cs3lbl.TabIndex = 7;
+            this.cs3lbl.Text = "300";
+            // 
+            // reqitm3lbl
+            // 
+            this.reqitm3lbl.AutoSize = true;
+            this.reqitm3lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqitm3lbl.Location = new System.Drawing.Point(30, 22);
+            this.reqitm3lbl.Name = "reqitm3lbl";
+            this.reqitm3lbl.Size = new System.Drawing.Size(87, 18);
+            this.reqitm3lbl.TabIndex = 1;
+            this.reqitm3lbl.Text = "Golden Years";
+            // 
+            // reqitm2panel
+            // 
+            this.reqitm2panel.BackColor = System.Drawing.Color.Transparent;
+            this.reqitm2panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.reqitm2panel.Controls.Add(this.rejectbutton1);
+            this.reqitm2panel.Controls.Add(this.approvedbtn1);
+            this.reqitm2panel.Controls.Add(this.rd2lbl);
+            this.reqitm2panel.Controls.Add(this.stat2btn);
+            this.reqitm2panel.Controls.Add(this.reqqty2lbl);
+            this.reqitm2panel.Controls.Add(this.cs2lbl);
+            this.reqitm2panel.Controls.Add(this.reqitm2lbl);
+            this.reqitm2panel.Location = new System.Drawing.Point(30, 153);
+            this.reqitm2panel.Name = "reqitm2panel";
+            this.reqitm2panel.Size = new System.Drawing.Size(1137, 73);
+            this.reqitm2panel.TabIndex = 39;
+            // 
+            // rejectbutton1
+            // 
+            this.rejectbutton1.BackColor = System.Drawing.Color.Red;
+            this.rejectbutton1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rejectbutton1.Location = new System.Drawing.Point(1009, 35);
+            this.rejectbutton1.Name = "rejectbutton1";
+            this.rejectbutton1.Size = new System.Drawing.Size(107, 30);
+            this.rejectbutton1.TabIndex = 43;
+            this.rejectbutton1.Text = "Reject";
+            this.rejectbutton1.UseVisualStyleBackColor = false;
+            // 
+            // approvedbtn1
+            // 
+            this.approvedbtn1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.approvedbtn1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.approvedbtn1.Location = new System.Drawing.Point(1009, 5);
+            this.approvedbtn1.Name = "approvedbtn1";
+            this.approvedbtn1.Size = new System.Drawing.Size(107, 30);
+            this.approvedbtn1.TabIndex = 44;
+            this.approvedbtn1.Text = "Aproved";
+            this.approvedbtn1.UseVisualStyleBackColor = false;
+            // 
+            // rd2lbl
+            // 
+            this.rd2lbl.AutoSize = true;
+            this.rd2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rd2lbl.Location = new System.Drawing.Point(791, 23);
+            this.rd2lbl.Name = "rd2lbl";
+            this.rd2lbl.Size = new System.Drawing.Size(83, 18);
+            this.rd2lbl.TabIndex = 31;
+            this.rd2lbl.Text = "Oct  24, 2025";
+            // 
+            // stat2btn
+            // 
+            this.stat2btn.BackColor = System.Drawing.Color.PaleGreen;
+            this.stat2btn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stat2btn.Location = new System.Drawing.Point(610, 21);
+            this.stat2btn.Name = "stat2btn";
+            this.stat2btn.Size = new System.Drawing.Size(75, 23);
+            this.stat2btn.TabIndex = 9;
+            this.stat2btn.Text = "Approved";
+            this.stat2btn.UseVisualStyleBackColor = false;
+            // 
+            // reqqty2lbl
+            // 
+            this.reqqty2lbl.AutoSize = true;
+            this.reqqty2lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqqty2lbl.Location = new System.Drawing.Point(443, 21);
+            this.reqqty2lbl.Name = "reqqty2lbl";
+            this.reqqty2lbl.Size = new System.Drawing.Size(33, 20);
+            this.reqqty2lbl.TabIndex = 8;
+            this.reqqty2lbl.Text = "300";
+            // 
+            // cs2lbl
+            // 
+            this.cs2lbl.AutoSize = true;
+            this.cs2lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cs2lbl.Location = new System.Drawing.Point(235, 21);
+            this.cs2lbl.Name = "cs2lbl";
+            this.cs2lbl.Size = new System.Drawing.Size(33, 20);
+            this.cs2lbl.TabIndex = 7;
+            this.cs2lbl.Text = "450";
+            // 
+            // reqitm2lbl
+            // 
+            this.reqitm2lbl.AutoSize = true;
+            this.reqitm2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqitm2lbl.Location = new System.Drawing.Point(31, 23);
+            this.reqitm2lbl.Name = "reqitm2lbl";
+            this.reqitm2lbl.Size = new System.Drawing.Size(110, 18);
+            this.reqitm2lbl.TabIndex = 1;
+            this.reqitm2lbl.Text = "Garden Fairytale";
+            // 
+            // reqitm1panel
+            // 
+            this.reqitm1panel.BackColor = System.Drawing.SystemColors.Control;
+            this.reqitm1panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.reqitm1panel.Controls.Add(this.rejectbutton);
+            this.reqitm1panel.Controls.Add(this.approvedbtn);
+            this.reqitm1panel.Controls.Add(this.rd1lbl);
+            this.reqitm1panel.Controls.Add(this.stat1button);
+            this.reqitm1panel.Controls.Add(this.reqqty1lbl);
+            this.reqitm1panel.Controls.Add(this.cs1lbl);
+            this.reqitm1panel.Controls.Add(this.reqitm1lbl);
+            this.reqitm1panel.Location = new System.Drawing.Point(30, 80);
+            this.reqitm1panel.Name = "reqitm1panel";
+            this.reqitm1panel.Size = new System.Drawing.Size(1137, 73);
+            this.reqitm1panel.TabIndex = 38;
+            // 
+            // rejectbutton
+            // 
+            this.rejectbutton.BackColor = System.Drawing.Color.Red;
+            this.rejectbutton.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rejectbutton.Location = new System.Drawing.Point(1009, 35);
+            this.rejectbutton.Name = "rejectbutton";
+            this.rejectbutton.Size = new System.Drawing.Size(107, 30);
+            this.rejectbutton.TabIndex = 41;
+            this.rejectbutton.Text = "Reject";
+            this.rejectbutton.UseVisualStyleBackColor = false;
+            // 
+            // approvedbtn
+            // 
+            this.approvedbtn.BackColor = System.Drawing.Color.LimeGreen;
+            this.approvedbtn.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.approvedbtn.Location = new System.Drawing.Point(1009, 5);
+            this.approvedbtn.Name = "approvedbtn";
+            this.approvedbtn.Size = new System.Drawing.Size(107, 30);
+            this.approvedbtn.TabIndex = 42;
+            this.approvedbtn.Text = "Aproved";
+            this.approvedbtn.UseVisualStyleBackColor = false;
+            // 
+            // rd1lbl
+            // 
+            this.rd1lbl.AutoSize = true;
+            this.rd1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rd1lbl.Location = new System.Drawing.Point(791, 21);
+            this.rd1lbl.Name = "rd1lbl";
+            this.rd1lbl.Size = new System.Drawing.Size(83, 18);
+            this.rd1lbl.TabIndex = 30;
+            this.rd1lbl.Text = "Oct  25, 2025";
+            // 
+            // stat1button
+            // 
+            this.stat1button.BackColor = System.Drawing.Color.Moccasin;
+            this.stat1button.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stat1button.Location = new System.Drawing.Point(610, 16);
+            this.stat1button.Name = "stat1button";
+            this.stat1button.Size = new System.Drawing.Size(75, 23);
+            this.stat1button.TabIndex = 9;
+            this.stat1button.Text = "Pending";
+            this.stat1button.UseVisualStyleBackColor = false;
+            this.stat1button.Click += new System.EventHandler(this.stckbutton_Click);
+            // 
+            // reqqty1lbl
+            // 
+            this.reqqty1lbl.AutoSize = true;
+            this.reqqty1lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqqty1lbl.Location = new System.Drawing.Point(443, 19);
+            this.reqqty1lbl.Name = "reqqty1lbl";
+            this.reqqty1lbl.Size = new System.Drawing.Size(33, 20);
+            this.reqqty1lbl.TabIndex = 8;
+            this.reqqty1lbl.Text = "200";
+            // 
+            // cs1lbl
+            // 
+            this.cs1lbl.AutoSize = true;
+            this.cs1lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cs1lbl.Location = new System.Drawing.Point(235, 19);
+            this.cs1lbl.Name = "cs1lbl";
+            this.cs1lbl.Size = new System.Drawing.Size(33, 20);
+            this.cs1lbl.TabIndex = 7;
+            this.cs1lbl.Text = "500";
+            // 
+            // reqitm1lbl
+            // 
+            this.reqitm1lbl.AutoSize = true;
+            this.reqitm1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reqitm1lbl.Location = new System.Drawing.Point(31, 21);
+            this.reqitm1lbl.Name = "reqitm1lbl";
+            this.reqitm1lbl.Size = new System.Drawing.Size(82, 18);
+            this.reqitm1lbl.TabIndex = 1;
+            this.reqitm1lbl.Text = "Eternal Rose";
             // 
             // p2lnklbl
             // 
@@ -544,354 +892,6 @@
             this.Prevbtn.TabIndex = 18;
             this.Prevbtn.Text = "Previous";
             this.Prevbtn.UseVisualStyleBackColor = false;
-            // 
-            // reqitm3panel
-            // 
-            this.reqitm3panel.BackColor = System.Drawing.SystemColors.Control;
-            this.reqitm3panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.reqitm3panel.Controls.Add(this.button3);
-            this.reqitm3panel.Controls.Add(this.button4);
-            this.reqitm3panel.Controls.Add(this.rd3lbl);
-            this.reqitm3panel.Controls.Add(this.stat3btn);
-            this.reqitm3panel.Controls.Add(this.reqqty3lbl);
-            this.reqitm3panel.Controls.Add(this.cs3lbl);
-            this.reqitm3panel.Controls.Add(this.reqitm3lbl);
-            this.reqitm3panel.Location = new System.Drawing.Point(31, 225);
-            this.reqitm3panel.Name = "reqitm3panel";
-            this.reqitm3panel.Size = new System.Drawing.Size(1137, 73);
-            this.reqitm3panel.TabIndex = 40;
-            // 
-            // stat3btn
-            // 
-            this.stat3btn.BackColor = System.Drawing.Color.Moccasin;
-            this.stat3btn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stat3btn.Location = new System.Drawing.Point(609, 20);
-            this.stat3btn.Name = "stat3btn";
-            this.stat3btn.Size = new System.Drawing.Size(75, 23);
-            this.stat3btn.TabIndex = 9;
-            this.stat3btn.Text = "Pending";
-            this.stat3btn.UseVisualStyleBackColor = false;
-            // 
-            // reqqty3lbl
-            // 
-            this.reqqty3lbl.AutoSize = true;
-            this.reqqty3lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqqty3lbl.Location = new System.Drawing.Point(442, 20);
-            this.reqqty3lbl.Name = "reqqty3lbl";
-            this.reqqty3lbl.Size = new System.Drawing.Size(33, 20);
-            this.reqqty3lbl.TabIndex = 8;
-            this.reqqty3lbl.Text = "175";
-            // 
-            // cs3lbl
-            // 
-            this.cs3lbl.AutoSize = true;
-            this.cs3lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cs3lbl.Location = new System.Drawing.Point(234, 21);
-            this.cs3lbl.Name = "cs3lbl";
-            this.cs3lbl.Size = new System.Drawing.Size(59, 20);
-            this.cs3lbl.TabIndex = 7;
-            this.cs3lbl.Text = "₱ 2,800";
-            // 
-            // reqitm3lbl
-            // 
-            this.reqitm3lbl.AutoSize = true;
-            this.reqitm3lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqitm3lbl.Location = new System.Drawing.Point(30, 22);
-            this.reqitm3lbl.Name = "reqitm3lbl";
-            this.reqitm3lbl.Size = new System.Drawing.Size(87, 18);
-            this.reqitm3lbl.TabIndex = 1;
-            this.reqitm3lbl.Text = "Golden Years";
-            // 
-            // reqitm2panel
-            // 
-            this.reqitm2panel.BackColor = System.Drawing.Color.Transparent;
-            this.reqitm2panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.reqitm2panel.Controls.Add(this.button1);
-            this.reqitm2panel.Controls.Add(this.button2);
-            this.reqitm2panel.Controls.Add(this.rd2lbl);
-            this.reqitm2panel.Controls.Add(this.stat2btn);
-            this.reqitm2panel.Controls.Add(this.reqqty2lbl);
-            this.reqitm2panel.Controls.Add(this.cs2lbl);
-            this.reqitm2panel.Controls.Add(this.reqitm2lbl);
-            this.reqitm2panel.Location = new System.Drawing.Point(30, 153);
-            this.reqitm2panel.Name = "reqitm2panel";
-            this.reqitm2panel.Size = new System.Drawing.Size(1137, 73);
-            this.reqitm2panel.TabIndex = 39;
-            // 
-            // stat2btn
-            // 
-            this.stat2btn.BackColor = System.Drawing.Color.PaleGreen;
-            this.stat2btn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stat2btn.Location = new System.Drawing.Point(610, 21);
-            this.stat2btn.Name = "stat2btn";
-            this.stat2btn.Size = new System.Drawing.Size(75, 23);
-            this.stat2btn.TabIndex = 9;
-            this.stat2btn.Text = "Approved";
-            this.stat2btn.UseVisualStyleBackColor = false;
-            // 
-            // reqqty2lbl
-            // 
-            this.reqqty2lbl.AutoSize = true;
-            this.reqqty2lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqqty2lbl.Location = new System.Drawing.Point(443, 21);
-            this.reqqty2lbl.Name = "reqqty2lbl";
-            this.reqqty2lbl.Size = new System.Drawing.Size(33, 20);
-            this.reqqty2lbl.TabIndex = 8;
-            this.reqqty2lbl.Text = "300";
-            // 
-            // cs2lbl
-            // 
-            this.cs2lbl.AutoSize = true;
-            this.cs2lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cs2lbl.Location = new System.Drawing.Point(235, 21);
-            this.cs2lbl.Name = "cs2lbl";
-            this.cs2lbl.Size = new System.Drawing.Size(59, 20);
-            this.cs2lbl.TabIndex = 7;
-            this.cs2lbl.Text = "₱ 4,800";
-            // 
-            // reqitm2lbl
-            // 
-            this.reqitm2lbl.AutoSize = true;
-            this.reqitm2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqitm2lbl.Location = new System.Drawing.Point(31, 23);
-            this.reqitm2lbl.Name = "reqitm2lbl";
-            this.reqitm2lbl.Size = new System.Drawing.Size(110, 18);
-            this.reqitm2lbl.TabIndex = 1;
-            this.reqitm2lbl.Text = "Garden Fairytale";
-            // 
-            // reqitm1panel
-            // 
-            this.reqitm1panel.BackColor = System.Drawing.SystemColors.Control;
-            this.reqitm1panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.reqitm1panel.Controls.Add(this.rejectbutton);
-            this.reqitm1panel.Controls.Add(this.approvedbtn);
-            this.reqitm1panel.Controls.Add(this.rd1lbl);
-            this.reqitm1panel.Controls.Add(this.stat1button);
-            this.reqitm1panel.Controls.Add(this.reqqty1lbl);
-            this.reqitm1panel.Controls.Add(this.cs1lbl);
-            this.reqitm1panel.Controls.Add(this.reqitm1lbl);
-            this.reqitm1panel.Location = new System.Drawing.Point(30, 80);
-            this.reqitm1panel.Name = "reqitm1panel";
-            this.reqitm1panel.Size = new System.Drawing.Size(1137, 73);
-            this.reqitm1panel.TabIndex = 38;
-            // 
-            // stat1button
-            // 
-            this.stat1button.BackColor = System.Drawing.Color.Moccasin;
-            this.stat1button.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stat1button.Location = new System.Drawing.Point(610, 16);
-            this.stat1button.Name = "stat1button";
-            this.stat1button.Size = new System.Drawing.Size(75, 23);
-            this.stat1button.TabIndex = 9;
-            this.stat1button.Text = "Pending";
-            this.stat1button.UseVisualStyleBackColor = false;
-            this.stat1button.Click += new System.EventHandler(this.stckbutton_Click);
-            // 
-            // reqqty1lbl
-            // 
-            this.reqqty1lbl.AutoSize = true;
-            this.reqqty1lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqqty1lbl.Location = new System.Drawing.Point(443, 19);
-            this.reqqty1lbl.Name = "reqqty1lbl";
-            this.reqqty1lbl.Size = new System.Drawing.Size(33, 20);
-            this.reqqty1lbl.TabIndex = 8;
-            this.reqqty1lbl.Text = "200";
-            // 
-            // cs1lbl
-            // 
-            this.cs1lbl.AutoSize = true;
-            this.cs1lbl.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cs1lbl.Location = new System.Drawing.Point(235, 19);
-            this.cs1lbl.Name = "cs1lbl";
-            this.cs1lbl.Size = new System.Drawing.Size(59, 20);
-            this.cs1lbl.TabIndex = 7;
-            this.cs1lbl.Text = "₱ 2,500";
-            // 
-            // reqitm1lbl
-            // 
-            this.reqitm1lbl.AutoSize = true;
-            this.reqitm1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqitm1lbl.Location = new System.Drawing.Point(31, 21);
-            this.reqitm1lbl.Name = "reqitm1lbl";
-            this.reqitm1lbl.Size = new System.Drawing.Size(82, 18);
-            this.reqitm1lbl.TabIndex = 1;
-            this.reqitm1lbl.Text = "Eternal Rose";
-            // 
-            // rd1lbl
-            // 
-            this.rd1lbl.AutoSize = true;
-            this.rd1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rd1lbl.Location = new System.Drawing.Point(791, 21);
-            this.rd1lbl.Name = "rd1lbl";
-            this.rd1lbl.Size = new System.Drawing.Size(83, 18);
-            this.rd1lbl.TabIndex = 30;
-            this.rd1lbl.Text = "Oct  25, 2025";
-            // 
-            // rd2lbl
-            // 
-            this.rd2lbl.AutoSize = true;
-            this.rd2lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rd2lbl.Location = new System.Drawing.Point(791, 23);
-            this.rd2lbl.Name = "rd2lbl";
-            this.rd2lbl.Size = new System.Drawing.Size(83, 18);
-            this.rd2lbl.TabIndex = 31;
-            this.rd2lbl.Text = "Oct  24, 2025";
-            // 
-            // rd3lbl
-            // 
-            this.rd3lbl.AutoSize = true;
-            this.rd3lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rd3lbl.Location = new System.Drawing.Point(790, 22);
-            this.rd3lbl.Name = "rd3lbl";
-            this.rd3lbl.Size = new System.Drawing.Size(83, 18);
-            this.rd3lbl.TabIndex = 32;
-            this.rd3lbl.Text = "Oct  23, 2025";
-            // 
-            // approvedbtn
-            // 
-            this.approvedbtn.BackColor = System.Drawing.Color.LimeGreen;
-            this.approvedbtn.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.approvedbtn.Location = new System.Drawing.Point(1009, 5);
-            this.approvedbtn.Name = "approvedbtn";
-            this.approvedbtn.Size = new System.Drawing.Size(107, 30);
-            this.approvedbtn.TabIndex = 42;
-            this.approvedbtn.Text = "Aproved";
-            this.approvedbtn.UseVisualStyleBackColor = false;
-            // 
-            // rejectbutton
-            // 
-            this.rejectbutton.BackColor = System.Drawing.Color.Red;
-            this.rejectbutton.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rejectbutton.Location = new System.Drawing.Point(1009, 35);
-            this.rejectbutton.Name = "rejectbutton";
-            this.rejectbutton.Size = new System.Drawing.Size(107, 30);
-            this.rejectbutton.TabIndex = 41;
-            this.rejectbutton.Text = "Reject";
-            this.rejectbutton.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1009, 35);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 30);
-            this.button1.TabIndex = 43;
-            this.button1.Text = "Reject";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.LimeGreen;
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1009, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 30);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "Aproved";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(1008, 35);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 30);
-            this.button3.TabIndex = 43;
-            this.button3.Text = "Reject";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.LimeGreen;
-            this.button4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1008, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 30);
-            this.button4.TabIndex = 44;
-            this.button4.Text = "Aproved";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Crimson;
-            this.linkLabel1.Location = new System.Drawing.Point(1063, 465);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(14, 17);
-            this.linkLabel1.TabIndex = 46;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "2";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.LinkColor = System.Drawing.Color.Crimson;
-            this.linkLabel2.Location = new System.Drawing.Point(1028, 465);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(14, 17);
-            this.linkLabel2.TabIndex = 45;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "1";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.SystemColors.Window;
-            this.button5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(1049, 460);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(36, 27);
-            this.button5.TabIndex = 44;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.SystemColors.Window;
-            this.button6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(1016, 460);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(36, 27);
-            this.button6.TabIndex = 43;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.LightPink;
-            this.button7.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(1083, 459);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(84, 28);
-            this.button7.TabIndex = 42;
-            this.button7.Text = "Next";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.button8.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(933, 459);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(84, 28);
-            this.button8.TabIndex = 41;
-            this.button8.Text = "Previous";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // btobtn
-            // 
-            this.btobtn.BackColor = System.Drawing.Color.LightPink;
-            this.btobtn.Location = new System.Drawing.Point(1009, 14);
-            this.btobtn.Name = "btobtn";
-            this.btobtn.Size = new System.Drawing.Size(153, 30);
-            this.btobtn.TabIndex = 2;
-            this.btobtn.Text = "Back To Orders";
-            this.btobtn.UseVisualStyleBackColor = false;
             // 
             // Admin_ProductRequest
             // 
@@ -995,16 +995,16 @@
         private System.Windows.Forms.Label rd3lbl;
         private System.Windows.Forms.Button rejectbutton;
         private System.Windows.Forms.Button approvedbtn;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button rejectbutton2;
+        private System.Windows.Forms.Button approvedbtn2;
+        private System.Windows.Forms.Button rejectbutton1;
+        private System.Windows.Forms.Button approvedbtn1;
+        private System.Windows.Forms.LinkLabel lnklbl2;
+        private System.Windows.Forms.LinkLabel lnklbl1;
+        private System.Windows.Forms.Button admp2btn;
+        private System.Windows.Forms.Button admp1btn;
+        private System.Windows.Forms.Button adresreqnxtbtn;
+        private System.Windows.Forms.Button adresreqprevbtn;
         private System.Windows.Forms.Button btobtn;
     }
 }

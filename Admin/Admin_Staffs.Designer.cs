@@ -33,6 +33,7 @@
             this.addnewstaffbutton = new System.Windows.Forms.Button();
             this.manstaffpanellbl = new System.Windows.Forms.Label();
             this.staffsinfopanel = new System.Windows.Forms.Panel();
+            this.lastloglbl = new System.Windows.Forms.Label();
             this.prodactionslbl = new System.Windows.Forms.Label();
             this.prodstatuslbl = new System.Windows.Forms.Label();
             this.actionlbl = new System.Windows.Forms.Label();
@@ -40,28 +41,27 @@
             this.emaillbl = new System.Windows.Forms.Label();
             this.fullnlbl = new System.Windows.Forms.Label();
             this.staffdeetspanel = new System.Windows.Forms.Panel();
-            this.lastloglbl = new System.Windows.Forms.Label();
-            this.s1lbl = new System.Windows.Forms.Label();
-            this.staffstatbtn = new System.Windows.Forms.Button();
-            this.manstaffeditbtn = new System.Windows.Forms.Button();
-            this.manstaffdelbtn = new System.Windows.Forms.Button();
-            this.s1deetspanel = new System.Windows.Forms.Panel();
-            this.s1emaillbl = new System.Windows.Forms.Label();
-            this.srolelbl = new System.Windows.Forms.Label();
-            this.lastloginlbl = new System.Windows.Forms.Label();
             this.s2deetspanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lastloginlbl1 = new System.Windows.Forms.Label();
             this.s2rolelbl = new System.Windows.Forms.Label();
             this.s2emaillbl = new System.Windows.Forms.Label();
             this.manstaff1delbtn = new System.Windows.Forms.Button();
             this.manstaff1editbtn = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.staffstatbtn1 = new System.Windows.Forms.Button();
             this.s2fullnlbl = new System.Windows.Forms.Label();
+            this.s1deetspanel = new System.Windows.Forms.Panel();
+            this.lastloginlbl = new System.Windows.Forms.Label();
+            this.srolelbl = new System.Windows.Forms.Label();
+            this.s1emaillbl = new System.Windows.Forms.Label();
+            this.manstaffdelbtn = new System.Windows.Forms.Button();
+            this.manstaffeditbtn = new System.Windows.Forms.Button();
+            this.staffstatbtn = new System.Windows.Forms.Button();
+            this.s1lbl = new System.Windows.Forms.Label();
             this.managestaffpanel.SuspendLayout();
             this.staffsinfopanel.SuspendLayout();
             this.staffdeetspanel.SuspendLayout();
-            this.s1deetspanel.SuspendLayout();
             this.s2deetspanel.SuspendLayout();
+            this.s1deetspanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // managestaffpanel
@@ -111,6 +111,16 @@
             this.staffsinfopanel.Name = "staffsinfopanel";
             this.staffsinfopanel.Size = new System.Drawing.Size(1137, 55);
             this.staffsinfopanel.TabIndex = 4;
+            // 
+            // lastloglbl
+            // 
+            this.lastloglbl.AutoSize = true;
+            this.lastloglbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastloglbl.Location = new System.Drawing.Point(897, 16);
+            this.lastloglbl.Name = "lastloglbl";
+            this.lastloglbl.Size = new System.Drawing.Size(88, 22);
+            this.lastloglbl.TabIndex = 11;
+            this.lastloglbl.Text = "Last Login";
             // 
             // prodactionslbl
             // 
@@ -183,132 +193,31 @@
             this.staffdeetspanel.Size = new System.Drawing.Size(1186, 365);
             this.staffdeetspanel.TabIndex = 5;
             // 
-            // lastloglbl
-            // 
-            this.lastloglbl.AutoSize = true;
-            this.lastloglbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastloglbl.Location = new System.Drawing.Point(897, 16);
-            this.lastloglbl.Name = "lastloglbl";
-            this.lastloglbl.Size = new System.Drawing.Size(88, 22);
-            this.lastloglbl.TabIndex = 11;
-            this.lastloglbl.Text = "Last Login";
-            // 
-            // s1lbl
-            // 
-            this.s1lbl.AutoSize = true;
-            this.s1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s1lbl.Location = new System.Drawing.Point(25, 19);
-            this.s1lbl.Name = "s1lbl";
-            this.s1lbl.Size = new System.Drawing.Size(174, 18);
-            this.s1lbl.TabIndex = 1;
-            this.s1lbl.Text = "Sevillano, Maria Kristina N.";
-            // 
-            // staffstatbtn
-            // 
-            this.staffstatbtn.BackColor = System.Drawing.Color.Lime;
-            this.staffstatbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffstatbtn.Location = new System.Drawing.Point(744, 15);
-            this.staffstatbtn.Name = "staffstatbtn";
-            this.staffstatbtn.Size = new System.Drawing.Size(75, 23);
-            this.staffstatbtn.TabIndex = 9;
-            this.staffstatbtn.Text = "Active";
-            this.staffstatbtn.UseVisualStyleBackColor = false;
-            // 
-            // manstaffeditbtn
-            // 
-            this.manstaffeditbtn.BackColor = System.Drawing.Color.LightPink;
-            this.manstaffeditbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("manstaffeditbtn.BackgroundImage")));
-            this.manstaffeditbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.manstaffeditbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.manstaffeditbtn.Location = new System.Drawing.Point(1044, 19);
-            this.manstaffeditbtn.Name = "manstaffeditbtn";
-            this.manstaffeditbtn.Size = new System.Drawing.Size(34, 32);
-            this.manstaffeditbtn.TabIndex = 26;
-            this.manstaffeditbtn.UseVisualStyleBackColor = false;
-            // 
-            // manstaffdelbtn
-            // 
-            this.manstaffdelbtn.BackColor = System.Drawing.Color.Crimson;
-            this.manstaffdelbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("manstaffdelbtn.BackgroundImage")));
-            this.manstaffdelbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.manstaffdelbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.manstaffdelbtn.Location = new System.Drawing.Point(1076, 19);
-            this.manstaffdelbtn.Name = "manstaffdelbtn";
-            this.manstaffdelbtn.Size = new System.Drawing.Size(34, 32);
-            this.manstaffdelbtn.TabIndex = 25;
-            this.manstaffdelbtn.UseVisualStyleBackColor = false;
-            // 
-            // s1deetspanel
-            // 
-            this.s1deetspanel.BackColor = System.Drawing.SystemColors.Control;
-            this.s1deetspanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.s1deetspanel.Controls.Add(this.lastloginlbl);
-            this.s1deetspanel.Controls.Add(this.srolelbl);
-            this.s1deetspanel.Controls.Add(this.s1emaillbl);
-            this.s1deetspanel.Controls.Add(this.manstaffdelbtn);
-            this.s1deetspanel.Controls.Add(this.manstaffeditbtn);
-            this.s1deetspanel.Controls.Add(this.staffstatbtn);
-            this.s1deetspanel.Controls.Add(this.s1lbl);
-            this.s1deetspanel.Location = new System.Drawing.Point(27, 92);
-            this.s1deetspanel.Name = "s1deetspanel";
-            this.s1deetspanel.Size = new System.Drawing.Size(1137, 73);
-            this.s1deetspanel.TabIndex = 22;
-            // 
-            // s1emaillbl
-            // 
-            this.s1emaillbl.AutoSize = true;
-            this.s1emaillbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s1emaillbl.Location = new System.Drawing.Point(320, 20);
-            this.s1emaillbl.Name = "s1emaillbl";
-            this.s1emaillbl.Size = new System.Drawing.Size(140, 18);
-            this.s1emaillbl.TabIndex = 27;
-            this.s1emaillbl.Text = "sevillano@bloomtrack";
-            // 
-            // srolelbl
-            // 
-            this.srolelbl.AutoSize = true;
-            this.srolelbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.srolelbl.Location = new System.Drawing.Point(580, 20);
-            this.srolelbl.Name = "srolelbl";
-            this.srolelbl.Size = new System.Drawing.Size(68, 18);
-            this.srolelbl.TabIndex = 28;
-            this.srolelbl.Text = "Sales Staff";
-            // 
-            // lastloginlbl
-            // 
-            this.lastloginlbl.AutoSize = true;
-            this.lastloginlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastloginlbl.Location = new System.Drawing.Point(896, 20);
-            this.lastloginlbl.Name = "lastloginlbl";
-            this.lastloginlbl.Size = new System.Drawing.Size(83, 36);
-            this.lastloginlbl.TabIndex = 29;
-            this.lastloginlbl.Text = "Oct  25, 2025\r\n    9:26 AM\r\n";
-            // 
             // s2deetspanel
             // 
             this.s2deetspanel.BackColor = System.Drawing.SystemColors.Control;
             this.s2deetspanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.s2deetspanel.Controls.Add(this.label1);
+            this.s2deetspanel.Controls.Add(this.lastloginlbl1);
             this.s2deetspanel.Controls.Add(this.s2rolelbl);
             this.s2deetspanel.Controls.Add(this.s2emaillbl);
             this.s2deetspanel.Controls.Add(this.manstaff1delbtn);
             this.s2deetspanel.Controls.Add(this.manstaff1editbtn);
-            this.s2deetspanel.Controls.Add(this.button3);
+            this.s2deetspanel.Controls.Add(this.staffstatbtn1);
             this.s2deetspanel.Controls.Add(this.s2fullnlbl);
             this.s2deetspanel.Location = new System.Drawing.Point(27, 171);
             this.s2deetspanel.Name = "s2deetspanel";
             this.s2deetspanel.Size = new System.Drawing.Size(1137, 73);
             this.s2deetspanel.TabIndex = 30;
             // 
-            // label1
+            // lastloginlbl1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(896, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 36);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "Oct  25, 2025\r\n    9:00 AM\r\n";
+            this.lastloginlbl1.AutoSize = true;
+            this.lastloginlbl1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastloginlbl1.Location = new System.Drawing.Point(896, 20);
+            this.lastloginlbl1.Name = "lastloginlbl1";
+            this.lastloginlbl1.Size = new System.Drawing.Size(83, 36);
+            this.lastloginlbl1.TabIndex = 29;
+            this.lastloginlbl1.Text = "Oct  25, 2025\r\n    9:00 AM\r\n";
             // 
             // s2rolelbl
             // 
@@ -354,16 +263,16 @@
             this.manstaff1editbtn.TabIndex = 26;
             this.manstaff1editbtn.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // staffstatbtn1
             // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(744, 15);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Active";
-            this.button3.UseVisualStyleBackColor = false;
+            this.staffstatbtn1.BackColor = System.Drawing.Color.Lime;
+            this.staffstatbtn1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.staffstatbtn1.Location = new System.Drawing.Point(744, 15);
+            this.staffstatbtn1.Name = "staffstatbtn1";
+            this.staffstatbtn1.Size = new System.Drawing.Size(75, 23);
+            this.staffstatbtn1.TabIndex = 9;
+            this.staffstatbtn1.Text = "Active";
+            this.staffstatbtn1.UseVisualStyleBackColor = false;
             // 
             // s2fullnlbl
             // 
@@ -374,6 +283,97 @@
             this.s2fullnlbl.Size = new System.Drawing.Size(139, 18);
             this.s2fullnlbl.TabIndex = 1;
             this.s2fullnlbl.Text = "Estacio, Rexyl Kyle A. ";
+            // 
+            // s1deetspanel
+            // 
+            this.s1deetspanel.BackColor = System.Drawing.SystemColors.Control;
+            this.s1deetspanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.s1deetspanel.Controls.Add(this.lastloginlbl);
+            this.s1deetspanel.Controls.Add(this.srolelbl);
+            this.s1deetspanel.Controls.Add(this.s1emaillbl);
+            this.s1deetspanel.Controls.Add(this.manstaffdelbtn);
+            this.s1deetspanel.Controls.Add(this.manstaffeditbtn);
+            this.s1deetspanel.Controls.Add(this.staffstatbtn);
+            this.s1deetspanel.Controls.Add(this.s1lbl);
+            this.s1deetspanel.Location = new System.Drawing.Point(27, 92);
+            this.s1deetspanel.Name = "s1deetspanel";
+            this.s1deetspanel.Size = new System.Drawing.Size(1137, 73);
+            this.s1deetspanel.TabIndex = 22;
+            // 
+            // lastloginlbl
+            // 
+            this.lastloginlbl.AutoSize = true;
+            this.lastloginlbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastloginlbl.Location = new System.Drawing.Point(896, 20);
+            this.lastloginlbl.Name = "lastloginlbl";
+            this.lastloginlbl.Size = new System.Drawing.Size(83, 36);
+            this.lastloginlbl.TabIndex = 29;
+            this.lastloginlbl.Text = "Oct  25, 2025\r\n    9:26 AM\r\n";
+            // 
+            // srolelbl
+            // 
+            this.srolelbl.AutoSize = true;
+            this.srolelbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.srolelbl.Location = new System.Drawing.Point(580, 20);
+            this.srolelbl.Name = "srolelbl";
+            this.srolelbl.Size = new System.Drawing.Size(68, 18);
+            this.srolelbl.TabIndex = 28;
+            this.srolelbl.Text = "Sales Staff";
+            // 
+            // s1emaillbl
+            // 
+            this.s1emaillbl.AutoSize = true;
+            this.s1emaillbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.s1emaillbl.Location = new System.Drawing.Point(320, 20);
+            this.s1emaillbl.Name = "s1emaillbl";
+            this.s1emaillbl.Size = new System.Drawing.Size(140, 18);
+            this.s1emaillbl.TabIndex = 27;
+            this.s1emaillbl.Text = "sevillano@bloomtrack";
+            // 
+            // manstaffdelbtn
+            // 
+            this.manstaffdelbtn.BackColor = System.Drawing.Color.Crimson;
+            this.manstaffdelbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("manstaffdelbtn.BackgroundImage")));
+            this.manstaffdelbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.manstaffdelbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manstaffdelbtn.Location = new System.Drawing.Point(1076, 19);
+            this.manstaffdelbtn.Name = "manstaffdelbtn";
+            this.manstaffdelbtn.Size = new System.Drawing.Size(34, 32);
+            this.manstaffdelbtn.TabIndex = 25;
+            this.manstaffdelbtn.UseVisualStyleBackColor = false;
+            // 
+            // manstaffeditbtn
+            // 
+            this.manstaffeditbtn.BackColor = System.Drawing.Color.LightPink;
+            this.manstaffeditbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("manstaffeditbtn.BackgroundImage")));
+            this.manstaffeditbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.manstaffeditbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manstaffeditbtn.Location = new System.Drawing.Point(1044, 19);
+            this.manstaffeditbtn.Name = "manstaffeditbtn";
+            this.manstaffeditbtn.Size = new System.Drawing.Size(34, 32);
+            this.manstaffeditbtn.TabIndex = 26;
+            this.manstaffeditbtn.UseVisualStyleBackColor = false;
+            // 
+            // staffstatbtn
+            // 
+            this.staffstatbtn.BackColor = System.Drawing.Color.Lime;
+            this.staffstatbtn.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.staffstatbtn.Location = new System.Drawing.Point(744, 15);
+            this.staffstatbtn.Name = "staffstatbtn";
+            this.staffstatbtn.Size = new System.Drawing.Size(75, 23);
+            this.staffstatbtn.TabIndex = 9;
+            this.staffstatbtn.Text = "Active";
+            this.staffstatbtn.UseVisualStyleBackColor = false;
+            // 
+            // s1lbl
+            // 
+            this.s1lbl.AutoSize = true;
+            this.s1lbl.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.s1lbl.Location = new System.Drawing.Point(25, 19);
+            this.s1lbl.Name = "s1lbl";
+            this.s1lbl.Size = new System.Drawing.Size(174, 18);
+            this.s1lbl.TabIndex = 1;
+            this.s1lbl.Text = "Sevillano, Maria Kristina N.";
             // 
             // Admin_Staffs
             // 
@@ -390,10 +390,10 @@
             this.staffsinfopanel.ResumeLayout(false);
             this.staffsinfopanel.PerformLayout();
             this.staffdeetspanel.ResumeLayout(false);
-            this.s1deetspanel.ResumeLayout(false);
-            this.s1deetspanel.PerformLayout();
             this.s2deetspanel.ResumeLayout(false);
             this.s2deetspanel.PerformLayout();
+            this.s1deetspanel.ResumeLayout(false);
+            this.s1deetspanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -421,12 +421,12 @@
         private System.Windows.Forms.Label s1lbl;
         private System.Windows.Forms.Label lastloginlbl;
         private System.Windows.Forms.Panel s2deetspanel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lastloginlbl1;
         private System.Windows.Forms.Label s2rolelbl;
         private System.Windows.Forms.Label s2emaillbl;
         private System.Windows.Forms.Button manstaff1delbtn;
         private System.Windows.Forms.Button manstaff1editbtn;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button staffstatbtn1;
         private System.Windows.Forms.Label s2fullnlbl;
     }
 }

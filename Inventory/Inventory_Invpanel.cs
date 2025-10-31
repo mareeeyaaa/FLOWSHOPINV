@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FLOWSHOPINV.Admin
+namespace FLOWSHOPINV.Inventory
 {
-    public partial class Admin_Products : UserControl
+    public partial class Inventory_Invpanel : UserControl
     {
-        public Admin_Products()
+        public Inventory_Invpanel()
         {
             InitializeComponent();
-        }
-
-        private void staremptybtn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

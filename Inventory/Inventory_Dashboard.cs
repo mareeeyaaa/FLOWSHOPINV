@@ -21,5 +21,15 @@ namespace FLOWSHOPINV.Inventory
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void isovchart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

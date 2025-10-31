@@ -140,11 +140,23 @@
     <Compile Include="Inventory\Inventory_Dashboard.Designer.cs">
       <DependentUpon>Inventory_Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory\Inventory_Invpanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_Invpanel.Designer.cs">
+      <DependentUpon>Inventory_Invpanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventory\Inventory_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inventory\Inventory_Panel.Designer.cs">
       <DependentUpon>Inventory_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory_View_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory_View_Products.Designer.cs">
+      <DependentUpon>Inventory_View_Products.cs</DependentUpon>
     </Compile>
     <Compile Include="Sales\Sales_Cashier.cs">
       <SubType>UserControl</SubType>
@@ -187,6 +199,12 @@
     </Compile>
     <Compile Include="Sales\Sales_Profile.Designer.cs">
       <DependentUpon>Sales_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sales_View_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales_View_Products.Designer.cs">
+      <DependentUpon>Sales_View_Products.cs</DependentUpon>
     </Compile>
     <Compile Include="Sales\Sles_Products.cs">
       <SubType>UserControl</SubType>
@@ -292,8 +310,14 @@
     <EmbeddedResource Include="Inventory\Inventory_Dashboard.resx">
       <DependentUpon>Inventory_Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_Invpanel.resx">
+      <DependentUpon>Inventory_Invpanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inventory\Inventory_Panel.resx">
       <DependentUpon>Inventory_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory_View_Products.resx">
+      <DependentUpon>Inventory_View_Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sales_Cashier.resx">
       <DependentUpon>Sales_Cashier.cs</DependentUpon>
@@ -315,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sales_Profile.resx">
       <DependentUpon>Sales_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Sales_View_Products.resx">
+      <DependentUpon>Sales_View_Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sales\Sles_Products.resx">
       <DependentUpon>Sles_Products.cs</DependentUpon>
