@@ -221,7 +221,7 @@
             this.lbl3.Size = new System.Drawing.Size(118, 18);
             this.lbl3.TabIndex = 5;
             this.lbl3.Text = "Insuffecient Stocks";
-            this.lbl3.Click += new System.EventHandler(this.lbl1_Click);
+
             // 
             // ssponumlbl
             // 
@@ -373,9 +373,7 @@
             this.isovchart.Series.Add(series1);
             this.isovchart.Size = new System.Drawing.Size(560, 257);
             this.isovchart.TabIndex = 17;
-            this.isovchart.Text = "Earning  Overview";
-            this.isovchart.Click += new System.EventHandler(this.isovchart_Click);
-            // 
+            this.isovchart.Text = "Earning  Overview";            // 
             // earningovpanel
             // 
             this.earningovpanel.BackColor = System.Drawing.Color.Transparent;
@@ -393,9 +391,7 @@
             this.retockedpanel.Location = new System.Drawing.Point(728, 374);
             this.retockedpanel.Name = "retockedpanel";
             this.retockedpanel.Size = new System.Drawing.Size(415, 442);
-            this.retockedpanel.TabIndex = 19;
-            this.retockedpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
+            this.retockedpanel.TabIndex = 19;            // 
             // reqresinfo3panel
             // 
             this.reqresinfo3panel.BackColor = System.Drawing.SystemColors.Window;

@@ -16,5 +16,19 @@ namespace FLOWSHOPINV
         {
             InitializeComponent();
         }
+
+        private void expprodbtn_Click(object sender, EventArgs e)
+        {
+            Products products = new Products();
+            products.Show();
+            
+            var parentForm = this.FindForm();
+            if (parentForm != null)
+            {
+                parentForm.Hide();
+            }
+
+
+        }
     }
 }

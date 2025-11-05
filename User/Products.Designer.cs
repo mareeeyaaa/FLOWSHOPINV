@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Products));
             this.ProdFLP = new System.Windows.Forms.FlowLayoutPanel();
             this.searchpanel = new System.Windows.Forms.Panel();
-            this.sitembutton = new System.Windows.Forms.Button();
-            this.sitemsTB = new System.Windows.Forms.TextBox();
             this.filterpanel = new System.Windows.Forms.Panel();
             this.filterCB = new System.Windows.Forms.ComboBox();
+            this.sitembutton = new System.Windows.Forms.Button();
+            this.sitemsTB = new System.Windows.Forms.TextBox();
             this.searchpanel.SuspendLayout();
             this.filterpanel.SuspendLayout();
             this.SuspendLayout();
@@ -44,7 +44,7 @@
             this.ProdFLP.AutoScroll = true;
             this.ProdFLP.BackColor = System.Drawing.Color.Transparent;
             this.ProdFLP.Location = new System.Drawing.Point(-10, 72);
-            this.ProdFLP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ProdFLP.Margin = new System.Windows.Forms.Padding(2);
             this.ProdFLP.Name = "ProdFLP";
             this.ProdFLP.Size = new System.Drawing.Size(1469, 641);
             this.ProdFLP.TabIndex = 1;
@@ -60,26 +60,6 @@
             this.searchpanel.Name = "searchpanel";
             this.searchpanel.Size = new System.Drawing.Size(1495, 66);
             this.searchpanel.TabIndex = 2;
-            // 
-            // sitembutton
-            // 
-            this.sitembutton.BackColor = System.Drawing.Color.Crimson;
-            this.sitembutton.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sitembutton.ForeColor = System.Drawing.Color.White;
-            this.sitembutton.Location = new System.Drawing.Point(635, 21);
-            this.sitembutton.Name = "sitembutton";
-            this.sitembutton.Size = new System.Drawing.Size(124, 33);
-            this.sitembutton.TabIndex = 1;
-            this.sitembutton.Text = "⌕ Search";
-            this.sitembutton.UseVisualStyleBackColor = false;
-            // 
-            // sitemsTB
-            // 
-            this.sitemsTB.Location = new System.Drawing.Point(44, 21);
-            this.sitemsTB.Multiline = true;
-            this.sitemsTB.Name = "sitemsTB";
-            this.sitemsTB.Size = new System.Drawing.Size(582, 33);
-            this.sitemsTB.TabIndex = 0;
             // 
             // filterpanel
             // 
@@ -107,6 +87,27 @@
             this.filterCB.Size = new System.Drawing.Size(579, 28);
             this.filterCB.TabIndex = 0;
             // 
+            // sitembutton
+            // 
+            this.sitembutton.BackColor = System.Drawing.Color.Crimson;
+            this.sitembutton.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sitembutton.ForeColor = System.Drawing.Color.White;
+            this.sitembutton.Location = new System.Drawing.Point(635, 21);
+            this.sitembutton.Name = "sitembutton";
+            this.sitembutton.Size = new System.Drawing.Size(124, 33);
+            this.sitembutton.TabIndex = 1;
+            this.sitembutton.Text = "⌕ Search";
+            this.sitembutton.UseVisualStyleBackColor = false;
+            // 
+            // sitemsTB
+            // 
+            this.sitemsTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sitemsTB.Location = new System.Drawing.Point(44, 21);
+            this.sitemsTB.Multiline = true;
+            this.sitemsTB.Name = "sitemsTB";
+            this.sitemsTB.Size = new System.Drawing.Size(582, 33);
+            this.sitemsTB.TabIndex = 0;
+            // 
             // Products
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,7 +117,7 @@
             this.ClientSize = new System.Drawing.Size(1460, 705);
             this.Controls.Add(this.searchpanel);
             this.Controls.Add(this.ProdFLP);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Products";
             this.Text = "Products";
             this.Load += new System.EventHandler(this.Products_Load);

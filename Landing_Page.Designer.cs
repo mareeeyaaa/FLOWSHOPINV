@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Landing_Page));
             this.lpmesspanel = new System.Windows.Forms.Panel();
-            this.lpmesslbl = new System.Windows.Forms.Label();
-            this.lpmesslbl1 = new System.Windows.Forms.Label();
             this.expprodbtn = new System.Windows.Forms.Button();
+            this.lpmesslbl1 = new System.Windows.Forms.Label();
+            this.lpmesslbl = new System.Windows.Forms.Label();
             this.lpmesspanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,15 +48,17 @@
             this.lpmesspanel.Size = new System.Drawing.Size(869, 414);
             this.lpmesspanel.TabIndex = 0;
             // 
-            // lpmesslbl
+            // expprodbtn
             // 
-            this.lpmesslbl.AutoSize = true;
-            this.lpmesslbl.Font = new System.Drawing.Font("Palatino Linotype", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lpmesslbl.Location = new System.Drawing.Point(153, 99);
-            this.lpmesslbl.Name = "lpmesslbl";
-            this.lpmesslbl.Size = new System.Drawing.Size(587, 55);
-            this.lpmesslbl.TabIndex = 0;
-            this.lpmesslbl.Text = "Bloom Brighter. Dream Bigger.";
+            this.expprodbtn.BackColor = System.Drawing.Color.LightPink;
+            this.expprodbtn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.expprodbtn.Location = new System.Drawing.Point(269, 290);
+            this.expprodbtn.Name = "expprodbtn";
+            this.expprodbtn.Size = new System.Drawing.Size(327, 43);
+            this.expprodbtn.TabIndex = 2;
+            this.expprodbtn.Text = "Explore Products";
+            this.expprodbtn.UseVisualStyleBackColor = false;
+            this.expprodbtn.Click += new System.EventHandler(this.expprodbtn_Click);
             // 
             // lpmesslbl1
             // 
@@ -70,16 +72,15 @@
     "s \r\n               you to manage efficiently, sell confidently, and grow sustain" +
     "ably.";
             // 
-            // expprodbtn
+            // lpmesslbl
             // 
-            this.expprodbtn.BackColor = System.Drawing.Color.LightPink;
-            this.expprodbtn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expprodbtn.Location = new System.Drawing.Point(269, 290);
-            this.expprodbtn.Name = "expprodbtn";
-            this.expprodbtn.Size = new System.Drawing.Size(327, 43);
-            this.expprodbtn.TabIndex = 2;
-            this.expprodbtn.Text = "Explore Products";
-            this.expprodbtn.UseVisualStyleBackColor = false;
+            this.lpmesslbl.AutoSize = true;
+            this.lpmesslbl.Font = new System.Drawing.Font("Palatino Linotype", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lpmesslbl.Location = new System.Drawing.Point(153, 99);
+            this.lpmesslbl.Name = "lpmesslbl";
+            this.lpmesslbl.Size = new System.Drawing.Size(587, 55);
+            this.lpmesslbl.TabIndex = 0;
+            this.lpmesslbl.Text = "Bloom Brighter. Dream Bigger.";
             // 
             // Landing_Page
             // 

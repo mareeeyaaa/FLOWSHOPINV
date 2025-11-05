@@ -746,6 +746,7 @@
             this.Controls.Add(this.ssdashpanel);
             this.Name = "Sales_Dashboard";
             this.Size = new System.Drawing.Size(1276, 855);
+            this.Load += new System.EventHandler(this.Sales_Dashboard_Load_1);
             this.ssdashpanel.ResumeLayout(false);
             this.ssdashpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPB)).EndInit();

@@ -8,38 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FLOWSHOPINV
+namespace FLOWSHOPINV.User
 {
-    public partial class ItemUserControl : UserControl
+    public partial class Items : UserControl
     {
-        public ItemUserControl()
+        public Items()
         {
             InitializeComponent();
         }
 
-        private void Description_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Price_Click(object sender, EventArgs e)
+        private void Items_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void itemPictureBox_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void ItemUserControl_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void prodpanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

@@ -28,17 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales_Panel));
             this.SalesSC = new System.Windows.Forms.SplitContainer();
+            this.StaffPanel = new System.Windows.Forms.Label();
             this.ssprofbtn = new System.Windows.Forms.Button();
             this.sscsbtn = new System.Windows.Forms.Button();
             this.ssprodbtn = new System.Windows.Forms.Button();
             this.ssordersbutton = new System.Windows.Forms.Button();
             this.ssdbbtn = new System.Windows.Forms.Button();
             this.HiSalesPanel = new System.Windows.Forms.Label();
-            this.SalesPanelFLP = new System.Windows.Forms.FlowLayoutPanel();
-            this.StaffPanel = new System.Windows.Forms.Label();
             this.ssprofPB = new System.Windows.Forms.PictureBox();
+            this.SalesPanelFLP = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.SalesSC)).BeginInit();
             this.SalesSC.Panel1.SuspendLayout();
             this.SalesSC.Panel2.SuspendLayout();
@@ -68,9 +67,21 @@
             // 
             this.SalesSC.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.SalesSC.Panel2.Controls.Add(this.SalesPanelFLP);
+            this.SalesSC.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.SalesSC_Panel2_Paint);
             this.SalesSC.Size = new System.Drawing.Size(1616, 859);
             this.SalesSC.SplitterDistance = 332;
             this.SalesSC.TabIndex = 1;
+            // 
+            // StaffPanel
+            // 
+            this.StaffPanel.AutoSize = true;
+            this.StaffPanel.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StaffPanel.ForeColor = System.Drawing.Color.Black;
+            this.StaffPanel.Location = new System.Drawing.Point(149, 165);
+            this.StaffPanel.Name = "StaffPanel";
+            this.StaffPanel.Size = new System.Drawing.Size(80, 39);
+            this.StaffPanel.TabIndex = 8;
+            this.StaffPanel.Text = "Staff";
             // 
             // ssprofbtn
             // 
@@ -150,37 +161,21 @@
             this.HiSalesPanel.Text = "Hi, ";
             this.HiSalesPanel.Click += new System.EventHandler(this.HiSalesPanel_Click);
             // 
-            // SalesPanelFLP
-            // 
-            this.SalesPanelFLP.AutoScroll = true;
-            this.SalesPanelFLP.BackColor = System.Drawing.Color.Transparent;
-            this.SalesPanelFLP.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SalesPanelFLP.BackgroundImage")));
-            this.SalesPanelFLP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SalesPanelFLP.Location = new System.Drawing.Point(2, 2);
-            this.SalesPanelFLP.Margin = new System.Windows.Forms.Padding(2);
-            this.SalesPanelFLP.Name = "SalesPanelFLP";
-            this.SalesPanelFLP.Size = new System.Drawing.Size(1276, 855);
-            this.SalesPanelFLP.TabIndex = 2;
-            // 
-            // StaffPanel
-            // 
-            this.StaffPanel.AutoSize = true;
-            this.StaffPanel.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StaffPanel.ForeColor = System.Drawing.Color.Black;
-            this.StaffPanel.Location = new System.Drawing.Point(149, 165);
-            this.StaffPanel.Name = "StaffPanel";
-            this.StaffPanel.Size = new System.Drawing.Size(80, 39);
-            this.StaffPanel.TabIndex = 8;
-            this.StaffPanel.Text = "Staff";
-            // 
             // ssprofPB
             // 
-            this.ssprofPB.Location = new System.Drawing.Point(107, 61);
+            this.ssprofPB.Location = new System.Drawing.Point(107, 67);
             this.ssprofPB.Name = "ssprofPB";
             this.ssprofPB.Size = new System.Drawing.Size(112, 95);
             this.ssprofPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ssprofPB.TabIndex = 9;
             this.ssprofPB.TabStop = false;
+            // 
+            // SalesPanelFLP
+            // 
+            this.SalesPanelFLP.Location = new System.Drawing.Point(3, 3);
+            this.SalesPanelFLP.Name = "SalesPanelFLP";
+            this.SalesPanelFLP.Size = new System.Drawing.Size(1277, 856);
+            this.SalesPanelFLP.TabIndex = 10;
             // 
             // Sales_Panel
             // 
@@ -210,8 +205,8 @@
         private System.Windows.Forms.Button ssordersbutton;
         private System.Windows.Forms.Button ssdbbtn;
         private System.Windows.Forms.Label HiSalesPanel;
-        private System.Windows.Forms.FlowLayoutPanel SalesPanelFLP;
         private System.Windows.Forms.Label StaffPanel;
         private System.Windows.Forms.PictureBox ssprofPB;
+        private System.Windows.Forms.Panel SalesPanelFLP;
     }
 }

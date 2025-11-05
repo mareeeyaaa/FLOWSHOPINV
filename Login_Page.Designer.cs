@@ -41,7 +41,6 @@
             this.emlbl = new System.Windows.Forms.Label();
             this.passTB = new System.Windows.Forms.TextBox();
             this.emailTB = new System.Windows.Forms.TextBox();
-            this.regbutton = new System.Windows.Forms.Button();
             this.loginpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.loginsplt)).BeginInit();
             this.loginsplt.Panel1.SuspendLayout();
@@ -114,7 +113,6 @@
             // 
             this.logpan.BackColor = System.Drawing.Color.Snow;
             this.logpan.Controls.Add(this.loginbutton);
-            this.logpan.Controls.Add(this.regbutton);
             this.logpan.Controls.Add(this.forgpasslnklbl);
             this.logpan.Controls.Add(this.remcb);
             this.logpan.Controls.Add(this.passlbl);
@@ -140,6 +138,7 @@
             this.loginbutton.TabIndex = 7;
             this.loginbutton.Text = "Login";
             this.loginbutton.UseVisualStyleBackColor = false;
+            this.loginbutton.Click += new System.EventHandler(this.loginbutton_Click);
             // 
             // forgpasslnklbl
             // 
@@ -214,20 +213,6 @@
             this.emailTB.Size = new System.Drawing.Size(472, 30);
             this.emailTB.TabIndex = 0;
             // 
-            // regbutton
-            // 
-            this.regbutton.BackColor = System.Drawing.Color.LightPink;
-            this.regbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.regbutton.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regbutton.Location = new System.Drawing.Point(22, 215);
-            this.regbutton.Margin = new System.Windows.Forms.Padding(2);
-            this.regbutton.Name = "regbutton";
-            this.regbutton.Size = new System.Drawing.Size(472, 37);
-            this.regbutton.TabIndex = 6;
-            this.regbutton.Text = "Register";
-            this.regbutton.UseVisualStyleBackColor = false;
-            this.regbutton.Click += new System.EventHandler(this.regbutton_Click);
-            // 
             // Login_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,7 +225,6 @@
             this.Name = "Login_Panel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_Page";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Login_Panel_Load);
             this.loginpanel.ResumeLayout(false);
             this.loginsplt.Panel1.ResumeLayout(false);
@@ -268,7 +252,6 @@
         private System.Windows.Forms.Button loginbutton;
         private System.Windows.Forms.Button bthbutton;
         private System.Windows.Forms.PictureBox btpb;
-        private System.Windows.Forms.Button regbutton;
     }
 }
 

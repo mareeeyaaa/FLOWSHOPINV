@@ -1,4 +1,5 @@
 ﻿using FLOWSHOPINV.Admin;
+using FLOWSHOPINV.Sales;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace FLOWSHOPINV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin_Panel());
+            Application.Run(new Homepage_Landing());
         }
     }
 }

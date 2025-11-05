@@ -179,10 +179,11 @@
             // 
             this.AdminPanelFLP.AutoScroll = true;
             this.AdminPanelFLP.BackColor = System.Drawing.Color.Transparent;
-            this.AdminPanelFLP.Location = new System.Drawing.Point(2, 2);
+            this.AdminPanelFLP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdminPanelFLP.Location = new System.Drawing.Point(0, 0);
             this.AdminPanelFLP.Margin = new System.Windows.Forms.Padding(2);
             this.AdminPanelFLP.Name = "AdminPanelFLP";
-            this.AdminPanelFLP.Size = new System.Drawing.Size(1276, 855);
+            this.AdminPanelFLP.Size = new System.Drawing.Size(1280, 859);
             this.AdminPanelFLP.TabIndex = 2;
             // 
             // Admin_Panel
